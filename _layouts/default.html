@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="{{ 'assets/stylesheet.css' | relative_url }}">
   </head>
   <body>
-    <div class="container">
+    <div class="container h-100 w-100 text-white bg-dark">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">{{ site.title }}</a>
         <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           {% assign currentPage = page.url %}
-          <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="/">Home</a>
-          <a {% if currentPage == '/team/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="{{ 'team' | relative_url }}">Team</a>
-          <a {% if currentPage == '/gallery/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="{{ 'gallery' | relative_url }}">Gallery</a>
+          <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="/">Home</a>
+          <a {% if currentPage == '/team/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="{{ 'team' | relative_url }}">Team</a>
+          <a {% if currentPage == '/gallery/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="{{ 'gallery' | relative_url }}">Gallery</a>
         </nav>
       </header>
     </div>
