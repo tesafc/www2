@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="height-100">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
   <body class="h-100">
     <div class="container h-100 w-100 text-white bg-dark">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
-        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none">{{ site.title }}</a>
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">{{ site.title }}</a>
         <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           {% assign currentPage = page.url %}
           <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="/">Home</a>
