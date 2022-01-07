@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="{{ 'assets/stylesheet.css' | relative_url }}">
   </head>
   <body>
-    <div class="text-white bg-dark" {% if page.image %} style="height: 75vh; background-image: linear-gradient(
+    <div class="text-white bg-dark" {% if page.image %} style="height: 48vh; background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ), url('{{ page.image }}'); background-size: cover; background-position: center;" {% endif %} >
       <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between pt-3">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
           <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">{{ site.title }}</a>
           <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             {% assign currentPage = page.url %}
