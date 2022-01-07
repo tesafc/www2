@@ -1,0 +1,12 @@
+title: TESA FC
+description: Website TESA FC
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+author:
+  name: TESA FC
+  email: terassaungfc@gmail.com
+version: 1.0.0
