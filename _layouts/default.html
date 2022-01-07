@@ -21,9 +21,9 @@
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">{{ site.title }}</a>
         <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           {% assign currentPage = page.name %}
-          <a {% if currentPage == 'home' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="/">Home</a>
-          <a {% if currentPage == 'team' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="{{ 'team' | relative_url }}">Team</a>
-          <a {% if currentPage == 'gallery' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="{{ 'gallery' | relative_url }}">Gallery</a>
+          <a {% if currentPage == 'Home' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="/">Home</a>
+          <a {% if currentPage == 'Team' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="{{ 'team' | relative_url }}">Team</a>
+          <a {% if currentPage == 'Gallery' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-dark" {% endif %} href="{{ 'gallery' | relative_url }}">Gallery</a>
         </nav>
       </header>
     </div>
