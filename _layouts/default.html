@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{{ 'assets/stylesheet.css' | relative_url }}">
   </head>
   <body>
-    <div class="vh-50 text-white bg-dark">
+    <div class="vh-100 text-white bg-dark">
       <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
           <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">{{ site.title }}</a>
@@ -29,8 +29,8 @@
         </header>
       </div>
       <div class="container">
-        {% if page.name %}
-          <h1>{{ page.name }}</h1>
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
           {% else %}
           <p class="lead">{{ page.description }}</p>
         {% endif %}
