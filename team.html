@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Team
+title: Teams
 image: https://source.unsplash.com/LSOTmGcdaKQ
 ---
 
 <div class="container-fluid">
   <div class="row">
+    {% for player in site.data.team %}
     <div class="col-2 col-md-3">
       <div class="card bg-dark text-white">
-        {% for player in site.data.team %}
         <img src="{{ page.image }}" class="card-img">
         <div class="card-img-overlay">
           <div class="card-footer">
@@ -16,8 +16,8 @@ image: https://source.unsplash.com/LSOTmGcdaKQ
             <div class="card-text">{{ player.no-punggung }}</div>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
+    {% endfor %}
   </div>
 </div>
