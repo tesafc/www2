@@ -6,18 +6,16 @@ image: https://source.unsplash.com/LSOTmGcdaKQ
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-2">
-      <div class="card bg-dark text-white">
-        {% for player in site.data.team %}
-        <img src="{{ page.image }}" class="card-img">
-        <div class="card-body card-img-overlay">
-          <div class="card-footer">
-            <div class="card-text">{{ player.name }}</div>
-            <div class="card-text">{{ player.no-punggung }}</div>
+    {% for player in site.data.team %}
+    <div class="col-2 col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-text">{{ player.name }}</div>
+          <div class="card-text">{{ player.no-punggung }}</div>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
+    {% endfor %}
   </div>
 </div>
