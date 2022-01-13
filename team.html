@@ -4,9 +4,9 @@ title: Team
 image: https://source.unsplash.com/LSOTmGcdaKQ
 ---
 
-<div class="row">
-  {% for player in site.data.team %}
+<div class="container-fluid row">
   <div class="col-2 col-md-3">
+    {% for player in site.data.team %}
     <div class="card bg-dark text-white">
       <img src="{{ page.image }}" class="card-img">
       <div class="card-img-overlay">
@@ -16,6 +16,6 @@ image: https://source.unsplash.com/LSOTmGcdaKQ
         </div>
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
