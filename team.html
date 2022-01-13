@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Teams
+title: Team
 image: https://source.unsplash.com/LSOTmGcdaKQ
 ---
 
 <div class="container-fluid">
   <div class="row">
-    {% for player in site.data.team %}
     <div class="col-2 col-md-3">
+      {% for player in site.data.team %}
       <div class="card">
         <div class="card-body">
           <div class="card-text">{{ player.name }}</div>
@@ -15,7 +15,7 @@ image: https://source.unsplash.com/LSOTmGcdaKQ
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
