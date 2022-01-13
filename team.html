@@ -4,11 +4,18 @@ title: Team
 image: https://source.unsplash.com/LSOTmGcdaKQ
 ---
 
-<div>
+<div class="row">
   {% for player in site.data.team %}
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div>{{ player.name }}</div>
-    <div>{{ player.no-punggung }}</div>
+  <div class="col-2 col-md-3">
+    <div class="card bg-dark text-white">
+      <img src="{{ page.image }}" class="card-img">
+      <div class="card-img-overlay">
+        <div class="card-footer">
+          <div class="card-title">{{ player.name }}</div>
+          <div class="card-text">{{ player.no-punggung }}</div>
+        </div>
+      </div>
+    </div>
   </div>
   {% endfor %}
 </div>
