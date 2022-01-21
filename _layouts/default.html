@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="{{ 'assets/stylesheet.css' | relative_url }}">
   </head>
   <body>
-    <div {% if page.image %} class="text-white bg-dark" style="height: 100vh; background-image: linear-gradient(
+    <div {% if page.image %} class="text-white bg-dark" style="height: 90vh; background-image: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url('{{ page.image }}'); background-size: cover; background-position: center;" {% else %} class="text-dark bg-white" {% endif %} >
+    ), url('{{ page.image }}'); background-size: cover; background-position: center;" {% endif %} >
       <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-3">
           <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">{{ site.title }}</a>
