@@ -5,10 +5,10 @@ image: https://source.unsplash.com/LSOTmGcdaKQ
 ---
 
 <div class="container-fluid">
-  <div class="row g-0">
+  <div class="row row-cols-1 row-cols-md-3 g-0">
     {% for player in site.data.team %}
-    <div class="col-6 col-md-4">
-      <div class="card">
+    <div class="col">
+      <div class="card h-100 rounded-0">
         <div class="card-body">
           <div class="card-text">{{ player.name }}</div>
           <div class="card-text">{{ player.no-punggung }}</div>
