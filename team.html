@@ -5,9 +5,9 @@ image: /assets/img/tesafc_full-team.jpg
 ---
 
 <div class="container-fluid px-0">
-  <div class="row row-cols-2 row-cols-md-3 g-0">
+  <div class="row row-cols-2 row-cols-md-3 g-0 d-flex">
     {% for player in site.data.team %}
-    <div class="col">
+    <div class="col flex-fill">
       <div class="card rounded-0">
         {% if player.pp %}
           <img src="{{ player.pp }}" class="rounded-0">
@@ -15,7 +15,7 @@ image: /assets/img/tesafc_full-team.jpg
           <img src="/assets/img/pp/default-pp.jpg" class="rounded-0">
         {% endif %}
         <div class="card-body">
-          <h5 class="card-title text-center text-uppercase text-break">{{ player.name }}</h5>
+          <h5 class="card-title text-center text-uppercase">{{ player.name }}</h5>
           <p class="card-text text-center fs-1">{{ player.no-punggung }}</p>
         </div>
       </div>
