@@ -18,16 +18,13 @@
   </head>
   <body>
     <div class="text-white bg-dark" {% if page.image %} style="height: 90vh; background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
     ), url('{{ page.image }}'); background-size: cover; background-position: center;" {% endif %} >
       <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-3">
           <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none fw-bold">{{ site.title }}</a>
-          <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" style="background-image: linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
-    );">
+          <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             {% assign currentPage = page.url %}
             <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="/">Home</a>
             <a {% if currentPage == '/team/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="{{ 'team' | relative_url }}">Team</a>
