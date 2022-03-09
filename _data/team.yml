@@ -3,6 +3,7 @@
 
 - name: Farhan Husaini
   no-punggung: 1
+  pp: /assets/img/pp/farhan-husaini.jpg
   
 - name: Ki
   no-punggung: 2
@@ -18,12 +19,14 @@
   
 - name: M.ROPICK
   no-punggung: 7
+  pp: /assets/img/pp/m.ropick.jpg
   
 - name: A.MANSUR
   no-punggung: 7
   
 - name: Danil Ardiansyah
   no-punggung: 8
+  pp: /assets/img/pp/danil-ardiansyah.jpg
   
 - name: Angga Nugraha
   no-punggung: 9
@@ -55,6 +58,7 @@
   
 - name: M.AJI Pangestu
   no-punggung: 19
+  pp: /assets/img/pp/m.aji-pangestu.jpg
   
 - name: Made
   no-punggung: 21
@@ -64,6 +68,7 @@
   
 - name: Faisal
   no-punggung: 24
+  pp: /assets/img/pp/faisal.jpg
   
 - name: Pandu
   no-punggung: 25
@@ -76,6 +81,7 @@
   
 - name: Habiel
   no-punggung: 69
+  pp: /assets/img/pp/habiel.jpg
   
 - name: Nyoy
   no-punggung: 78
