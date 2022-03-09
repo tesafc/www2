@@ -9,7 +9,11 @@ image: /assets/img/tesafc_full-team.jpg
     {% for player in site.data.team %}
     <div class="col">
       <div class="card rounded-0">
-        <img src="https://source.unsplash.com/N2IJ31xZ_ks" class="rounded-0">
+        {% if player.pp %}
+          <img src="{{ player.pp }}" class="rounded-0">
+          {% else %}
+          <img src="https://source.unsplash.com/N2IJ31xZ_ks" class="rounded-0">
+        {% endif %}
         <div class="card-body">
           <h5 class="card-title text-center text-uppercase">{{ player.name }}</h5>
           <p class="card-text text-center fs-1">{{ player.no-punggung }}</p>
