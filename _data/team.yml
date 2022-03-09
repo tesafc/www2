@@ -44,6 +44,7 @@
   
 - name: Raka
   no-punggung: 13
+  pp: /assets/img/pp/raka.jpg
   
 - name: Lalan
   no-punggung: 14
