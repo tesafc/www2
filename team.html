@@ -5,10 +5,10 @@ image: /assets/img/tesafc_full-team.jpg
 ---
 
 <div class="container-fluid px-0">
-  <div class="row row-cols-2 row-cols-md-3 g-0 d-flex">
+  <div class="row row-cols-2 row-cols-md-3 g-0">
     {% for player in site.data.team %}
-    <div class="col flex-fill">
-      <div class="card rounded-0">
+    <div class="col">
+      <div class="card rounded-0 h-100">
         {% if player.pp %}
           <img src="{{ player.pp }}" class="rounded-0">
           {% else %}
