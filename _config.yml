@@ -9,4 +9,7 @@ plugins:
 author:
   name: TESA FC
   email: terassaungfc@gmail.com
+collections:
+  players:
+    output: true
 version: 1.0.0
