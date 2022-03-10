@@ -1,6 +1,6 @@
 ---
 layout: player
 title: k.mal
-no-punggung: 1
+no-punggung: 5
 image: /assets/img/pp/k.mal.jpg
 ---
