@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Team
+title: Players
 image: /assets/img/logo-1.png
 ---
 
 <div class="container-fluid px-0 bg-light">
   <div class="row row-cols-2 row-cols-md-3 g-0">
-    {% assign roles = site.data.team | group_by:"role" %}
+    {% assign roles = site.data.players | group_by:"role" %}
     {% for role in roles %}
       <h1 class="d-block w-100 pt-5 pb-3 mt-4 text-uppercase text-center fw-bold">{{ role.name }}</h1>
       {% for player in role.items %}
