@@ -1,11 +1,11 @@
 <header>
-  <div class="text-white bg-dark" style="height: 100vh; background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('{{ page.image }}'); background-size: cover; background-position: 50% 75%; background-repeat: no-repeat;">
+  <div class="text-white bg-dark" style="height: 90vh; background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('{{ page.image }}'); background-size: cover; background-position: 50% 75%; background-repeat: no-repeat;">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between p-3">
       <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold fs-5">{{ site.title }}</a>
       <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
         {% assign currentPage = page.url %}
-        <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary fw-bold" {% else %} class="nav-link px-2 text-white fw-bold" {% endif %} href="/">Home</a>
-        <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary fw-bold" {% else %} class="nav-link px-2 text-white fw-bold" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
+        <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary fw-bold" {% else %} class="nav-link px-2 text-white" {% endif %} href="/">Home</a>
+        <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary fw-bold" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
       </nav>
     </div>
   </div>
