@@ -8,7 +8,7 @@ image: /assets/img/logo-1.png
   <div class="row row-cols-2 row-cols-md-3 g-0">
     {% assign roles = site.data.team | group_by:"role" %}
     {% for role in roles %}
-      <h1 class="d-block w-100 pt-5 pb-3 mt-4 text-center text-uppercase fw-bold">{{ role.name }}</h1>
+      <h1 class="d-block w-100 pt-5 pb-3 mt-4 text-uppercase fw-bold">{{ role.name }}</h1>
       {% for player in role.items %}
     <div class="col">
       <div class="card rounded-0 h-100">
