@@ -6,8 +6,9 @@ image: /assets/img/logo-1.png
 
 <div class="container-fluid px-0">
   <div class="row row-cols-2 row-cols-md-3 g-0">
-    {% assign player-by-role = site.data.team | sort:"role" %}
+    {% assign player-by-role = site.data.team | group_by:"role" %}
     {% for player in player-by-role %}
+    <h5>{{ player.role }}</h5>
     <div class="col">
       <div class="card rounded-0 h-100">
         {% if player.pp %}
