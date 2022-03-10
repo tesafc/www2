@@ -1,127 +1,154 @@
 # Header comment
 #
 
-- name: Farhan Husaini
+- name: farhan husaini
   no-punggung: 1
   role: goalkeeper
   pp: /assets/img/pp/farhan-husaini.jpg
   profile-link: /players/farhan-husaini
   
-- name: Ki
+- name: ki
   no-punggung: 2
   role: midfielder
+  profile-link: /players/ki
   
-- name: Fahri Husaini
+- name: fahri husaini
   no-punggung: 3
   role: defender
   pp: /assets/img/pp/fahri-husaini.jpg
+  profile-link: /players/fahri-husaini
   
-- name: K.MAL
+- name: k.mal
   no-punggung: 5
   role: midfielder
+  profile-link: /players/k.mal
   
-- name: Dityaa
+- name: dityaa
   no-punggung: 6
   role: defender
+  profile-link: /players/dityaa
   
-- name: M.ROPICK
+- name: m.ropick
   no-punggung: 7
   role: forward
   pp: /assets/img/pp/m.ropick.jpg
+  profile-link: /players/m.ropick
   
-- name: A.MANSUR
+- name: a.mansyur
   no-punggung: 7
   role: forward
+  profile-link: /players/a.mansyur
   
-- name: Danil Ardiansyah
+- name: danil ardiansyah
   no-punggung: 8
   role: forward
   pp: /assets/img/pp/danil-ardiansyah.jpg
+  profile-link: /players/danil-ardiansyah
   
-- name: Angga Nugraha
+- name: angga nugraha
   no-punggung: 9
   role: defender
   pp: /assets/img/pp/angga-nugraha.jpg
+  profile-link: /players/angga-nugraha
   
-- name: HGIALFHRI
+- name: hgialfhri
   no-punggung: 10
   role: midfielder
+  profile-link: /players/hgialfhri
   
-- name: M.GIBRAN
+- name: m.gibran
   no-punggung: 11
   role: midfielder
   pp: /assets/img/pp/m.gibran.jpg
+  profile-link: /players/m.gibran
   
-- name: Ifan
+- name: ifan
   no-punggung: 12
   role: midfielder
+  profile-link: /players/ifan
   
-- name: Raka
+- name: raka
   no-punggung: 13
   role: midfielder
   pp: /assets/img/pp/raka.jpg
+  profile-link: /players/raka
   
-- name: Lalan
+- name: lalan
   no-punggung: 14
   role: forward
   pp: /assets/img/pp/lalan.jpg
+  profile-link: /players/lalan
   
-- name: Maulana
+- name: maulana
   no-punggung: 15
-  role: midfielder
+  role: defender
+  profile-link: /players/maulana
   
-- name: RÖBBANI
+- name: röbbani
   no-punggung: 17
   role: forward
+  profile-link: /players/röbbani
   
-- name: Ozan
+- name: ozan
   no-punggung: 18
   role: midfielder
   pp: /assets/img/pp/ozan.jpg
+  profile-link: /players/ozan
   
-- name: M.AJI Pangestu
+- name: m.aji pangestu
   no-punggung: 19
   role: midfielder
   pp: /assets/img/pp/m.aji-pangestu.jpg
+  profile-link: /players/m.aji-pangestu
   
-- name: Made
+- name: made
   no-punggung: 21
   role: midfielder
+  profile-link: /players/made
   
-- name: Aldo
+- name: aldo
   no-punggung: 23
   role: goalkeeper
+  profile-link: /players/aldo
   
-- name: Faisal
+- name: faisal
   no-punggung: 24
   role: defender
   pp: /assets/img/pp/faisal.jpg
+  profile-link: /players/faisal
   
-- name: Pandu
+- name: pandu
   no-punggung: 25
   role: midfielder
+  profile-link: /players/pandu
   
 - name: no name
   no-punggung: 33
   role: midfielder
+  profile-link: /players/no-name
   
-- name: Hantu Laut
+- name: hantu laut
   no-punggung: 48
   role: midfielder
+  profile-link: /players/hantu-laut
   
-- name: Habiel
+- name: habiel
   no-punggung: 69
   role: forward
   pp: /assets/img/pp/habiel.jpg
+  profile-link: /players/habiel
   
-- name: Nyoy
+- name: nyoy
   no-punggung: 78
   role: goalkeeper
+  profile-link: /players/nyoy
   
-- name: Jocker
+- name: jocker
   no-punggung: 95
   role: midfielder
+  profile-link: /players/jocker
   
-- name: M.FAJARR
+- name: m.fajarr
   no-punggung: 98
   role: goalkeeper
+  profile-link: /players/m.fajarr
