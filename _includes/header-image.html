@@ -4,8 +4,8 @@
       <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold fs-5">{{ site.title }}</a>
       <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
         {% assign currentPage = page.url %}
-        <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="/">Home</a>
-        <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 link-light" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
+        <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary fw-bold" {% else %} class="nav-link px-2 link-secondary fw-bold" {% endif %} href="/">Home</a>
+        <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary fw-bold" {% else %} class="nav-link px-2 link-secondary fw-bold" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
       </nav>
     </div>
   </div>
