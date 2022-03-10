@@ -19,7 +19,7 @@ image: /assets/img/logo-1.png
         {% endif %}
         <div class="card-body">
           <h5 class="card-title text-center text-capitalize">
-            {% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link link-dark text-text-decoration-none">{{ player.name }}</a>{% else %}{{ player.name }}{% endif %}
+            {% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link link-dark text-decoration-none">{{ player.name }}</a>{% else %}{{ player.name }}{% endif %}
           </h5>
           <p class="card-text text-center fs-1 fw-bold">{{ player.no-punggung }}</p>
         </div>
