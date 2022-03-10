@@ -3,96 +3,124 @@
 
 - name: Farhan Husaini
   no-punggung: 1
+  role: goalkeeper
   pp: /assets/img/pp/farhan-husaini.jpg
   
 - name: Ki
   no-punggung: 2
+  role: midfielder
   
 - name: Fahri Husaini
   no-punggung: 3
+  role: defender
   pp: /assets/img/pp/fahri-husaini.jpg
   
 - name: K.MAL
   no-punggung: 5
+  role: midfielder
   
 - name: Dityaa
   no-punggung: 6
+  role: defender
   
 - name: M.ROPICK
   no-punggung: 7
+  role: forward
   pp: /assets/img/pp/m.ropick.jpg
   
 - name: A.MANSUR
   no-punggung: 7
+  role: forward
   
 - name: Danil Ardiansyah
   no-punggung: 8
+  role: forward
   pp: /assets/img/pp/danil-ardiansyah.jpg
   
 - name: Angga Nugraha
   no-punggung: 9
+  role: defender
   pp: /assets/img/pp/angga-nugraha.jpg
   
 - name: HGIALFHRI
   no-punggung: 10
+  role: midfielder
   
 - name: M.GIBRAN
   no-punggung: 11
+  role: midfielder
   pp: /assets/img/pp/m.gibran.jpg
   
 - name: Ifan
   no-punggung: 12
+  role: midfielder
   
 - name: Raka
   no-punggung: 13
+  role: midfielder
   pp: /assets/img/pp/raka.jpg
   
 - name: Lalan
   no-punggung: 14
+  role: forward
   pp: /assets/img/pp/lalan.jpg
   
 - name: Maulana
   no-punggung: 15
+  role: midfielder
   
 - name: RÖBBANI
   no-punggung: 17
+  role: forward
   
 - name: Ozan
   no-punggung: 18
+  role: midfielder
   pp: /assets/img/pp/ozan.jpg
   
 - name: M.AJI Pangestu
   no-punggung: 19
+  role: midfielder
   pp: /assets/img/pp/m.aji-pangestu.jpg
   
 - name: Made
   no-punggung: 21
+  role: midfielder
   
 - name: Aldo
   no-punggung: 23
+  role: goalkeeper
   
 - name: Faisal
   no-punggung: 24
+  role: defender
   pp: /assets/img/pp/faisal.jpg
   
 - name: Pandu
   no-punggung: 25
+  role: midfielder
   
 - name: no name
   no-punggung: 33
+  role: midfielder
   
 - name: Hantu Laut
   no-punggung: 48
+  role: midfielder
   
 - name: Habiel
   no-punggung: 69
+  role: forward
   pp: /assets/img/pp/habiel.jpg
   
 - name: Nyoy
   no-punggung: 78
+  role: goalkeeper
   
 - name: Jocker
   no-punggung: 95
+  role: midfielder
   
 - name: M.FAJARR
   no-punggung: 98
+  role: goalkeeper
