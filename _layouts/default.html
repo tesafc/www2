@@ -32,7 +32,12 @@
         </header>
       </div>
     </div> -->
+    {% assign header = page.header | append: '.html' %}
+    {% if header %}
+    {% include header %}
+    {% else %}
     {% include header-image.html %}
+    {% endif %}
     <main>
       {{ content }}
     </main>
