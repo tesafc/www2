@@ -33,7 +33,7 @@
       </div>
     </div> -->
     {% if page.header %}
-    {% include {{ page.header | append: .html }} %}
+    {% include {{ page.header.html }} %}
     {% else %}
     {% include header-image.html %}
     {% endif %}
