@@ -7,10 +7,10 @@
         <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="/">Home</a>
         <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
       </nav>
-      <div class="align-items-center text-white">
+      <div class="d-block align-self-center text-white">
         {{ page.title }}
       </div>
-      <div class="align-items-center text-white">
+      <div class="d-block align-self-center text-white">
         {{ page.no-punggung }}
       </div>
     </div>
