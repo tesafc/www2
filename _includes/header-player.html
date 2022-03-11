@@ -7,10 +7,10 @@
         <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="/">Home</a>
         <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
       </nav>
-      <div>
+      <div class="text-white">
         {{ page.title }}
       </div>
-      <div>
+      <div class="text-white">
         {{ page.no-punggung }}
       </div>
     </div>
