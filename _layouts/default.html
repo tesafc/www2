@@ -33,9 +33,9 @@
       </div>
     </div> -->
     {% if page.header %}
-    {% include page.header | append: .html %}
+    {% include {{ page.header | append: .html }} %}
     {% else %}
-    {% include header-image | append: .html %}
+    {% include header-image.html %}
     {% endif %}
     <main>
       {{ content }}
