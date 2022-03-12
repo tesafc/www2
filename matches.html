@@ -12,15 +12,16 @@ image: /assets/img/logo-3.png
       <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ match.name }}</h1>
       {% for item in match.items %}
       <div class="col">
-        <div class="card">
+        <div class="card rounded-0">
           <div class="card-body">
-            <p class="card-text">{{ item.competition }}</p>
-            <p class="card-text">{{ item.place }} • {{ item.date }}</p>
+            <p class="card-text text-center text-uppercase">{{ item.competition }}</p>
+            <p class="card-text text-center text-capitalize">{{ item.date | date_to_long_string }}</p>
             <div class="d-flex align-items-center justify-content-between">
-              <div>{{ item.home }}</div>
+              <div class="text-center">{{ item.home }}</div>
               <span>vs</span>
-              <div>{{ item.away }}</div>
+              <div class="text-center">{{ item.away }}</div>
             </div>
+            <p class="card-text text-center text-capitalize">{{ item.place }}</p>
           </div>
         </div>
         {% endfor %}
