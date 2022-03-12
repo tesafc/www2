@@ -11,7 +11,7 @@ image: /assets/img/logo-2.png
       <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ role.name }}</h1>
       {% for player in role.items %}
     <div class="col">
-      <div class="card rounded-0 h-100 bg-dark text-white">
+      <div class="card rounded-0 h-100 bg-dark text-white border-white">
         {% if player.pp %}
           <img src="{{ player.pp }}" class="rounded-0">
           {% else %}
@@ -19,7 +19,7 @@ image: /assets/img/logo-2.png
         {% endif %}
         <div class="card-body">
           <h5 class="card-title text-center text-capitalize">
-            {% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link text-decoration-none">{{ player.name }}</a>{% else %}{{ player.name }}{% endif %}
+            {% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link link-white text-decoration-none">{{ player.name }}</a>{% else %}{{ player.name }}{% endif %}
           </h5>
           <p class="card-text text-center fs-1 fw-bold">{{ player.no-punggung }}</p>
         </div>
