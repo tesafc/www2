@@ -14,7 +14,7 @@ image: /assets/img/logo-4.png
       <div class="col">
         <div class="card rounded-0">
           <div class="card-body py-5">
-            <p class="card-text text-center fw-bolder"><small class="text-uppercase">{{ item.type }}</small> • <small class="text-capitalize">{{ item.competition }}</small></p>
+            <p class="card-text text-center fw-bolder"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-capitalize">{{ item.competition }}</span></p>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder my-5 py-5">
               <div class="col fs-5">{{ item.home }}</div>
