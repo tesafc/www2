@@ -12,6 +12,8 @@ author:
 collections:
   players:
     output: true
+  matches:
+    output: true
 defaults:
   - scope:
       path: ""
