@@ -16,7 +16,7 @@ image: /assets/img/logo-4.png
           <div class="card-body py-5">
             <p class="card-text text-center text-uppercase fw-bolder"><small>{{ item.competition }}</small></p>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
-            <div class="d-flex align-items-center justify-content-between py-5">
+            <!--<div class="d-flex align-items-center justify-content-between py-5">
               <div class="text-center text-uppercase fw-bolder">{{ item.home }}</div>
               {% if item.status == "done" %}
               <div class="position-absolute top-50 start-50 translate-middle fs-3 fw-bolder">{{ item.result }}</div>
@@ -24,6 +24,15 @@ image: /assets/img/logo-4.png
               <div class="position-absolute top-50 start-50 translate-middle fs-3 fw-bolder">vs</div>
               {% endif %}
               <div class="text-center text-uppercase fw-bolder">{{ item.away }}</div>
+            </div>-->
+            <div class="row row-cols-3">
+              <div class="col">{{ item.home }}</div>
+              {% if item.status == "done" %}
+              <div class="col">{{ item.result }}</div>
+                {% else %}
+              <div class="col">vs</div>
+              {% endif %}
+              <div class="col">{{ item.away }}</div>
             </div>
             <p class="card-text text-center text-capitalize text-secondary">{{ item.place }}</p>
           </div>
