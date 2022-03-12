@@ -1,0 +1,31 @@
+---
+layout: page
+title: matches
+image: /assets/img/logo-3.png
+---
+
+<div id="wrap">
+  <div class="container">
+    {% assign matches = site.matches | group_by: "status" %}
+    <div class="row row-cols-1 g-0">
+      {% for match in matches %}
+      <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ match.name }}</h1>
+      {% for item in match.items %}
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">{{ item.competition }}</p>
+            <p class="card-text">{{ item.place }} • {{ item.date }}</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <div>{{ item.home }}</div>
+              <span>vs</span>
+              <div>{{ item.away }}</div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
