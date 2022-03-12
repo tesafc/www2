@@ -5,7 +5,7 @@ image: /assets/img/logo-3.png
 ---
 
 <div class="bg-light">
-  <div class="container">
+  <div class="container-sm p-0">
     {% assign matches = site.matches | group_by: "status" %}
     <div class="row row-cols-1 g-0">
       {% for match in matches %}
