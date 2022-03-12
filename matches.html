@@ -17,13 +17,13 @@ image: /assets/img/logo-3.png
             <p class="card-text text-center text-uppercase fw-bolder p-0"><small>{{ item.competition }}</small></p>
             <p class="card-text text-center text-capitalize">{{ item.date | date_to_long_string }}</p>
             <div class="d-flex align-items-center justify-content-between py-5">
-              <div class="text-center text-uppercase fs-3">{{ item.home }}</div>
-              {% if item.status == done %}
+              <div class="text-center text-uppercase fw-bolder">{{ item.home }}</div>
+              {% if item.status == "done" %}
               <div class="position-absolute top-50 start-50 translate-middle fs-3 fw-bolder">{{ item.result }}</div>
               {% else %}
               <div class="position-absolute top-50 start-50 translate-middle fs-3 fw-bolder">vs</div>
               {% endif %}
-              <div class="text-center text-uppercase fs-3">{{ item.away }}</div>
+              <div class="text-center text-uppercase fw-bolder">{{ item.away }}</div>
             </div>
             <p class="card-text text-center text-capitalize text-secondary">{{ item.place }}</p>
           </div>
