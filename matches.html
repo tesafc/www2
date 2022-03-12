@@ -25,12 +25,12 @@ image: /assets/img/logo-4.png
               {% endif %}
               <div class="text-center text-uppercase fw-bolder">{{ item.away }}</div>
             </div>-->
-            <div class="row row-cols-3 text-center text-uppercase py-5">
+            <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
               <div class="col">{{ item.home }}</div>
               {% if item.status == "done" %}
-              <div class="col">{{ item.result }}</div>
+              <div class="col fs-3">{{ item.result }}</div>
                 {% else %}
-              <div class="col">vs</div>
+              <div class="col fs-3">vs</div>
               {% endif %}
               <div class="col">{{ item.away }}</div>
             </div>
