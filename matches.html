@@ -13,12 +13,12 @@ image: /assets/img/logo-3.png
       {% for item in match.items %}
       <div class="col">
         <div class="card rounded-0">
-          <div class="card-body py-3">
+          <div class="card-body py-5">
             <p class="card-text text-center text-uppercase">{{ item.competition }}</p>
             <p class="card-text text-center text-capitalize">{{ item.date | date_to_long_string }}</p>
-            <div class="d-flex align-items-center justify-content-around py-5">
+            <div class="d-flex align-items-center justify-content-evenly py-5">
               <div class="text-center">{{ item.home }}</div>
-              <div class="position-absolute top-50 start-50 translate-middle">vs</div>
+              <div class="position-absolute top-50 start-50 translate-middle align-self-center">vs</div>
               <div class="text-center">{{ item.away }}</div>
             </div>
             <p class="card-text text-center text-capitalize">{{ item.place }}</p>
