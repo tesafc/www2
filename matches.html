@@ -26,13 +26,13 @@ image: /assets/img/logo-4.png
               <div class="text-center text-uppercase fw-bolder">{{ item.away }}</div>
             </div>-->
             <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
-              <div class="col fs-2">{{ item.home }}</div>
+              <div class="col fs-4">{{ item.home }}</div>
               {% if item.status == "done" %}
-              <div class="col fs-4">{{ item.result }}</div>
+              <div class="col fs-2">{{ item.result }}</div>
                 {% else %}
-              <div class="col fs-4">vs</div>
+              <div class="col fs-2">vs</div>
               {% endif %}
-              <div class="col fs-2">{{ item.away }}</div>
+              <div class="col fs-4">{{ item.away }}</div>
             </div>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.place }}</small></p>
           </div>
