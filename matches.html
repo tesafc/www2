@@ -14,8 +14,8 @@ image: /assets/img/logo-4.png
       <div class="col">
         <div class="card rounded-0">
           <div class="card-body py-5">
-            <p class="card-text text-center text-uppercase fw-bolder p-0"><small>{{ item.competition }}</small></p>
-            <p class="card-text text-center text-capitalize">{{ item.date | date: "%c" }}</p>
+            <p class="card-text text-center text-uppercase fw-bolder"><small>{{ item.competition }}</small></p>
+            <p class="card-text text-center text-capitalize">{{ item.date | date: "%A, %d %B %Y. %R" }}</p>
             <div class="d-flex align-items-center justify-content-between py-5">
               <div class="text-center text-uppercase fw-bolder">{{ item.home }}</div>
               {% if item.status == "done" %}
