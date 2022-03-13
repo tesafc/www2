@@ -1,0 +1,37 @@
+<header>
+  <div class="text-white bg-dark" style="height: 90vh; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: 50% 75%; background-repeat: no-repeat;">
+    <div class="container pt-3">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+        <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold">{{ site.title }}</a>
+        <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
+          {% assign currentPage = page.url %}
+          <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="/">Home</a>
+          <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
+          <a {% if currentPage == '/matches/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
+        </nav>
+      </div>
+    </div>
+    {% assign match = site.matches %}
+    {% if match.status == "next match" %}
+    <div class="container">
+      <h1>next match</h1>
+      <div class="row row-cols-1">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p>{{ match.type }}•{{ match.competition }}</p>
+              <p>{{ match.date }}</p>
+              <div class="row row-cols-3 text-center">
+                <div class="col">{{ match.home }}</div>
+                <div class="col">vs</div>
+                <div class="col">{{ match.away }}</div>
+              </div>
+              <p>{{ match.place }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</header>
