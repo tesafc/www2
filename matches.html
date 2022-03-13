@@ -5,14 +5,14 @@ image: /assets/img/logo-1.png
 ---
 
 <div class="bg-light">
-  <div class="container-sm p-0">
+  <div class="container-sm">
     {% assign matches = site.matches | group_by: "status" %}
     <div class="row row-cols-1 g-2">
       {% for match in matches %}
       <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ match.name }}</h1>
       {% for item in match.items %}
       <div class="col">
-        <div class="card rounded-0 border-0 shadow">
+        <div class="card rounded-0 border-0 shadow-sm">
           <div class="card-body py-5">
             <p class="card-text text-center fw-bolder"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-capitalize">{{ item.competition }}</span></p>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
