@@ -11,7 +11,7 @@ image: /assets/img/logo-2.png
     <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ role.name }}</h1>
     {% for player in role.items %}
     <div class="col">
-      <div class="card rounded-0 border-0 h-100">
+      <div class="card rounded-0 border-0 h-100 shadow-sm">
         {% if player.pp %}
         <img src="{{ player.pp }}" class="rounded-0 border-0">
           {% else %}
