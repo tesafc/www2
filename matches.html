@@ -17,13 +17,13 @@ image: /assets/img/logo-1.png
             <p class="card-text text-center fw-bolder"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-capitalize">{{ item.competition }}</span></p>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder my-5 py-5">
-              <div class="col fs-5">{{ item.home }}</div>
+              <div class="col fs-6">{{ item.home }}</div>
               {% if item.status == "done" %}
               <div class="col fs-1">{{ item.result }}</div>
                 {% else %}
               <div class="col fs-1">vs</div>
               {% endif %}
-              <div class="col fs-5">{{ item.away }}</div>
+              <div class="col fs-6">{{ item.away }}</div>
             </div>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.place }}</small></p>
           </div>
