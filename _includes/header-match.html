@@ -14,11 +14,11 @@
     {% assign matches = site.matches %}
     {% for match in matches %}
     {% if match.status == "next match" %}
-    <div class="container text-white bg-dark">
+    <div class="container">
       <h1>next match</h1>
       <div class="row row-cols-1">
         <div class="col">
-          <div class="card">
+          <div class="card bg-dark text-white">
             <div class="card-body">
               <p>{{ match.type }}•{{ match.competition }}</p>
               <p>{{ match.date }}</p>
