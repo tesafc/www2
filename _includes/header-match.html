@@ -11,7 +11,8 @@
         </nav>
       </div>
     </div>
-    {% assign match = site.matches %}
+    {% assign matches = site.matches %}
+    {% for match in matches
     {% if match.status == "next match" %}
     <div class="container">
       <h1>next match</h1>
@@ -33,5 +34,6 @@
       </div>
     </div>
     {% endif %}
+    {% endfor %}
   </div>
 </header>
