@@ -12,11 +12,11 @@
       </div>
     </div>
     {% assign matches = site.matches | sort: "status, last match" | reverse %}
-    <div class="container-sm h-100 d-flex flex-column justify-content-center text-center pb-5" style="backdrop-filter: blur(5px);">
+    <div class="container-sm h-100 d-flex flex-column justify-content-center text-center pb-5">
       <div class="row row-cols-1">
         {% for match in matches limit:1 %}
         <div class="col">
-          <div class="card bg-transparent text-white border-0">
+          <div class="card bg-transparent text-white border-0" style="backdrop-filter: blur(5px);">
             <div class="card-body py-3">
               <h1 class="text-uppercase fw-bolder pb-5">{{ match.status }}</h1>
               <p class="card-text fw-bolder mb-0"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-uppercase">{{ match.competition }}</small></p>
