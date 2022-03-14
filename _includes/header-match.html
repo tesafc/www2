@@ -1,5 +1,5 @@
 <header>
-  <div class="text-white bg-dark" style="height: 560px; background-image: linear-gradient(to bottom right rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="text-white" style="height: 560px; background-image: linear-gradient(to bottom right rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="container pt-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold">{{ site.title }}</a>
@@ -21,13 +21,13 @@
             <div class="card-body py-3">
               <h1 class="text-uppercase fw-bolder pb-5">next match</h1>
               <p class="card-text fw-bolder"><small class="text-uppercase">{{ match.type }}</small> • <span class="text-capitalize">{{ match.competition }}</span></p>
-              <p class="card-text text-secondary"><span class="text-capitalize">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</span></p>
+              <p class="card-text tel"><span class="text-capitalize">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</span></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.home }}</span></div>
                 <div class="col"><span class="fw-bold text-uppercase">vs</span></div>
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.away }}</span></div>
               </div>
-              <p class="card-text text-secondary text-capitalize">{{ match.place }}</p>
+              <p class="card-text text-capitalize">{{ match.place }}</p>
             </div> 
           </div>
         </div>
