@@ -10,19 +10,19 @@ image:
     {% assign matches = site.matches | group_by: "status" %}
     <div class="row row-cols-1 g-2">
       {% for match in matches reversed %}
-      <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ match.name }}</h1>
+      <h6 class="d-block w-100 pt-5 text-uppercase text-left fw-bold">{{ match.name }}</h6>
       {% for item in match.items reversed %}
       <div class="col">
         <div class="card rounded-0 border-0 shadow-sm mb-2">
           <div class="card-body py-5">
-            <p class="card-text text-center fw-bolder"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-capitalize">{{ item.competition }}</span></p>
-            <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
+            <p class="card-text text-center fw-bolder mb-0"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-uppercase">{{ item.competition }}</span></p>
+            <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.date | date: "%A %d %B %Y • %R" | append: " WIB" }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
               <div class="col fs-6">{{ item.home }}</div>
               {% if item.status == "last match" %}
-              <div class="col fs-1">{{ item.result }}</div>
+              <div class="col fs-6">{{ item.result }}</div>
                 {% else %}
-              <div class="col fs-1">vs</div>
+              <div class="col fs-6">vs</div>
               {% endif %}
               <div class="col fs-6">{{ item.away }}</div>
             </div>
