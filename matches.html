@@ -10,7 +10,7 @@ image:
     {% assign matches = site.matches | group_by: "status" %}
     <div class="row row-cols-1 g-2">
       {% for match in matches reversed %}
-      <h6 class="d-block w-100 pt-5 text-uppercase text-left fw-bold">{{ match.name }}</h6>
+      <h6 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ match.name }}</h6>
       {% for item in match.items reversed %}
       <div class="col">
         <div class="card rounded-0 border-0 shadow-sm mb-2">
