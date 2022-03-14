@@ -18,13 +18,13 @@
       <div class="row row-cols-1">
         <div class="col">
           <div class="card bg-dark text-white">
-            <div class="card-body">
+            <div class="card-body py-5">
               <h1 class="text-uppercase fw-bolder pb-5">next match</h1>
               <p class="card-text fw-bolder"><small class="text-uppercase">{{ match.type }}</small> • <span class="text-capitalize">{{ match.competition }}</span></p>
               <p class="card-text text-secondary"><span class="text-capitalize">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</span></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.home }}</span></div>
-                <div class="col"><span class="fw-bold">vs</span></div>
+                <div class="col"><span class="fw-bold text-uppercase">vs</span></div>
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.away }}</span></div>
               </div>
               <p class="card-text text-secondary text-capitalize">{{ match.place }}</p>
