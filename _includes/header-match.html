@@ -20,8 +20,8 @@
           <div class="card bg-transparent text-white border-0">
             <div class="card-body py-3">
               <h1 class="text-uppercase fw-bolder pb-5">next match</h1>
-              <p class="card-text fw-bolder"><small class="text-uppercase">{{ match.type }}</small> • <span class="text-capitalize">{{ match.competition }}</span></p>
-              <p class="card-text tel"><span class="text-capitalize">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</span></p>
+              <p class="card-text fw-bolder pb-0"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-uppercase">{{ match.competition }}</small></p>
+              <p class="card-text"><small class="text-uppercase">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.home }}</span></div>
                 <div class="col"><span class="fw-bold text-uppercase">vs</span></div>
