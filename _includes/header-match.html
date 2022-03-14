@@ -14,20 +14,20 @@
     {% assign matches = site.matches %}
     {% for match in matches %}
     {% if match.status == "next match" %}
-    <div class="container">
-      <h1>next match</h1>
+    <div class="container text-center">
+      <h1 class="text-uppercase">next match</h1>
       <div class="row row-cols-1">
         <div class="col">
           <div class="card bg-dark text-white">
             <div class="card-body">
-              <p>{{ match.type }}•{{ match.competition }}</p>
-              <p>{{ match.date }}</p>
+              <p class="card-text fw-bolder"><small class="text-uppercase">{{ match.type }}</small>•<small class="text-capitalize">{{ match.competition }}</small></p>
+              <p class="card-text text-secondary"><small class="text-capitalize">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
               <div class="row row-cols-3 text-center">
                 <div class="col">{{ match.home }}</div>
                 <div class="col">vs</div>
                 <div class="col">{{ match.away }}</div>
               </div>
-              <p>{{ match.place }}</p>
+              <p class="card-text text-secondary text-capitalize">{{ match.place }}</p>
             </div>
           </div>
         </div>
