@@ -12,9 +12,9 @@
       </div>
     </div>
     {% assign matches = site.matches | group_by: "status" %}
-    {% for match in matches reversed %}
     <div class="container-sm h-100 d-flex flex-column justify-content-center text-center pb-5">
       <div class="row row-cols-1">
+        {% for match in matches.items %}
         <div class="col">
           <div class="card bg-transparent text-white border-0">
             <div class="card-body py-3">
@@ -34,8 +34,8 @@
             </div> 
           </div>
         </div>
+        {% endfor %}
       </div>
     </div>
-    {% endfor %}
   </div>
 </header>
