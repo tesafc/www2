@@ -1,5 +1,5 @@
 <header>
-  <div class="text-white bg-dark" style="height: 100%; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: 50% 75%; background-repeat: no-repeat;">
+  <div class="text-white bg-dark h-100" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: 50% 75%; background-repeat: no-repeat;">
     <div class="container pt-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold">{{ site.title }}</a>
@@ -18,8 +18,8 @@
       <div class="row row-cols-1">
         <div class="col">
           <div class="card bg-dark text-white">
-            <div class="card-body py-5">
-              <h1 class="text-uppercase pb-5">next match</h1>
+            <div class="card-body py-3">
+              <h1 class="text-uppercase fw-bolder pb-5">next match</h1>
               <p class="card-text fw-bolder"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-capitalize">{{ match.competition }}</small></p>
               <p class="card-text text-secondary"><small class="text-capitalize">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
               <div class="row row-cols-3 text-center py-5">
