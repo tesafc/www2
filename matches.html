@@ -19,7 +19,7 @@ image:
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
               <div class="col fs-6">{{ item.home }}</div>
-              {% if item.status == "done" %}
+              {% if item.status == "last match" %}
               <div class="col fs-1">{{ item.result }}</div>
                 {% else %}
               <div class="col fs-1">vs</div>
