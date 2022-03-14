@@ -11,7 +11,7 @@
         </nav>
       </div>
     </div>
-    {% assign matches = site.matches | sort: "status, last match" | reverse %}
+    {% assign matches = site.matches.status | sort: "last match" | reverse %}
     <div class="container-sm h-100 d-flex flex-column justify-content-center text-center pb-5">
       <div class="row row-cols-1">
         {% for match in matches limit:1 %}
@@ -20,7 +20,7 @@
             <div class="card-body py-3">
               <h1 class="text-uppercase fw-bolder pb-5">{{ match.status }}</h1>
               <p class="card-text fw-bolder mb-0"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-uppercase">{{ match.competition }}</small></p>
-              <p class="card-text text-secondary"><small class="text-uppercase">{{ match.date | date: "%d %B %Y • %R" | append: " WIB" }}</small></p>
+              <p class="card-text text-secondary"><small class="text-uppercase">{{ match.date | date: "%A %d %B %Y • %R" | append: " WIB" }}</small></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.home }}</span></div>
                 {% if match.status == "next match" %}
