@@ -8,8 +8,7 @@ away:
   name: tesa fc
   logo: /assets/img/logo-1-new.svg
 competition: friendly match
-type: football
-date: 
+type: football 
 kickoff: "17-03-2022 15:30"
 place: stadion jagabaya, desa ciomas
 status: next match
