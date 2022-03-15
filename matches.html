@@ -18,13 +18,13 @@ image: https://source.unsplash.com/PAe2UhGo-S4
             <p class="card-text text-center fw-bolder mb-0"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-uppercase">{{ item.competition }}</span></p>
             <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.date | date: "%A %d %B %Y • %R" | append: " WIB" }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
-              <div class="col fs-6">{{ item.home }}</div>
+              <div class="col fs-6">{{ item.home.name }}</div>
               {% if item.status == "last match" %}
               <div class="col fs-6">{{ item.result }}</div>
                 {% else %}
               <div class="col fs-6">vs</div>
               {% endif %}
-              <div class="col fs-6">{{ item.away }}</div>
+              <div class="col fs-6">{{ item.away.name }}</div>
             </div>
             <p class="card-text text-center text-capitalize text-secondary"><small>{{ item.place }}</small></p>
           </div>
