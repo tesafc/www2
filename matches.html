@@ -16,7 +16,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnZu-OnLFArcJLRGYkE
         <div class="card rounded-0 border-0 shadow-sm mb-2">
           <div class="card-body py-5">
             <p class="card-text text-center fw-bolder mb-0"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-uppercase">{{ item.competition }}</span></p>
-            <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.date | date: "%A, %d %B %Y • %R" | append: " WIB" }}</small></p>
+            <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.kickoff }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
               <div class="col fs-6">{{ item.home.name }}</div>
               {% if item.status == "last match" %}
