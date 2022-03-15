@@ -9,7 +9,7 @@ away:
   logo: 
 competition: friendly match
 type: futsal
-kickoff: "sabtu 12-03-2022, 16:00"
+kickoff: "sabtu, 12 maret 2022 • 16:00 wib"
 place: tiga bintang tambak baya
 status: last match
 result: "8-6"
