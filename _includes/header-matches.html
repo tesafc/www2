@@ -24,7 +24,7 @@
             <div class="card-body py-3">
               <h1 class="text-uppercase fw-bolder pb-5">{{ match.status }}</h1>
               <p class="card-text fw-bolder mb-0"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-uppercase">{{ match.competition }}</small></p>
-              <p class="card-text text-secondary"><small class="text-uppercase">{{ match.date | date: "%A %d %B %Y • %R" | append: " WIB" }}</small></p>
+              <p class="card-text"><small class="text-uppercase">{{ match.date | date: "%A %d %B %Y • %R" | append: " WIB" }}</small></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col">
                   <img src="{{ match.home.logo | relative_url }}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
