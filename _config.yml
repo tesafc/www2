@@ -26,6 +26,6 @@ defaults:
       path: ""
       type: "matches"
     values:
-      layout: ""
+      layout: "match"
       header: "header-match"
 version: 1.0.0
