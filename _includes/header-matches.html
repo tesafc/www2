@@ -29,7 +29,7 @@
                 <div class="col">
                   <img src="{{ match.home.logo | relative_url }}" alt="" class="border-0" width="50" height="50">
                   <span class="fw-bold text-uppercase">
-                    {{ match.home }}
+                    {{ match.home.name }}
                   </span>
                 </div>
                 {% if match.status == "next match" %}
@@ -40,7 +40,7 @@
                 <div class="col">
                   <img src="{{ match.away.logo | relative_url }}" alt="" class="border-0" width="50" height="50">
                   <span class="fw-bold text-uppercase">
-                    {{ match.away }}
+                    {{ match.away.name }}
                   </span>
                 </div>
               </div>
