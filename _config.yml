@@ -1,5 +1,5 @@
-title: TESA FC
-description: Website TESA FC
+title: tesa fc
+description: official website tesa fc
 permalink: pretty
 timezone: Asia/Jakarta
 plugins:
@@ -8,7 +8,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 author:
-  name: TESA FC
+  name: tesa fc
   email: terassaungfc@gmail.com
 collections:
   players:
@@ -22,4 +22,10 @@ defaults:
     values:
       layout: "player"
       header: "header-player"
+  - scope:
+      path: ""
+      type: "matches"
+    values:
+      layout: ""
+      header: "header-match"
 version: 1.0.0
