@@ -4,7 +4,7 @@
     <div class="container pt-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold">
-          <img src="{{ '/assets/img/logo-1-new.svg' | relative_url }}" alt="" class="border-0 pe-2" width="50" height="50">
+          <img src="{{ '/assets/img/logo-1-new.svg' | relative_url }}" alt="" class="border-0 pe-2" width="35" height="35">
           {{ site.title }}
         </a>
         <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
@@ -26,13 +26,23 @@
               <p class="card-text fw-bolder mb-0"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-uppercase">{{ match.competition }}</small></p>
               <p class="card-text text-secondary"><small class="text-uppercase">{{ match.date | date: "%A %d %B %Y • %R" | append: " WIB" }}</small></p>
               <div class="row row-cols-3 text-center py-5">
-                <div class="col"><span class="fw-bold text-uppercase">{{ match.home }}</span></div>
+                <div class="col">
+                  <img src="{{ match.home.logo | relative_url }}" alt="" class="border-0" width="50" height="50">
+                  <span class="fw-bold text-uppercase">
+                    {{ match.home }}
+                  </span>
+                </div>
                 {% if match.status == "next match" %}
                 <div class="col"><span class="fw-bold text-uppercase">vs</span></div>
                   {% else %}
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.result }}</span></div>
                 {% endif %}
-                <div class="col"><span class="fw-bold text-uppercase">{{ match.away }}</span></div>
+                <div class="col">
+                  <img src="{{ match.away.logo | relative_url }}" alt="" class="border-0" width="50" height="50">
+                  <span class="fw-bold text-uppercase">
+                    {{ match.away }}
+                  </span>
+                </div>
               </div>
               <p class="card-text text-capitalize">{{ match.place }}</p>
             </div> 
