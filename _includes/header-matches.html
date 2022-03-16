@@ -27,7 +27,7 @@
               <p class="card-text text-secondary"><small class="text-uppercase">{{ match.kickoff }}</small></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col">
-                  <img src="{{ match.home.logo | relative_url }}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
+                  <img src="{% if match.home.logo %}{{ match.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg | relative_url' }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
                   <span class="fw-bold text-uppercase">
                     {{ match.home.name }}
                   </span>
@@ -38,7 +38,7 @@
                 <div class="col"><span class="fw-bold text-uppercase">{{ match.result }}</span></div>
                 {% endif %}
                 <div class="col">
-                  <img src="{{ match.away.logo | relative_url }}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
+                  <img src="{% if match.away.logo %}{{ match.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
                   <span class="fw-bold text-uppercase">
                     {{ match.away.name }}
                   </span>
