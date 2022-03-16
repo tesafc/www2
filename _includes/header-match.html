@@ -42,18 +42,18 @@
                 </div>
               </div>
               {% if page.goal %}
-              <div class="row row-cols-2 pb-3">
+              <div class="row row-cols-2 pb-5">
                 {% if page.goal.home %}
                 <ul class="col list-group">
                   {% for goal in page.goal.home %}
-                  <li class="list-group-item text-end text-capitalize"><span>{{ goal.time | append: "'" }}</span><span class="fw-bolder">{{ goal.name }}</span></li>
+                  <li class="list-group-item text-end text-capitalize"><span>{{ goal.time | append: "'" }}</span><span class="fw-bolder ps-2">{{ goal.name }}</span></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
                 {% if page.goal.away %}
                 <ul class="col list-group">
                   {% for goal in page.goal.away %}
-                  <li class="list-group-item text-start text-capitalize"><span class="fw-bolder">{{ goal.name }}</span><span>{{ goal.time | append: "'" }}</span></li>
+                  <li class="list-group-item text-start text-capitalize"><span class="fw-bolder pe-2">{{ goal.name }}</span><span>{{ goal.time | append: "'" }}</span></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
