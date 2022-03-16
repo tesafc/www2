@@ -13,16 +13,16 @@ header: header-match
             <div class="card-header">
               <h1 class="fw-bolder text-uppercase">lineup</h1>
             </div>
-            {% for player in page.lineup %}
             <div class="py-5">
               <ul class="list-group list-group-flush">
+                {% for player in page.lineup %}
                 <li class="list-group-item row text-white bg-transparent border-0">
                   <div class="col fs-4 fw-bolder text-uppercase text-end text-secondary ps-3">{{ player.no-punggung }}</div>
                   <div class="col fs-4 fw-bolder text-uppercase">{{ player.name }}</div>
                 </li>
+                {% endfor %}
               </ul>
             </div>
-            {% endfor %}
             {% if page.subs %}
             <div class="card-body d-flex">
               <div class="flex-flex-shrink-0">
@@ -30,7 +30,7 @@ header: header-match
               </div>
               <div class="flex-grow-1 ps-3">
               {% for player in page.subs %}
-                <span class="fs-6 fw-bold text-uppercase pe-1">{{ player.name }},</span>
+                <span class="fs-6 fw-bold text-capitalize pe-1">{{ player.name }},</span>
               {% endfor %}
               </div>
             </div>
