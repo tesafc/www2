@@ -10,7 +10,8 @@ away:
   name: tesa fc
   logo: /assets/img/logo-1-new.svg
 lineup:
-  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU"
+  
   - name: m.fajarr
     no-punggung: 98
     position: gk
@@ -47,8 +48,8 @@ lineup:
 subs:
   - name: fahri husaini
     no-punggung: 1
-  - name: aldo
-    no-punggung: 23
+  - name: nyoy
+    no-punggung: 78
   - name: hantu laut
     no-punggung: 48
   - name: m.gibran
