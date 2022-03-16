@@ -22,7 +22,7 @@
               <h1 class="text-uppercase fw-bolder pb-5">{{ page.status }}</h1>
               <p class="text-uppercase fw-bolder mb-0"><small>{{ page.type }} • {{ page.competition }}</small></p>
               <p class="text-uppercase text-secondary"><small>{{ page.kickoff }}</small></p>
-              <div class="row row-cols-3 text-center py-5">
+              <div class="row row-cols-3 text-center py-3">
                 <div class="col">
                   <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
                   <span class="fw-bold text-uppercase">
@@ -42,18 +42,18 @@
                 </div>
               </div>
               {% if page.goal %}
-              <div class="row row-cols-2">
+              <div class="row row-cols-2 pb-3">
                 {% if page.goal.home %}
                 <ul class="col list-group">
                   {% for goal in page.goal.home %}
-                  <li class="list-group-item text-end"><span>{{ goal.time }}</span>{{ goal.name }}</li>
+                  <li class="list-group-item text-end text-capitalize"><span>{{ goal.time | append: "'" }}</span><span class="fw-bolder">{{ goal.name }}</span></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
                 {% if page.goal.away %}
                 <ul class="col list-group">
                   {% for goal in page.goal.away %}
-                  <li class="list-group-item text-start">{{ goal.away }}<span>{{ goal.time }}</span></li>
+                  <li class="list-group-item text-start text-capitalize"><span class="fw-bolder">{{ goal.name }}</span><span>{{ goal.time | append: "'" }}</span></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
