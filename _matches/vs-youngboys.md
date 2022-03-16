@@ -18,7 +18,7 @@ goal:
   home:
     - name: unknown
       time: 24
-    - name: unknown
+    - name: hamba Allah
       time: 68
   away:
     - name: haji
