@@ -9,6 +9,40 @@ home:
 away:
   name: tesa fc
   logo: /assets/img/logo-1-new.svg
+lineup:
+  - name: m.fajarr
+    no-punggung: 98
+    position: gk
+  - name: angga nugraha
+    no-punggung: 9
+    position: cb
+  - name: fahri husaini
+    no-punggung: 3
+    position: cb
+  - name: raka
+    no-punggung: 13
+    position: lb
+  - name: faisal
+    no-punggung: 24
+    position: rb
+  - name: m.ropick
+    no-punggung: 7
+    position: dmf
+  - name: hgialfhri
+    no-punggung: 10
+    position: cmf
+  - name: lalan
+    no-punggung: 14
+    position: cmf
+  - name: a.mansyur
+    no-punggung: 7
+    position: cf
+  - name: habiel
+    no-punggung: 69
+    position: lwf
+  - name: danil ardiansyah
+    no-punggung: 8
+    position: rwf
 competition: friendly match
 type: football 
 kickoff: "kamis, 17 maret 2022 • 15:30 wib"
