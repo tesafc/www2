@@ -21,7 +21,7 @@
             <div class="card-body py-5">
               <h1 class="text-uppercase fw-bolder">{{ page.status }}</h1>
               <p class="text-uppercase fw-bolder mb-0">{{ page.type }} • {{ page.competition }}</p>
-              <p class="text-uppercase">{{ page.date | date: "%A, %d %B %Y • %R" | append: " WIB" }}</p>
+              <p class="text-uppercase">{{ page.kickoff }}</p>
               <div class="row row-cols-3 text-center">
                 <div class="col">
                   <img src="{{ page.home.logo | relative_url }}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
