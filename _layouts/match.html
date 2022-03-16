@@ -10,8 +10,11 @@ header: header-match
       <div class="row row-cols-1">
         <div class="col">
           <div class="card text-white bg-transparent rounded-0">
+            <div class="card-header">
+              <h1 class="fw-bolder text-uppercase">lineup</h1>
+            </div>
             {% for player in page.lineup %}
-            <ul class="list-group list-group-flush">
+            <ul class="list-group list-group-flush py-5">
               <li class="list-group-item row text-white bg-transparent border-0">
                 <span class="col fs-4 fw-bolder text-uppercase text-end text-secondary">{{ player.no-punggung }}</span>
                 <span class="col fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</span>
