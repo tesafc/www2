@@ -14,12 +14,14 @@ header: header-match
               <h1 class="fw-bolder text-uppercase">lineup</h1>
             </div>
             {% for player in page.lineup %}
-            <ul class="list-group list-group-flush py-5">
-              <li class="list-group-item row text-white bg-transparent border-0">
-                <div class="col fs-4 fw-bolder text-uppercase text-end text-secondary">{{ player.no-punggung }}</div>
-                <div class="col fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</div>
-              </li>
-            </ul>
+            <div class="py-5">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item row text-white bg-transparent border-0">
+                  <div class="col fs-4 fw-bolder text-uppercase text-end text-secondary ps-3">{{ player.no-punggung }}</div>
+                  <div class="col fs-4 fw-bolder text-uppercase">{{ player.name }}</div>
+                </li>
+              </ul>
+            </div>
             {% endfor %}
             {% if page.subs %}
             <div class="card-body d-flex">
