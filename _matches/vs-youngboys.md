@@ -14,4 +14,15 @@ kickoff: "selasa, 08 maret 2022 • 16:00 wib"
 place: stadion desa maleber
 status: last match
 result: "2-2"
+goal:
+  home:
+    - name: unknown
+      time: 24
+    - name: unknown
+      time: 68
+  away:
+    - name: haji
+      time: 32
+    - name: habiel
+      time: 80
 ---
