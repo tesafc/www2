@@ -44,6 +44,8 @@ lineup:
     no-punggung: 8
     position: rwf
 subs:
+  - name: fahri husaini
+    no-punggung: 1
   - name: hantu laut
     no-punggung: 48
   - name: m.gibran
