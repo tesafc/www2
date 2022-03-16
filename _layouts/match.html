@@ -8,25 +8,24 @@ header: header-match
   <div class="h-100">
     <div class="container bg-transparent py-5">
       <div class="row row-cols-1">
-        <h6 class="text-uppercase">lineup</h6>
         <div class="col">
           <div class="card text-white bg-transparent rounded-0">
             {% for player in page.lineup %}
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <span class="fs-2 fw-bolder text-center text-uppercase text-secondary">{{ player.no-punggung }}</span>
-                <span class="fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</span>
+            <ul class="list-group list-group-flush text-white bg-transparent">
+              <li class="list-group-item row">
+                <span class="col fs-4 fw-bolder text-uppercase text-secondary">{{ player.no-punggung }}</span>
+                <span class="col fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</span>
               </li>
             </ul>
             {% endfor %}
             {% if page.subs %}
             <div class="card-body d-flex">
               <div class="flex-flex-shrink-0">
-                <span class="fw-bolder text-uppercase">subs</span>
+                <span class="fs-6 fw-bolder text-uppercase text-secondary">subs:</span>
               </div>
               <div class="flex-grow-1 ps-3">
               {% for player in page.subs %}
-                <span class="fs-5 fw-bold text-uppercase pe-2">{{ player.name }}</span>
+                <span class="fs-6 fw-bold text-uppercase pe-1">{{ player.name }},</span>
               {% endfor %}
               </div>
             </div>
