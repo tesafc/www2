@@ -43,6 +43,13 @@ lineup:
   - name: danil ardiansyah
     no-punggung: 8
     position: rwf
+subs:
+  - 
+    name: hantu laut
+    no-punggung: 48
+  - 
+    name: m.gibran
+    no-punggung: 11
 competition: friendly match
 type: football 
 kickoff: "kamis, 17 maret 2022 • 15:30 wib"
