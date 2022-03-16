@@ -41,6 +41,24 @@
                   </span>
                 </div>
               </div>
+              {% if page.goal %}
+              <div class="row row-cols-2">
+                {% if page.goal.home %}
+                <ul class="col list-group">
+                  {% for goal in page.goal.home %}
+                  <li class="list-group-item text-end"><span>{{ goal.time }}</span>{{ goal.name }}</li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+                {% if page.goal.away %}
+                <ul class="col list-group">
+                  {% for goal in page.goal.away %}
+                  <li class="list-group-item text-start">{{ goal.away }}<span>{{ goal.time }}</span></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+              {% endif %}
               <p class="card-text text-capitalize text-secondary">{{ page.place }}</p>
             </div>
           </div>
