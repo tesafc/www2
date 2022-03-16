@@ -46,6 +46,8 @@ lineup:
 subs:
   - name: fahri husaini
     no-punggung: 1
+  - name: fahri aldo
+    no-punggung: 23
   - name: hantu laut
     no-punggung: 48
   - name: m.gibran
