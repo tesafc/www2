@@ -14,10 +14,10 @@ lineup:
     no-punggung: 98
     position: gk
   - name: angga nugraha
-    no-punggung: 9
+    no-punggung: 09
     position: cb
   - name: fahri husaini
-    no-punggung: 3
+    no-punggung: 03
     position: cb
   - name: raka
     no-punggung: 13
@@ -26,7 +26,7 @@ lineup:
     no-punggung: 24
     position: rb
   - name: m.ropick
-    no-punggung: 7
+    no-punggung: 07
     position: dmf
   - name: hgialfhri
     no-punggung: 10
@@ -35,13 +35,13 @@ lineup:
     no-punggung: 14
     position: cmf
   - name: a.mansyur
-    no-punggung: 7
+    no-punggung: 07
     position: cf
   - name: habiel
     no-punggung: 69
     position: lwf
   - name: danil ardiansyah
-    no-punggung: 8
+    no-punggung: 08
     position: rwf
 subs:
   - name: hantu laut
