@@ -28,6 +28,4 @@ defaults:
     values:
       layout: "match"
       header: "header-match"
-      home.logo: /assets/img/logo-2-new.svg
-      away.logo: /assets/img/logo-2-new.svg
 version: 1.0.0
