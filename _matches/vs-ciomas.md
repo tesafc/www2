@@ -9,7 +9,7 @@ away:
   logo: /assets/img/logo-1-new.svg
 competition: friendly match
 type: football 
-kickoff: "17-03-2022 15:30"
+kickoff: "kamis, 17 maret 2022 • 15:30 wib"
 place: stadion jagabaya, desa ciomas
 status: next match
 result: nil
