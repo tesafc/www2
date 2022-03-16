@@ -6,14 +6,14 @@ header: header-match
 {% if page.lineup %}
 <div class="text-white bg-dark" style="background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
   <div class="h-100">
-    <div class="container bg-transparent py-5">
+    <div class="container-sm bg-transparent py-5">
       <div class="row row-cols-1">
         <div class="col">
           <div class="card text-white bg-transparent rounded-0">
             {% for player in page.lineup %}
-            <ul class="list-group list-group-flush text-white bg-transparent">
-              <li class="list-group-item row">
-                <span class="col fs-4 fw-bolder text-uppercase text-secondary">{{ player.no-punggung }}</span>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item row text-white bg-transparent border-0">
+                <span class="col fs-4 fw-bolder text-uppercase text-end text-secondary">{{ player.no-punggung }}</span>
                 <span class="col fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</span>
               </li>
             </ul>
