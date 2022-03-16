@@ -3,10 +3,12 @@ layout: default
 header: header-match
 ---
 
-{% if page.subs %}
+{% if page.lineup %}
 <div>
-  <p>{{ page.subs.player.name }}</p>
-  <p>{{ page.subs.player.no-punggung }}</p>
+  {% for player in page.lineup %}
+  <p>{{ player.name }}</p>
+  <p>{{ player.no-punggung }}</p>
+  {% endfor %}
 </div>
 {% endif %}
 
