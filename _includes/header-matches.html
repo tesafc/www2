@@ -15,7 +15,7 @@
         </nav>
       </div>
     </div>
-    {% assign matches = site.matches | sort: "status, last match" | reverse %}
+    {% assign matches = site.matches | sort: "status" %}
     <div class="container-sm h-100 d-flex flex-column justify-content-center text-center pb-5">
       <div class="row row-cols-1">
         {% for match in matches limit:1 %}
