@@ -38,14 +38,14 @@ lineup:
   - name: a.mansyur
     no-punggung: 7
     position: cf
-  - name: habiel
-    no-punggung: 69
+  - name: haji
+    no-punggung: 33
     position: lwf
   - name: danil ardiansyah
     no-punggung: 8
     position: rwf
 subs:
-  - name: fahri husaini
+  - name: farhan husaini
     no-punggung: 1
   - name: aldo
     no-punggung: 23
