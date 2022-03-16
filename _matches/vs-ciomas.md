@@ -47,8 +47,8 @@ lineup:
 subs:
   - name: fahri husaini
     no-punggung: 1
-  - name: nyoy
-    no-punggung: 78
+  - name: aldo
+    no-punggung: 23
   - name: hantu laut
     no-punggung: 48
   - name: m.gibran
