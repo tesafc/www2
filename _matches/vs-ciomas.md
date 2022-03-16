@@ -49,6 +49,12 @@ subs:
     no-punggung: 1
   - name: aldo
     no-punggung: 23
+  - name: nyoy
+    no-punggung: 78
+  - name: ozan
+    no-punggung: 18
+  - name: m.aji pangestu
+    no-punggung: 19
   - name: hantu laut
     no-punggung: 48
   - name: m.gibran
