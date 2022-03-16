@@ -46,14 +46,14 @@
                 {% if page.goal.home %}
                 <ul class="col list-group">
                   {% for goal in page.goal.home %}
-                  <li class="list-group-item text-end text-capitalize text-white bg-transparent"><span>{{ goal.time | append: "'" }}</span><span class="fw-bolder ps-2">{{ goal.name }}</span></li>
+                  <li class="list-group-item text-end text-capitalize text-white bg-transparent"><small>{{ goal.time | append: "'" }}</small><span class="ps-2">{{ goal.name }}</span></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
                 {% if page.goal.away %}
                 <ul class="col list-group">
                   {% for goal in page.goal.away %}
-                  <li class="list-group-item text-start text-capitalize text-white bg-transparent"><span class="fw-bolder pe-2">{{ goal.name }}</span><span>{{ goal.time | append: "'" }}</span></li>
+                  <li class="list-group-item text-start text-capitalize text-white bg-transparent"><span class="pe-2">{{ goal.name }}</span><small>{{ goal.time | append: "'" }}</small></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
