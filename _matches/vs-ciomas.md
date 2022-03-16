@@ -2,7 +2,7 @@
 order: 3
 season: 2022
 title: chibeunghar fc vs tesa fc
-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-AvlbpcgLaeEk3WHumXwQ-sA&usqp=CAU
 home:
   name: chibeunghar fc
   logo: /assets/img/logo/chibeungharfc.svg
