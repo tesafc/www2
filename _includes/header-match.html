@@ -24,7 +24,7 @@
               <p class="text-uppercase text-secondary"><small>{{ page.kickoff }}</small></p>
               <div class="row row-cols-3 text-center py-5">
                 <div class="col">
-                  <img src="{{ page.home.logo | relative_url }}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
+                  <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
                   <span class="fw-bold text-uppercase">
                     {{ page.home.name }}
                   </span>
@@ -35,7 +35,7 @@
                 <div class="col"><span class="text-uppercase fw-bolder">{{ page.result }}</span></div>
                 {% endif %}
                 <div class="col">
-                  <img src="{{ page.away.logo | relative_url }}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
+                  <img src="{% if page.away.logo %}{{ page.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
                   <span class="fw-bold text-uppercase">
                     {{ page.away.name }}
                   </span>
