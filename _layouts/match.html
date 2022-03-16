@@ -16,8 +16,8 @@ header: header-match
             {% for player in page.lineup %}
             <ul class="list-group list-group-flush py-5">
               <li class="list-group-item row text-white bg-transparent border-0">
-                <span class="col fs-4 fw-bolder text-uppercase text-end text-secondary">{{ player.no-punggung }}</span>
-                <span class="col fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</span>
+                <div class="col fs-4 fw-bolder text-uppercase text-end text-secondary">{{ player.no-punggung }}</div>
+                <div class="col fs-4 fw-bolder text-uppercase ps-3">{{ player.name }}</div>
               </li>
             </ul>
             {% endfor %}
