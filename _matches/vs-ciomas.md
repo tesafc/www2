@@ -9,9 +9,8 @@ home:
 away:
   name: tesa fc
   logo: /assets/img/logo-1-new.svg
+lineup-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU
 lineup:
-  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU"
-  
   - name: m.fajarr
     no-punggung: 98
     position: gk
