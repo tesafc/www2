@@ -16,9 +16,9 @@ header: header-match
             <div class="py-3">
               <ul class="list-group list-group-flush">
                 {% for player in page.lineup %}
-                <li class="list-group-item text-white bg-transparent border-0">
-                  <span class="d-block fs-4 fw-bolder text-uppercase text-end text-secondary pe-3">{{ player.no-punggung }}</span>
-                  <span class="d-block fs-4 fw-bolder text-uppercase">{{ player.name }}</span>
+                <li class="list-group-item text-white bg-transparent border-0 py-1">
+                  <span class="fs-4 fw-bolder text-uppercase text-end text-secondary pe-3">{{ player.no-punggung }}</span>
+                  <span class="fs-4 fw-bolder text-uppercase">{{ player.name }}</span>
                 </li>
                 {% endfor %}
               </ul>
@@ -30,7 +30,7 @@ header: header-match
               </div>
               <div class="flex-grow-1 ps-3">
               {% for player in page.subs %}
-                <span class="fs-6 fw-bold text-capitalize pe-1">{{ player.name }},</span>
+                <span class="fs-6 fw-bold text-capitalize text-secondary pe-1">{{ player.name }},</span>
               {% endfor %}
               </div>
             </div>
