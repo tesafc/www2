@@ -2,14 +2,14 @@
 order: 3
 season: 2022
 title: chibeunghar fc vs tesa fc
-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3jXq0gzpnLc4bBAE_icBzU6q1nLlgZAmfXg&usqp=CAU
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU
 home:
   name: chibeunghar fc
   logo: /assets/img/logo/chibeungharfc.svg
 away:
   name: tesa fc
   logo: /assets/img/logo-1-new.svg
-lineup-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V6q6fkIrmKGXGqNo-DNuZLs49L38UY6EBA&usqp=CAU
+lineup-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3jXq0gzpnLc4bBAE_icBzU6q1nLlgZAmfXg&usqp=CAU
 lineup:
   - name: m.fajarr
     no-punggung: 98
