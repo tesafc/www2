@@ -73,7 +73,7 @@ goal:
     - name: unknown
       time: 77
   away:
-    - name: danil ardiansyah
+    - name: danil
       time: 35
 result: "3-1"
 ---
