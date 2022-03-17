@@ -63,6 +63,17 @@ competition: friendly match
 type: football 
 kickoff: "kamis, 17 maret 2022 • 15:30 wib"
 place: stadion jagabaya, desa ciomas
-status: next match
+status: last match
+goal:
+  home:
+    - name: unknown
+      time: 19
+    - name: unknown
+      time: 58
+    - name: unknown
+      time: 77
+  away:
+    - name: danil ardiansyah
+      time: 35
 result: nil
 ---
