@@ -71,7 +71,7 @@ goal:
     - name: unknown
       time: 58
     - name: unknown
-      time: 77
+      time: 76
   away:
     - name: danil
       time: 35
