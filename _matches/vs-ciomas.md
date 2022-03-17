@@ -75,5 +75,5 @@ goal:
   away:
     - name: danil ardiansyah
       time: 35
-result: nil
+result: "3-1"
 ---
