@@ -6,16 +6,16 @@ image: /assets/img/logo-2.png
 
 <div class="bg-light">
   <div class="container-sm">
-    <div class="row row-cols-2">
+    <div class="row row-cols-2 g-3">
       {% assign roles = site.data.players | group_by: "role" %}
       {% for role in roles %}
       <h6 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ role.name }}</h6>
       {% for player in role.items %}
       <div class="col">
-        <div class="card h-100 text-white bg-dark border-0 shadow" style="height: 15rem; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));">
+        <div class="card h-100 text-white bg-dark border-0 shadow">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="card-img border-0">
-          <div class="card-img-overlay d-flex flex-column justify-content-between">
-            <h5 class="card-text fs-1 fw-bolder">{{ player.no-punggung }}</h5>
+          <div class="card-img-overlay d-flex flex-column justify-content-between" style="height: 15rem; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));">
+            <h5 class="card-text fs-3 fw-bolder">{{ player.no-punggung }}</h5>
             <h6 class="card-text text-capitalize fs-5 fw-bolder">{% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link link-light text-decoration-none">{{ player.name }}</a>{% endif %}</h6>
           </div>
         </div>
