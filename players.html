@@ -12,11 +12,11 @@ image: /assets/img/logo-2.png
       <h6 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ role.name }}</h6>
       {% for player in role.items %}
       <div class="col">
-        <div class="card h-100 text-white bg-dark border-0 shadow-sm" style="min-height: 15rem;">
+        <div class="card h-100 text-white bg-dark border-0">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="card-img border-0">
-          <div class="card-img-overlay d-flex flex-column justify-content-between">
-            <h5 class="card-title fs-1">{{ player.no-punggung }}</h5>
-            <h6 class="card-title text-capitalize fs-4">{% if player.profile-link %}<a href="{{ player.profile-link }}" class="streched-link link-light text-decoration-none">{{ player.name }}</a>{% endif %}</h6>
+          <div class="card-img-overlay d-flex flex-column justify-content-between shadow" style="min-height: 15rem;">
+            <h5 class="card-text fs-1 fw-bolder">{{ player.no-punggung }}</h5>
+            <h6 class="card-text text-capitalize fs-5 fw-bolder">{% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link link-light text-decoration-none">{{ player.name }}</a>{% endif %}</h6>
           </div>
         </div>
       </div>
