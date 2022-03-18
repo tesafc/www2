@@ -17,16 +17,16 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Avlbpc
           <div class="card-body py-2">
             <p class="card-text text-center fw-bolder mb-0"><small class="text-uppercase">{{ item.type }}</small> • <small class="text-uppercase">{{ item.competition }}</small></p>
             <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.kickoff }}</small></p>
-            <div class="row row-cols-5 g-0 d-flex justify-content-center align-items-center text-uppercase">
-              <div class="col text-start"><small>{{ item.home.name }}</small></div>
-              <div class="col"><img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
+            <div class="d-flex justify-content-center align-items-center text-uppercase py-2">
+              <div class="text-start"><small>{{ item.home.name }}</small></div>
+              <div><img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
               {% if item.status == "last match" %}
-              <div class="col fw-bolder">{{ item.result }}</div>
+              <div class="fw-bolder">{{ item.result }}</div>
                 {% else %}
-              <div class="col fw-bolder">vs</div>
+              <div class="fw-bolder">vs</div>
               {% endif %}
-              <div class="col"><img src="{% if item.away.logo %}{{ item.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
-              <div class="col text-start"><small>{{ item.away.name }}</small></div>
+              <div><img src="{% if item.away.logo %}{{ item.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
+              <div class="text-start"><small>{{ item.away.name }}</small></div>
             </div>
             <p class="card-text text-center text-capitalize">
               <small>
