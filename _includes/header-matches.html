@@ -35,7 +35,7 @@
                 {% if match.status == "next match" %}
                 <div class="col"><span class="fw-bold text-uppercase fs-1">vs</span></div>
                   {% else %}
-                <div class="col"><span class="fw-bold text-uppercase fs-1">{{ match.result }}</span></div>
+                <div class="col"><span class="fw-bold text-uppercase fs-1">{{ match.result.score }}</span></div>
                 {% endif %}
                 <div class="col">
                   <img src="{% if match.away.logo %}{{ match.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
@@ -44,18 +44,18 @@
                   </span>
                 </div>
               </div>
-              {% if match.goal %}
+              {% if match.result.goal %}
               <div class="row row-cols-2 g-0 pb-5">
-                {% if match.goal.home %}
+                {% if match.result.goal.home %}
                 <ul class="col list-group">
-                  {% for goal in match.goal.home %}
+                  {% for goal in match.result.goal.home %}
                   <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="text-secondary">{{ goal.time | append: "'" }}</small><small class="ps-2">{{ goal.name }}</small></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
-                {% if match.goal.away %}
+                {% if match.result.goal.away %}
                 <ul class="col list-group">
-                  {% for goal in match.goal.away %}
+                  {% for goal in match.result.goal.away %}
                   <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="pe-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time | append: "'" }}</small></li>
                   {% endfor %}
                 </ul>
