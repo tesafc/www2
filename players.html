@@ -13,7 +13,7 @@ image: /assets/img/logo-2.png
       {% for player in role.items %}
       <div class="col">
         <div class="card h-100 text-white bg-dark border-0 shadow-sm">
-          <img src="{% if player.pp %}{{ player.pp }}{% else %}{% '/assets/img/pp/blank-pp.png' | relative_url %}{% endif %}" alt="" class="card-img border-0">
+          <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="card-img border-0">
           <div class="card-img-overlay">
             <h5 class="card-text fs-1">{{ player.no-punggung }}</h5>
             <h6 class="card-text">{% if player.profile-link %}<a href="{{ player.profile-link }}" class="streched-link text-decoration-none">{{ player.name }}</a>{% endif %}</h6>
