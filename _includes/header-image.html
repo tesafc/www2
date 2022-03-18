@@ -1,4 +1,4 @@
-<header style="min-height: 480px; background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;  width: 100%; height: auto;">
+<header style="min-height: 480px; background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;  width: 100%; height: auto;">
   <div class="text-white">
     <div class="container pt-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
@@ -16,24 +16,3 @@
     </div>
   </div>
 </header>
-
-<!--
-<header>
-  <div class="text-white" style="height: 720px; background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <div class="container pt-3">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-        <a href="/" class="d-flex align-items-center col-md-3 text-white text-decoration-none fw-bold text-uppercase">
-          <img src="{{ '/assets/img/logo-2-new.svg' | relative_url }}" alt="" class="border-0 pe-2" width="35" height="35">
-          {{ site.title }}
-        </a>
-        <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
-          {% assign currentPage = page.url %}
-          <a {% if currentPage == '/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="/">Home</a>
-          <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
-          <a {% if currentPage == '/matches/' %} class="nav-link px-2 link-secondary" {% else %} class="nav-link px-2 text-white" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
-        </nav>
-      </div>
-    </div>
-  </div>
-</header>
--->
