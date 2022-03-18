@@ -1,4 +1,4 @@
-<header style="min-height: 720px; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('{{ page.image }}'); width: 100%; height: auto;">
+<header style="min-height: 720px; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('{{ page.image }}'); background-size: cover; width: 100%; height: auto;">
   <div class="text-white">
     <div class="container pt-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
@@ -9,7 +9,7 @@
         <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
           {% assign currentPage = page.url %}
           <a {% if currentPage == '/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="/">Home</a>
-          <a {% if currentPage == '/players/' %} class="nav-link link-secondary px-1" {% else %} class="nav-link link-light px-1" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
+          <a {% if currentPage == '/players/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
           <a {% if currentPage == '/matches/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
         </nav>
       </div>
