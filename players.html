@@ -4,12 +4,12 @@ title: Players
 image: /assets/img/tesafc_full-team.jpg
 ---
 
-<div class="bg-light">
+<div class="bg-dark">
   <div class="container-sm pb-5">
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% assign roles = site.data.players | group_by: "role" %}
       {% for role in roles %}
-      <h1 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ role.name }}</h1>
+      <h1 class="d-block w-100 pt-5 text-uppercase text-center text-white fw-bold">{{ role.name }}</h1>
       {% for player in role.items %}
       <div class="col" style="min-height: 16rem;">
         <div class="card h-100 text-white border-0">
