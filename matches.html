@@ -17,7 +17,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Avlbpc
           <div class="card-body py-2">
             <p class="card-text text-center fw-bolder mb-0"><small class="text-uppercase">{{ item.type }}</small> • <small class="text-uppercase">{{ item.competition }}</small></p>
             <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.kickoff }}</small></p>
-            <div class="row row-cols-5 d-flex justify-content-center align-items-center text-uppercase">
+            <div class="row row-cols-5 g-0 d-flex justify-content-evenly align-items-center text-uppercase">
               <div class="col"><small>{{ item.home.name }}</small></div>
               <div class="col"><img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
               {% if item.status == "last match" %}
