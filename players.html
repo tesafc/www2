@@ -5,13 +5,13 @@ image: /assets/img/logo-2.png
 ---
 
 <div class="bg-light">
-  <div class="container-sm py-5">
+  <div class="container-sm pb-5">
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% assign roles = site.data.players | group_by: "role" %}
       {% for role in roles %}
-      <h6 class="d-block w-100 pt-5 text-uppercase text-center fw-bold">{{ role.name }}</h6>
+      <h6 class="d-block w-100 pt-5 text-uppercase fw-bold">{{ role.name }}</h6>
       {% for player in role.items %}
-      <div class="col" style="height: 18rem;">
+      <div class="col" style="height: 20em;">
         <div class="card h-100 text-white border-0 shadow">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="card-img border-0">
           <div class="card-img-overlay d-flex flex-column justify-content-between" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));">
