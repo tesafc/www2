@@ -6,7 +6,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Avlbpc
 ---
 
 <div class="bg-light">
-  <div class="container-sm">
+  <div class="container-sm px-0">
     {% assign matches = site.matches | group_by: "status" %}
     <div class="row row-cols-1 g-2">
       {% for match in matches reversed %}
@@ -14,21 +14,23 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Avlbpc
       {% for item in match.items reversed %}
       <div class="col">
         <div class="card rounded-0 border-0 shadow-sm mb-2">
-          <div class="card-body py-5">
-            <p class="card-text text-center fw-bolder mb-0"><span class="text-uppercase">{{ item.type }}</span> • <span class="text-uppercase">{{ item.competition }}</span></p>
+          <div class="card-body py-3">
+            <p class="card-text text-center fw-bolder mb-0"><small class="text-uppercase">{{ item.type }}</small> • <small class="text-uppercase">{{ item.competition }}</small></p>
             <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.kickoff }}</small></p>
             <div class="row row-cols-3 text-center text-uppercase fw-bolder py-5">
               <div class="col fs-6">{{ item.home.name }}</div>
+              <div class="col"><img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
               {% if item.status == "last match" %}
               <div class="col fs-6">{{ item.result }}</div>
                 {% else %}
               <div class="col fs-6">vs</div>
               {% endif %}
+              <div class="col"><img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
               <div class="col fs-6">{{ item.away.name }}</div>
             </div>
-            <p class="card-text text-center text-capitalize text-secondary">
+            <p class="card-text text-center text-capitalize">
               <small>
-                <a href="{{ item.url }}" class="stretched-link link-dark text-decoration-none">{{ item.place }}</a>
+                <a href="{{ item.url }}" class="stretched-link link-secondary text-decoration-none">{{ item.place }}</a>
               </small>
             </p>
           </div>
