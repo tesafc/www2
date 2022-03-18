@@ -18,7 +18,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Avlbpc
             <p class="card-text text-center fw-bolder mb-0"><small class="text-uppercase">{{ item.type }}</small> • <small class="text-uppercase">{{ item.competition }}</small></p>
             <p class="card-text text-center text-capitalize text-secondary"><small class="text-uppercase">{{ item.kickoff }}</small></p>
             <div class="row g-0 d-flex justify-content-center align-items-center text-center text-uppercase py-2">
-              <div class="col-auto text-start"><small>{{ item.home.name }}</small></div>
+              <div class="col-auto"><small>{{ item.home.name }}</small></div>
               <div class="col-2"><img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
               {% if item.status == "last match" %}
               <div class="col-1 fw-bolder">{{ item.result }}</div>
@@ -26,11 +26,11 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Avlbpc
               <div class="col-1 fw-bolder">vs</div>
               {% endif %}
               <div class="col-2 "><img src="{% if item.away.logo %}{{ item.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="35" height="35"></div>
-              <div class="col-auto text-start"><small>{{ item.away.name }}</small></div>
+              <div class="col-auto"><small>{{ item.away.name }}</small></div>
             </div>
             <p class="card-text text-center text-capitalize">
               <small>
-                <a href="{{ item.url }}" class="stretched-link link-secondary text-decoration-none">{{ item.place }}</a>
+                <a href="{{ item.url }}" class="stretched-link link-black text-decoration-none">{{ item.place }}</a>
               </small>
             </p>
           </div>
