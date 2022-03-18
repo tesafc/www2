@@ -1,22 +1,17 @@
-<header style="min-height: 720px; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));">
+<header style="min-height: 720px; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('{{ page.image }}');">
   <div class="text-white">
     <div class="container-sm pt-3">
-      <div class="card border-0">
-        {% if page.image %}
-        <img src="{{ page.image }}" alt="" class="card-img img-fluid border-0">
-        {% endif %}
-        <div class="card-img-overlay d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-          <a href="/" class="d-flex align-items-center col-md-3 link-light text-decoration-none text-uppercase fw-bold">
-            <img src="{{ '/assets/img/logo-2-new.svg' | relative_url }}" alt="" class="border-0 pe-2" width="35" height="35">
-            {{ site.title }}
-          </a>
-          <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
-            {% assign currentPage = page.url %}
-            <a {% if currentPage == '/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="/">Home</a>
-            <a {% if currentPage == '/players/' %} class="nav-link link-secondary px-2" {% else %} class="nav-link link-light px-2" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
-            <a {% if currentPage == '/matches/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
-          </nav>
-        </div>
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+        <a href="/" class="d-flex align-items-center col-md-3 link-light text-decoration-none text-uppercase fw-bold">
+          <img src="{{ '/assets/img/logo-2-new.svg' | relative_url }}" alt="" class="border-0 pe-2" width="35" height="35">
+          {{ site.title }}
+        </a>
+        <nav class="nav col-12 col-md-auto justify-content-center mb-md-0">
+          {% assign currentPage = page.url %}
+          <a {% if currentPage == '/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="/">Home</a>
+          <a {% if currentPage == '/players/' %} class="nav-link link-secondary px-2" {% else %} class="nav-link link-light px-2" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
+          <a {% if currentPage == '/matches/' %} class="nav-link link-secondary" {% else %} class="nav-link link-light" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
+        </nav>
       </div>
     </div>
   </div>
