@@ -9,7 +9,7 @@ image: /assets/img/tesafc_full-team.jpg
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% assign roles = site.data.players | group_by: "role" %}
       {% for role in roles %}
-      <h1 class="d-block w-100 text-uppercase fw-bold">{{ role.name }}</h1>
+      <h1 class="d-block w-100 text-uppercase fw-bold pt-3 mb-0">{{ role.name }}</h1>
       {% for player in role.items %}
       <div class="col" style="min-height: 16rem;">
         <div class="card h-100 text-white border-0">
