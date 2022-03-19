@@ -16,7 +16,7 @@ image: /assets/img/tesafc_full-team.jpg
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="card-img img-fluid border-0">
           <div class="card-img-overlay d-flex flex-column justify-content-between" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));">
             <h5 class="card-text fs-2 fw-bolder">{% if player.profile-link %}<a href="{{ player.profile-link }}" class="stretched-link link-light text-decoration-none">{{ player.no-punggung }}</a>{% endif %}</h5>
-            <h6 class="card-text text-capitalize fs-4 fw-bolder">{{ player.name }}</h6>
+            <h6 class="card-text text-capitalize fs-5 fw-bolder">{{ player.name }}</h6>
           </div>
         </div>
       </div>
