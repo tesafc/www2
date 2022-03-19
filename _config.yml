@@ -29,4 +29,5 @@ defaults:
       layout: "match"
       header: "header-match"
       image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-AvlbpcgLaeEk3WHumXwQ-sA&usqp=CAU
+      lineup-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3jXq0gzpnLc4bBAE_icBzU6q1nLlgZAmfXg&usqp=CAU
 version: 1.0.0
