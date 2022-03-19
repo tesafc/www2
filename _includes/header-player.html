@@ -27,7 +27,7 @@
 
 <header style="height: 560px; background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%;">
   <div class="h-100 d-flex flex-column justify-content-between text-white">
-    <div class="container pt-2">
+    <div class="container pt-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 link-light text-decoration-none text-uppercase fw-bold">
           <img src="{{ '/assets/img/logo-2-new.svg' | relative_url }}" alt="" class="border-0 shadow pe-2" width="35" height="35">
@@ -42,10 +42,9 @@
       </div>
     </div>
     <div class="container-sm">
-      <div class="pb-5">
-        <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="d-block mx-auto rounded" width="180" height="auto">
-        <div class="fw-bolder text-center text-uppercase" style="font-size: 5rem;">{{ page.no-punggung }}</div>
-        <div class="fw-bolder text-center text-capitalize" style="font-size: 3rem;">{{ page.title }}</div>
+      <div>
+        <div class="fw-bolder text-center text-uppercase" style="font-size: 3rem;">{{ page.no-punggung }}</div>
+        <div class="fw-bolder text-center text-capitalize" style="font-size: 2rem;">{{ page.title }}</div>
       </div>
     </div>
   </div>
