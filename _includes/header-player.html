@@ -43,7 +43,7 @@
     </div>
     <div class="container-sm">
       <div class="pb-5">
-        <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="text-center rounded-circle">
+        <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="text-center rounded-circle" width="120" height="auto">
         <div class="fw-bolder text-center text-uppercase" style="font-size: 5rem;">{{ page.no-punggung }}</div>
         <div class="fw-bolder text-center text-capitalize" style="font-size: 3rem;">{{ page.title }}</div>
       </div>
