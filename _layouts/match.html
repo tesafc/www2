@@ -4,7 +4,7 @@ header: header-match
 ---
 
 {% if page.lineup %}
-<div class="text-white bg-dark" style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('{{ page.lineup-image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<div class="text-white bg-dark" style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('{{ page.lineup-image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
   <div class="h-100">
     <div class="container-sm bg-transparent py-5">
       <div class="row row-cols-1">
@@ -23,7 +23,7 @@ header: header-match
                 {% for player in page.lineup %}
                 <span class="col-2 fs-5 fw-bolder text-uppercase text-end text-secondary pe-3">{{ player.no-punggung }}</span>
                 <!--<span class="col-2 fs-6 text-uppercase text-center badge border border-dark text-secondary">{{ player.position }}</span>-->
-                <span class="col-10 fs-5 fw-bolder text-uppercase ps-3">{{ player.name }}{% if player.role == "captain" %}<span class="badge rounded-pill bg-light text-dark text-uppercase text-center ms-2">c</span>{% endif %}</span>
+                <span class="col-10 fs-5 fw-bolder text-uppercase">{{ player.name }}{% if player.role == "captain" %}<span class="badge rounded-pill bg-light text-dark text-uppercase text-center ms-2">c</span>{% endif %}</span>
                 {% endfor %}
               </div>
             </div>
