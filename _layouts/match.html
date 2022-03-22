@@ -22,7 +22,7 @@ header: header-match
               <div class="row row-cols-3 g-2">
                 {% for player in page.lineup %}
                 <span class="col-2 fs-4 fw-bolder text-uppercase text-end text-secondary">{{ player.no-punggung }}</span>
-                <span class="col-auto w-100 fs-5 text-uppercase text-center badge bg-secondary mx-2">{{ player.position }}</span>
+                <span class="col-2 fs-5 text-uppercase text-center badge bg-secondary mx-2">{{ player.position }}</span>
                 <span class="col-8 fs-4 fw-bolder text-uppercase">{{ player.name }}{% if player.role == "captain" %}<span class="badge rounded-pill bg-success text-uppercase text-center ms-2">c</span>{% endif %}</span>
                 {% endfor %}
               </div>
