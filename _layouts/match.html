@@ -22,8 +22,8 @@ header: header-match
               <div class="row row-cols-3 g-1">
                 {% for player in page.lineup %}
                 <span class="col-2 fs-5 fw-bolder text-uppercase text-end text-secondary pe-2">{{ player.no-punggung }}</span>
-                <span class="col-2 fs-6 text-uppercase text-center badge border-light">{{ player.position }}</span>
-                <span class="col-8 fs-5 fw-bolder text-uppercase ps-2">{{ player.name }}{% if player.role == "captain" %}<span class="badge rounded-pill bg-info text-uppercase text-center fs-5 ms-2">c</span>{% endif %}</span>
+                <span class="col-2 fs-6 text-uppercase text-center badge border border-light">{{ player.position }}</span>
+                <span class="col-8 fs-5 fw-bolder text-uppercase ps-2">{{ player.name }}{% if player.role == "captain" %}<span class="badge rounded-pill bg-warning text-uppercase text-center ms-2">c</span>{% endif %}</span>
                 {% endfor %}
               </div>
             </div>
