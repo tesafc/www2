@@ -14,15 +14,15 @@ header: header-match
               <h1 class="fw-bolder text-uppercase">lineup</h1>
               <div class="d-flex justify-content-center align-items-start text-center">
                 <div>
-                  <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 rounded-circle" width="40" height="40">
-                  <span class="d-block text-uppercase text-center fw-bolder"><small>{{ page.home.name }}</small></span>
+                  <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 rounded-circle" width="35" height="35">
+                  <span class="d-block text-uppercase text-center fw-bolder text-secondary"><small>{{ page.home.name }}</small></span>
                 </div>
                 <div>
-                  <span class="d-block text-center text-uppercase fw-bolder px-3">vs</span>
+                  <span class="d-block text-center text-uppercase fw-bolder px-2 pt-1">vs</span>
                 </div>
                 <div>
-                  <img src="{% if page.away.logo %}{{ page.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 rounded-circle" width="40" height="40">
-                  <span class="d-block text-uppercase text-center fw-bolder"><small>{{ page.away.name }}</small></span>
+                  <img src="{% if page.away.logo %}{{ page.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 rounded-circle" width="35" height="35">
+                  <span class="d-block text-uppercase text-center fw-bolder text-secondary"><small>{{ page.away.name }}</small></span>
                 </div>
               </div>
             </div>
