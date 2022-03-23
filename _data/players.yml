@@ -18,6 +18,12 @@
   pp: /assets/img/pp/fahri-husaini.jpg
   profile-link: /players/fahri-husaini
   
+- name: jafar
+  no-punggung: 4
+  role: defender
+  pp:
+  profile-link: /players/jafar
+  
 - name: k.mal
   no-punggung: 5
   role: midfielder
