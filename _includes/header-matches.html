@@ -45,24 +45,24 @@
                 </div>
               </div>
               {% if match.result.goal %}
-              <div class="row row-cols-2 g-0 pb-3">
+              <div class="row row-cols-2 g-0">
                 {% if match.result.goal.home %}
                 <ul class="col list-group">
                   {% for goal in match.result.goal.home %}
-                  <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="text-secondary">{{ goal.time | append: "'" }}</small><small class="ps-2">{{ goal.name }}</small></li>
+                  <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 ps-1 pe-2 pb-0 lh-1"><small class="d-inline-block text-secondary">{{ goal.time | append: "'" }}</small><small class="d-inline-block fw-bolder px-2">{{ goal.name }}</small><i class="fa-solid fa-futbol text-secondary"></i></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
                 {% if match.result.goal.away %}
                 <ul class="col list-group">
                   {% for goal in match.result.goal.away %}
-                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="pe-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time | append: "'" }}</small></li>
+                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 ps-2 pe-1 pb-0 lh-1"><i class="fa-solid fa-futbol text-secondary"></i><small class="d-inline-block fw-bolder px-2">{{ goal.name }}</small><small class="d-inline-block text-secondary">{{ goal.time | append: "'" }}</small></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
               </div>
               {% endif %}
-              <p class="card-text text-capitalize text-secondary"><i class="fa-solid fa-location-dot text-secondary pe-2"></i>{{ match.place }}</p>
+              <p class="card-text text-capitalize text-secondary pt-5"><i class="fa-solid fa-location-dot text-secondary pe-2"></i>{{ match.place }}</p>
             </div> 
           </div>
         </div>
