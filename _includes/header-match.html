@@ -53,7 +53,7 @@
                 {% if page.result.goal.away %}
                 <ul class="col list-group">
                   {% for goal in page.result.goal.away %}
-                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><i class="fa-solid fa-futbol text-secondary"></i><small class="px-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time | append: "'" }}</small></li>
+                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><i class="fa-solid fa-futbol text-secondary"></i><small class="d-inline-block px-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time | append: "'" }}</small></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
