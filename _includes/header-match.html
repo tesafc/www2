@@ -46,20 +46,20 @@
                 {% if page.result.goal.home %}
                 <ul class="col list-group">
                   {% for goal in page.result.goal.home %}
-                  <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="text-secondary">{{ goal.time | append: "'" }}</small><small class="ps-2">{{ goal.name }}</small></li>
+                  <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="text-secondary">{{ goal.time | append: "'" }}</small><small class="px-2">{{ goal.name }}</small><i class="fa-light fa-futbol text-secondary"></i></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
                 {% if page.result.goal.away %}
                 <ul class="col list-group">
                   {% for goal in page.result.goal.away %}
-                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><small class="pe-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time | append: "'" }}</small></li>
+                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 lh-1"><i class="fa-light fa-futbol text-secondary"></i><small class="px-2">{{ goal.name }}</small><small class="text-secondary">{{ goal.time | append: "'" }}</small></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
               </div>
               {% endif %}
-              <p class="card-text text-capitalize fw-bolder text-secondary pt-3">{{ page.place }}</p>
+              <p class="card-text text-capitalize fw-bolder text-secondary pt-3"><i class="fa-solid fa-location-dot text-secondary pe-2"></i>{{ page.place }}</p>
             </div>
           </div>
         </div>
