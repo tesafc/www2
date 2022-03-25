@@ -2,5 +2,5 @@
 layout: player
 title: m.ropick
 no-punggung: 7
-image: /assets/img/pp/m.ropick.jpg
+image: /assets/img/pp/m.ropick-bg-remove.png
 ---
