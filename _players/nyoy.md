@@ -2,5 +2,5 @@
 layout: player
 title: nyoy
 no-punggung: 78
-image: /assets/img/pp/nyoy.jpg
+image: /assets/img/pp/nyoy-bg-remove.png
 ---
