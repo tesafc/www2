@@ -2,5 +2,5 @@
 layout: player
 title: hgialfhri
 no-punggung: 10
-image: /assets/img/pp/hgialfhri.jpg
+image: /assets/img/pp/hgialfhri-bg-remove.png
 ---
