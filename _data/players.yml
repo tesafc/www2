@@ -115,6 +115,7 @@
 - name: aldo
   no-punggung: 23
   role: goalkeeper
+  pp: /assets/img/pp/aldo-bg-remove.png
   profile-link: /players/aldo
   
 - name: faisal
