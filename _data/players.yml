@@ -66,7 +66,7 @@
 - name: m.gibran
   no-punggung: 11
   role: midfielder
-  pp: /assets/img/pp/m.gibran.jpg
+  pp: /assets/img/pp/m.gibran-bg-remove.png
   profile-link: /players/m.gibran
   
 - name: ifan
