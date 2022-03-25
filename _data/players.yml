@@ -77,7 +77,7 @@
   
 - name: m.gibran
   no-punggung: 11
-  role: midfielder
+  role: defender
   pp: /assets/img/pp/m.gibran-bg-remove.png
   profile-link: /players/m.gibran
   
@@ -88,7 +88,7 @@
   
 - name: raka
   no-punggung: 13
-  role: midfielder
+  role: defender
   pp: /assets/img/pp/raka-bg-remove.png
   profile-link: /players/raka
   
@@ -128,7 +128,7 @@
   
 - name: pandu
   no-punggung: 25
-  role: midfielder
+  role: on loan
   profile-link: /players/pandu
   
 - name: no name
