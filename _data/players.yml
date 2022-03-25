@@ -99,7 +99,7 @@
 - name: ozan
   no-punggung: 18
   role: midfielder
-  pp: /assets/img/pp/ozan.jpg
+  pp: /assets/img/pp/ozan-bg-remove.png
   profile-link: /players/ozan
   
 - name: m.aji pangestu
