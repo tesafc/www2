@@ -84,7 +84,7 @@
 - name: lalan
   no-punggung: 14
   role: forward
-  pp: /assets/img/pp/lalan.jpg
+  pp: /assets/img/pp/lalan-bg-remove.png
   profile-link: /players/lalan
   
 - name: maulana
