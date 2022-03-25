@@ -37,7 +37,7 @@
 - name: m.ropick
   no-punggung: 7
   role: forward
-  pp: /assets/img/pp/m.ropick.jpg
+  pp: /assets/img/pp/m.ropick-bg-remove.png
   profile-link: /players/m.ropick
   
 - name: a.mansyur
