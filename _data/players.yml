@@ -9,7 +9,7 @@
   
 - name: ki
   no-punggung: 2
-  role: midfielder
+  role: on loan
   profile-link: /players/ki
   
 - name: fahri husaini
@@ -26,12 +26,12 @@
   
 - name: k.mal
   no-punggung: 5
-  role: midfielder
+  role: on loan
   profile-link: /players/k.mal
   
 - name: dityaa
   no-punggung: 6
-  role: defender
+  role: on loan
   profile-link: /players/dityaa
   
 - name: m.ropick
@@ -49,7 +49,7 @@
 - name: danil ardiansyah
   no-punggung: 8
   role: forward
-  pp: /assets/img/pp/danil-ardiansyah.jpg
+  pp: /assets/img/pp/danil-ardiansyah-bg-remove.png
   profile-link: /players/danil-ardiansyah
   
 - name: angga nugraha
@@ -72,7 +72,7 @@
   
 - name: ifan
   no-punggung: 12
-  role: midfielder
+  role: on loan
   profile-link: /players/ifan
   
 - name: raka
@@ -89,12 +89,12 @@
   
 - name: maulana
   no-punggung: 15
-  role: defender
+  role: on loan
   profile-link: /players/maulana
   
 - name: röbbani
   no-punggung: 17
-  role: forward
+  role: on loan
   profile-link: /players/röbbani
   
 - name: ozan
@@ -111,7 +111,7 @@
   
 - name: made
   no-punggung: 21
-  role: midfielder
+  role: management
   profile-link: /players/made
   
 - name: aldo
@@ -133,7 +133,7 @@
   
 - name: no name
   no-punggung: 33
-  role: midfielder
+  role: management
   profile-link: /players/no-name
   
 - name: hantu laut
@@ -155,7 +155,7 @@
   
 - name: jocker
   no-punggung: 95
-  role: midfielder
+  role: on loan
   profile-link: /players/jocker
   
 - name: m.fajarr
