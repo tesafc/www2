@@ -7,16 +7,33 @@
   pp: /assets/img/pp/farhan-husaini-bg-remove.png
   profile-link: /players/farhan-husaini
   
-- name: ki
-  no-punggung: 2
-  role: on loan
-  profile-link: /players/ki
-  
 - name: fahri husaini
   no-punggung: 3
   role: defender
   pp: /assets/img/pp/fahri-husaini-bg-remove.png
   profile-link: /players/fahri-husaini
+  
+- name: hgialfhri
+  no-punggung: 10
+  role: midfielder
+  pp: /assets/img/pp/hgialfhri-bg-remove.png
+  profile-link: /players/hgialfhri
+  
+- name: lalan
+  no-punggung: 14
+  role: forward
+  pp: /assets/img/pp/lalan-bg-remove.png
+  profile-link: /players/lalan
+  
+- name: ki
+  no-punggung: 2
+  role: on loan
+  profile-link: /players/ki
+  
+- name: made
+  no-punggung: 21
+  role: management
+  profile-link: /players/made
   
 - name: jafar
   no-punggung: 4
@@ -58,12 +75,6 @@
   pp: /assets/img/pp/angga-nugraha-bg-remove.png
   profile-link: /players/angga-nugraha
   
-- name: hgialfhri
-  no-punggung: 10
-  role: midfielder
-  pp: /assets/img/pp/hgialfhri-bg-remove.png
-  profile-link: /players/hgialfhri
-  
 - name: m.gibran
   no-punggung: 11
   role: midfielder
@@ -80,12 +91,6 @@
   role: midfielder
   pp: /assets/img/pp/raka-bg-remove.png
   profile-link: /players/raka
-  
-- name: lalan
-  no-punggung: 14
-  role: forward
-  pp: /assets/img/pp/lalan-bg-remove.png
-  profile-link: /players/lalan
   
 - name: maulana
   no-punggung: 15
@@ -108,11 +113,6 @@
   role: midfielder
   pp: /assets/img/pp/m.aji-pangestu-bg-remove.png
   profile-link: /players/m.aji-pangestu
-  
-- name: made
-  no-punggung: 21
-  role: management
-  profile-link: /players/made
   
 - name: aldo
   no-punggung: 23
@@ -144,7 +144,7 @@
 - name: habiel
   no-punggung: 69
   role: forward
-  pp: /assets/img/pp/habiel.jpg
+  pp: /assets/img/pp/habiel-bg-remove.png
   profile-link: /players/habiel
   
 - name: nyoy
