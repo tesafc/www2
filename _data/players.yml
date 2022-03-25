@@ -148,6 +148,7 @@
 - name: nyoy
   no-punggung: 78
   role: goalkeeper
+  pp: /assets/img/pp/nyoy-bg-remove.png
   profile-link: /players/nyoy
   
 - name: jocker
