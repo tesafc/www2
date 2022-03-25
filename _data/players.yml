@@ -77,7 +77,7 @@
 - name: raka
   no-punggung: 13
   role: midfielder
-  pp: /assets/img/pp/raka.jpg
+  pp: /assets/img/pp/raka-bg-remove.png
   profile-link: /players/raka
   
 - name: lalan
