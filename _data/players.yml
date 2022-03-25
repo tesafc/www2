@@ -122,7 +122,7 @@
 - name: faisal
   no-punggung: 24
   role: defender
-  pp: /assets/img/pp/faisal.jpg
+  pp: /assets/img/pp/faisal-bg-remove.png
   profile-link: /players/faisal
   
 - name: pandu
