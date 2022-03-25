@@ -60,6 +60,7 @@
 - name: hgialfhri
   no-punggung: 10
   role: midfielder
+  pp: /assets/img/pp/hgialfhri-bg-remove.png
   profile-link: /players/hgialfhri
   
 - name: m.gibran
