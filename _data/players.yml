@@ -21,7 +21,7 @@
 - name: jafar
   no-punggung: 4
   role: defender
-  pp:
+  pp: /assets/img/pp/jafar-bg-remove.png
   profile-link: /players/jafar
   
 - name: k.mal
