@@ -4,7 +4,7 @@ header: header-match
 ---
 
 {% if page.lineup %}
-<div class="text-white" style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('{{ page.lineup-image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<div class="text-white bg-dark" style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('{{ page.lineup-image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
   <div class="h-100">
     <div class="container-sm bg-transparent py-5">
       <div class="row row-cols-1">
@@ -30,7 +30,7 @@ header: header-match
               <div class="row row-cols-3 g-1">
                 {% for player in page.lineup %}
                 <span class="col-2 fs-5 fw-bolder text-uppercase text-end text-secondary pe-2">{{ player.no-punggung }}</span>
-                <span class="col-2 fs-6 text-uppercase text-center badge border border-dark text-secondary">{{ player.position }}</span>
+                <span class="col-2 fs-6 text-uppercase text-center badge border border-secondary text-secondary">{{ player.position }}</span>
                 <span class="col-8 fs-5 fw-bolder text-uppercase ps-2">{{ player.name }}{% if player.role %}<span class="badge rounded-pill bg-secondary text-dark text-uppercase text-center fs-5 ms-2 px-1 py-0"><small>{{ player.role }}</small></span>{% endif %}</span>
                 {% endfor %}
               </div>
