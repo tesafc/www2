@@ -24,7 +24,7 @@
             <div class="card-body">
               <h1 class="text-uppercase fw-bolder pb-5">{{ match.status }}</h1>
               <p class="card-text fw-bolder mb-0"><small class="text-uppercase">{{ match.type }}</small> • <small class="text-uppercase">{{ match.competition }}</small></p>
-              <p class="card-text text-secondary"><small class="text-uppercase">{{ match.kickoff }}</small></p>
+              <p class="card-text text-secondary fw-bolder"><small class="text-uppercase">{{ match.kickoff }}</small></p>
               <div class="row row-cols-3 text-center py-3">
                 <div class="col">
                   <img src="{% if match.home.logo %}{{ match.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg | relative_url' }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
@@ -62,7 +62,7 @@
                 {% endif %}
               </div>
               {% endif %}
-              <p class="card-text text-capitalize text-secondary pt-5"><i class="fa-solid fa-location-dot text-secondary pe-2"></i>{{ match.place }}</p>
+              <p class="card-text text-capitalize text-secondary fw-bolder pt-5"><i class="fa-solid fa-location-dot text-secondary pe-2"></i>{{ match.place }}</p>
             </div> 
           </div>
         </div>
