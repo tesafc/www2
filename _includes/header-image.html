@@ -1,6 +1,8 @@
-<header class="container-fluid p-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); background-size: cover; background-position: center; background-repeat: no-repeat;  width: 100%; height: auto">
-  <div class="card bg-dark text-white border-0 rounded-0">
+<header class="container-fluid p-0">
+  <div class="card bg-dark text-white border-0 rounded-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));">
+    {% if page.image %}
     <img src="{{ page.image }}" alt="" class="card-img">
+    {% endif %}
     <div class="container card-img-overlay py-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 link-light text-decoration-none text-uppercase fw-bolder">
