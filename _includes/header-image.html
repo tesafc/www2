@@ -1,9 +1,9 @@
 <header class="container-fluid p-0">
-  <div class="card bg-dark text-white border-0 rounded-0">
+  <div class="card text-white border-0 rounded-0">
     {% if page.image %}
-    <img src="{{ page.image }}" alt="" class="card-img card-img-overlay rounded-0">
+    <img src="{{ page.image }}" alt="" class="card-img rounded-0">
     {% endif %}
-    <div class="container py-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));">
+    <div class="container card-img-overlay py-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 link-light text-decoration-none text-uppercase fw-bolder">
           <img src="{{ '/assets/img/logo-1-new.svg' | relative_url }}" alt="" class="border-0 rounded-circle shadow me-2" width="30" height="30">
