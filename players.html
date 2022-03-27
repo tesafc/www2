@@ -39,7 +39,7 @@ image: /assets/img/tesafc-full-team-3.png
       {% for role in roles %}
       <h6 class="d-block w-100 text-uppercase fw-bold pt-5 mb-0">{{ role.name }}</h6>
       {% for player in role.items %}
-      <div class="col" style="min-height: 16rem;">
+      <div class="col" style="height: 16rem;">
         <div class="card h-100 text-white border-0">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/pp/blank-pp.png' | relative_url }}{% endif %}" alt="" class="card-img img-fluid border-0">
           <div class="card-img-overlay d-flex flex-column justify-content-between p-0 m-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));">
