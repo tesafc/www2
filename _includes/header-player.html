@@ -25,8 +25,8 @@
   </div>
 </header>-->
 
-<header style="height: 560px; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%;">
-  <div class="h-100 d-flex flex-column justify-content-between text-white">
+<header style="min-height: 480px; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));">
+  <div>
     <div class="container py-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
         <a href="/" class="d-flex align-items-center col-md-3 link-light text-decoration-none text-uppercase fw-bolder">
@@ -41,10 +41,15 @@
         </nav>
       </div>
     </div>
-    <div class="container-sm">
-      <div>
-        <div class="fw-bolder text-center text-uppercase" style="font-size: 3rem;">{{ page.no-punggung }}</div>
-        <div class="fw-bolder text-center text-capitalize" style="font-size: 2rem;">{{ page.title }}</div>
+    <div class="container-sm pb-3">
+      <div class="d-flex flex-sm-column justify-content-between text-white">
+        <div class="">
+          <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.svg' | relative_url }}{% endif %}" alt="" class="img-fluid rounded-0">
+        </div>
+        <div>
+          <p class="fs-1 fw-bolder">{{ page.no-punggung }}</p>
+          <p class="fs-2 fw-bolder m-0">{{ page.title }}</p>
+        </div>
       </div>
     </div>
   </div>
