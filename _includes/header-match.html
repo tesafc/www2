@@ -21,7 +21,7 @@
             <div class="card-body py-3">
               <h1 class="text-uppercase fw-bolder pb-5">{{ page.result.status }}</h1>
               <p class="text-uppercase fw-bolder mb-0"><small>{{ page.type }} • {{ page.competition }}</small></p>
-              <p class="text-uppercase fw-bolder"><small>{{ page.kickoff }}</small></p>
+              <p class="text-uppercase fw-bolder text-secondary"><small>{{ page.kickoff }}</small></p>
               <div class="row row-cols-3 text-center py-3">
                 <div class="col">
                   <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0 rounded-circle pb-2" width="75" height="75">
@@ -59,7 +59,7 @@
                 {% endif %}
               </div>
               {% endif %}
-              <p class="card-text text-capitalize fw-bolder pt-5"><i class="fa-solid fa-location-dot pe-2"></i>{{ page.place }}</p>
+              <p class="card-text text-capitalize fw-bolder text-secondary pt-5"><i class="fa-solid fa-location-dot pe-2"></i>{{ page.place }}</p>
             </div>
           </div>
         </div>
