@@ -25,7 +25,7 @@
   </div>
 </header>-->
 
-<header style="min-height: 480px; background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));">
+<header style="min-height: 480px; background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));">
   <div>
     <div class="container py-3">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
@@ -44,7 +44,7 @@
     <div class="container-sm pb-3">
       <div class="row row-cols-1 row-cols-md-2 g-1">
         <div class="col">
-          <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.svg' | relative_url }}{% endif %}" alt="" class="h-75 img-fluid rounded-0">
+          <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.svg' | relative_url }}{% endif %}" alt="" class="img-fluid rounded-0">
         </div>
         <div class="col d-flex flex-column justify-content-center text-white text-center text-md-start">
           <p class="fw-bolder text-uppercase mb-0" style="font-size: 5em;">{{ page.no-punggung }}</p>
