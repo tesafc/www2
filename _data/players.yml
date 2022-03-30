@@ -4,25 +4,25 @@
 - name: farhan husaini
   no-punggung: 1
   role: goalkeeper
-  pp: /assets/img/pp/farhan-husaini-bg-remove.png
+  pp: /assets/img/pp/farhan-husaini-new.png
   profile-link: /players/farhan-husaini
   
 - name: fahri husaini
   no-punggung: 3
   role: defender
-  pp: /assets/img/pp/fahri-husaini-bg-remove.png
+  pp: /assets/img/pp/fahri-husaini-new.png
   profile-link: /players/fahri-husaini
   
 - name: hgialfhri
   no-punggung: 10
   role: midfielder
-  pp: /assets/img/pp/hgialfhri-bg-remove.png
+  pp: /assets/img/pp/hgialfhri-new.png
   profile-link: /players/hgialfhri
   
 - name: lalan
   no-punggung: 14
   role: forward
-  pp: /assets/img/pp/lalan-bg-remove.png
+  pp: /assets/img/pp/lalan-new.png
   profile-link: /players/lalan
   
 - name: ki
@@ -38,7 +38,7 @@
 - name: jafar
   no-punggung: 4
   role: defender
-  pp: /assets/img/pp/jafar-bg-remove.png
+  pp: /assets/img/pp/jafar-new.png
   profile-link: /players/jafar
   
 - name: k.mal
@@ -54,7 +54,7 @@
 - name: m.ropick
   no-punggung: 7
   role: forward
-  pp: /assets/img/pp/m.ropick-bg-remove.png
+  pp: /assets/img/pp/m.ropick-new.png
   profile-link: /players/m.ropick
   
 - name: a.mansyur
@@ -72,13 +72,13 @@
 - name: angga nugraha
   no-punggung: 9
   role: defender
-  pp: /assets/img/pp/angga-nugraha-bg-remove.png
+  pp: /assets/img/pp/angga-nugraha-new.png
   profile-link: /players/angga-nugraha
   
 - name: m.gibran
   no-punggung: 11
   role: defender
-  pp: /assets/img/pp/m.gibran-bg-remove.png
+  pp: /assets/img/pp/m.gibran-new.png
   profile-link: /players/m.gibran
   
 - name: ifan
@@ -89,7 +89,7 @@
 - name: raka
   no-punggung: 13
   role: defender
-  pp: /assets/img/pp/raka-bg-remove.png
+  pp: /assets/img/pp/raka-new.png
   profile-link: /players/raka
   
 - name: maulana
@@ -105,25 +105,25 @@
 - name: ozan
   no-punggung: 18
   role: midfielder
-  pp: /assets/img/pp/ozan-bg-remove.png
+  pp: /assets/img/pp/ozan-new.png
   profile-link: /players/ozan
   
 - name: m.aji pangestu
   no-punggung: 19
   role: midfielder
-  pp: /assets/img/pp/m.aji-pangestu-bg-remove.png
+  pp: /assets/img/pp/m.aji-pangestu-new.png
   profile-link: /players/m.aji-pangestu
   
 - name: aldo
   no-punggung: 23
   role: goalkeeper
-  pp: /assets/img/pp/aldo-bg-remove.png
+  pp: /assets/img/pp/aldo-new.png
   profile-link: /players/aldo
   
 - name: faisal
   no-punggung: 24
   role: defender
-  pp: /assets/img/pp/faisal-bg-remove.png
+  pp: /assets/img/pp/faisal-new.png
   profile-link: /players/faisal
   
 - name: pandu
@@ -144,13 +144,13 @@
 - name: habiel
   no-punggung: 69
   role: forward
-  pp: /assets/img/pp/habiel-bg-remove.png
+  pp: /assets/img/pp/habiel-new.png
   profile-link: /players/habiel
   
 - name: nyoy
   no-punggung: 78
   role: midfielder
-  pp: /assets/img/pp/nyoy-bg-remove.png
+  pp: /assets/img/pp/nyoy-new.png
   profile-link: /players/nyoy
   
 - name: jocker
@@ -161,5 +161,5 @@
 - name: m.fajarr
   no-punggung: 98
   role: goalkeeper
-  pp: /assets/img/pp/m.fajarr-bg-remove.png
+  pp: /assets/img/pp/m.fajarr-new.png
   profile-link: /players/m.fajarr
