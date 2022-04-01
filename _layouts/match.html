@@ -58,7 +58,7 @@ header: header-match
 {% if page.stat %}
 <div>
   <div class="container-sm">
-    <h1 class="fw-bolder text-uppercase py-5">lineup</h1>
+    <h1 class="fw-bolder text-uppercase py-5">Statistics</h1>
     <table class="table">
       <tbody>
         <tr>
@@ -68,8 +68,8 @@ header: header-match
         </tr>
         <tr>
           <td>{{ page.stat.home.shots-on-goal }}</td>
-          <td>Shots on goal</td>
-          <td>{{ page.stat.away.shots-on-goal }}</td>
+          <td class="text-center">Shots on goal</td>
+          <td class="text-end">{{ page.stat.away.shots-on-goal }}</td>
         </tr>
       </tbody>
     </table>
