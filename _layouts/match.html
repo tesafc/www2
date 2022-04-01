@@ -55,6 +55,29 @@ header: header-match
 </div>
 {% endif %}
 
+{% if page.stat %}
+<div>
+  <div class="container-sm">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>{{ page.stat.home.shots }}</td>
+          <td>Shots</td>
+          <td>{{ page.stat.away.shots }}</td>
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td>{{ page.stat.home.shots-on-goal }}</td>
+          <td>Shots on goal</td>
+          <td>{{ page.stat.away.shots-on-goal }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+
 <div>
   {{ content }}
 </div>
