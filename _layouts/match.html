@@ -62,9 +62,9 @@ header: header-match
     <div class="d-flex justify-content-center align-items-center pb-4">
       <div class="w-50 d-inline-block pe-1">
         <span class="text-uppercase fw-bolder pe-1">{{ page.home.name }}</span>
-        <img src="{% if page.home.logo %}{{ page.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="30" height="30">
+        <img src="{% if page.home.logo %}{{ page.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="float-end border-0" width="30" height="30">
       </div>
-      <div class="w-50 d-inline-block float-end ps-1">
+      <div class="w-50 d-inline-block ps-1">
         <img src="{% if page.away.logo %}{{ page.away.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0" width="30" height="30">
         <span class="text-uppercase fw-bolder ps-1">{{ page.away.name }}</span>
       </div>
