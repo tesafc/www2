@@ -61,11 +61,11 @@ header: header-match
     <h1 class="fw-bolder text-uppercase pb-5">Statistics</h1>
     <div class="d-flex justify-content-between pb-4">
       <div class="text-start">
-        <img src="{% if page.home.logo %}{{ page.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block float-start border-0" width="30" height="30">
+        <img src="{% if page.home.logo %}{{ page.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block float-start border-0 pe-2" width="30" height="30">
         <span class="text-uppercase fw-bolder">{{ page.home.name }}</span>
       </div>
       <div class="text-end">
-        <img src="{% if page.away.logo %}{{ page.away.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block float-end border-0" width="30" height="30">
+        <img src="{% if page.away.logo %}{{ page.away.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block float-end border-0 ps-2" width="30" height="30">
         <span class="text-uppercase fw-bolder">{{ page.away.name }}</span>
       </div>
     </div>
