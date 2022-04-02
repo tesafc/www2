@@ -28,7 +28,7 @@
               <div class="row row-cols-3 text-center py-3">
                 <div class="col">
                   <img src="{% if match.home.logo %}{{ match.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg | relative_url' }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
-                  <span class="fw-bold text-uppercase">
+                  <span class="fw-bold text-uppercase lh-1">
                     {{ match.home.name }}
                   </span>
                 </div>
@@ -39,7 +39,7 @@
                 {% endif %}
                 <div class="col">
                   <img src="{% if match.away.logo %}{{ match.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
-                  <span class="fw-bold text-uppercase">
+                  <span class="fw-bold text-uppercase lh-1">
                     {{ match.away.name }}
                   </span>
                 </div>
