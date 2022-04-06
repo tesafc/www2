@@ -122,6 +122,22 @@ header: header-match
 </div>
 {% endif %}
 
+{% if page.gallery %}
+<div>
+  <div class="container-sm">
+    {% if page.gallery.photos %}
+    <div class="row row-cols-1 row-cols-md-2">
+      {% for photo in page.gallery.photos %}
+      <div class="col">
+        <img src="{{ photo.url }}" alt="" class="img-fluid">
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
 <div>
   {{ content }}
 </div>
