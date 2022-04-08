@@ -8,7 +8,7 @@ dis-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Av
 <div class="bg-light py-5">
   <div class="container-sm px-0">
     {% assign matches = site.matches | group_by: "status" %}
-    <div class="row row-cols-1 g-2">
+    <div class="row row-cols-1 g-3">
       {% for match in matches reversed %}
       <h6 class="d-block w-100 mb-0 text-uppercase text-center fw-bold">{{ match.name }}</h6>
       {% for item in match.items reversed %}
