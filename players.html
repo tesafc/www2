@@ -4,12 +4,12 @@ title: Players
 image: /assets/img/tesafc-full-team-3.png
 ---
 
-<div class="text-white bg-dark" style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));">
+<div class="text-white bg-dark py-5" style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));">
   <div class="container">
     <div class="row row-cols-2 row-cols-md-4 g-2">
       {% assign roles = site.data.players | group_by: "role" %}
       {% for role in roles %}
-      <h6 class="d-block w-100 text-uppercase fw-bold pt-5 mb-0">{{ role.name }}</h6>
+      <h6 class="d-block w-100 text-uppercase fw-bold mb-0">{{ role.name }}</h6>
       {% for player in role.items %}
       <div class="col" style="min-height: 16rem;">
         <div class="card h-100 text-white border-0 rounded-0">
