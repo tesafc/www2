@@ -21,7 +21,8 @@
           <img src="{% if page.image %}{{ page.image }}{% else %}{{ '/assets/img/pp/blank-pp.svg' | relative_url }}{% endif %}" alt="" class="img-fluid rounded-0">
         </div>
         <div class="col d-flex flex-column justify-content-center text-white text-center text-md-start">
-          <p class="fw-bolder text-uppercase lh-1 mb-2" style="font-size: 4em;">{{ page.no-punggung }}</p>
+          <p class="fw-bolder text-uppercase lh-1 mb-3" style="font-size: 4em;">{{ page.no-punggung }}</p>
+          <p class="badge bg-light text-dark text-uppercase">{{ player.position }}</p>
           <p class="fw-bolder text-uppercase lh-1" style="font-size: 3em;">{{ page.title }}</p>
         </div>
       </div>
