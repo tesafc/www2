@@ -3,12 +3,12 @@ layout: default
 ---
 
 <article class="bg-light py-5">
-  <header class="container-sm">
-    <h1 class="text-capitalize mb-0">{{ page.title }}</h1>
-    <h3 class="text-capitalize text-secondary">{{ page.description }}</h3>
+  <header class="container-sm border-bottom">
+    <h1 class="text-capitalize lh-1 mb-0">{{ page.title }}</h1>
+    <h4 class="text-capitalize text-secondary lh-1">{{ page.description }}</h4>
     <time datetime="{{ page.date | date_to_xmlschema }}"><small class="text-secondary mt-3">{{ page.date | date_to_long_string }}</small></time>
   </header>
-  <div class="container-sm" style="max-width: 38em;">
+  <div class="container-sm mt-5" style="width: 38em;">
     {{ content }}
   </div>
 </article>
