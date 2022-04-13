@@ -17,7 +17,7 @@ description:
         <img src="{{ logo.img }}" alt="" class="card-img">
       </div>
     </div>
-    <small class="lh-1 text-secondary">{{ logo.name }}</small>
+    <!--<small class="lh-1 text-secondary">{{ logo.name }}</small>-->
   </div>
   {% endfor %}
   {% endfor %}
@@ -35,14 +35,14 @@ description:
         <img src="{{ logo.img }}" alt="" class="card-img">
       </div>
     </div>
-    <small class="lh-1 text-secondary">{{ logo.name }}</small>
+    <!--<small class="lh-1 text-secondary">{{ logo.name }}</small>-->
   </div>
   {% endfor %}
   {% endfor %}
 </div>
 
 <h2 class="border-bottom pt-5 pb-1">Photos</h2>
-<div class="row row-cols-1 g-3">
+<div class="row row-cols-1 row-cols-md-2 g-3">
   {% assign photos = site.data.assets.photos | group_by: "name" %}
   {% for type in photos %}
   <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
