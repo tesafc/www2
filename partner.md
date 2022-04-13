@@ -1,7 +1,7 @@
 ---
 layout: page
 title: partner
-description: tesa fc official partner & apparel.
+description: official partner & apparel.
 ---
 
 <div class="row row-cols-1 row-cols-md-3 g-3">
