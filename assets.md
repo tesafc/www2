@@ -3,7 +3,8 @@ layout: page
 title: assets
 description:
 ---
-<h2>Logo</h2>
+
+<h2 class="border-bottom">Logo</h2>
 <h3 class="pt-3">Logo 1</h3>
 <div class="row row-cols-2 row-cols-md-3 g-3">
   {% assign logo-1 = site.data.assets.logo.logo-1 | group_by: "img-type" %}
@@ -16,7 +17,7 @@ description:
         <img src="{{ logo.img }}" alt="" class="card-img">
       </div>
     </div>
-    <small class="lh-1">{{ logo.name }}</small>
+    <small class="lh-1 text-secondary">{{ logo.name }}</small>
   </div>
   {% endfor %}
   {% endfor %}
@@ -29,12 +30,12 @@ description:
   <h6 class="d-block w-100 text-uppercase mb-0">{{ type.name }}</h6>
   {% for logo in type.items %}
   <div class="col">
-    <div class="card">
+    <div class="card bg-light">
       <div class="card-body">
         <img src="{{ logo.img }}" alt="" class="card-img">
       </div>
     </div>
-    <small class="lh-1">{{ logo.name }}</small>
+    <small class="lh-1 text-secondary">{{ logo.name }}</small>
   </div>
   {% endfor %}
   {% endfor %}
