@@ -13,7 +13,7 @@ logo:
       img: /assets/img/logo/logo-1_v2_stroke-white_bg-transparent.svg
       img-type: svg
   logo-2:
-    - name: logo 2, stroke black,background white.
+    - name: logo 2, stroke black, background white.
       img: /assets/img/logo/logo-2_v2_bg-transparent.png
       img-type: png
     - name: logo 2, stroke black, background transparent.
