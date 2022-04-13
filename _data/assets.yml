@@ -1,28 +1,30 @@
 logo:
   logo-1:
-    - name: logo 1 background black
+    - name: logo 1, stroke white, background black.
       img: /assets/img/logo/logo-1_v2_bg-transparent.png
       img-type: png
-    - name: logo 1 stroke white background transparent
+    - name: logo 1, stroke white, background transparent.
       img: /assets/img/logo/logo-1_v2_stroke-white_bg-transparent.png
       img-type: png
-    - name: logo 1 background black
+    - name: logo 1, stroke white, background black.
       img: /assets/img/logo/logo-1_v2_bg-transparent.svg
       img-type: svg
-    - name: logo 1 stroke white background transparent
+    - name: logo 1, stroke white, background transparent.
       img: /assets/img/logo/logo-1_v2_stroke-white_bg-transparent.svg
       img-type: svg
   logo-2:
-    - name: logo 2 background white
+    - name: logo 2, stroke black,background white.
       img: /assets/img/logo/logo-2_v2_bg-transparent.png
       img-type: png
-    - name: logo 2 stroke black background transparent
+    - name: logo 2, stroke black, background transparent.
       img: /assets/img/logo/logo-2_v2_stroke-black_bg-transparent.png
       img-type: png
-    - name: logo 2 background white
+    - name: logo 2, stroke black, background white.
       img: /assets/img/logo/logo-2_v2_bg-transparent.svg
       img-type: svg
-    - name: logo 2 stroke black background transparent
+    - name: logo 2, stroke black. background transparent.
       img: /assets/img/logo/logo-2_v2_stroke-black_bg-transparent.svg
       img-type: svg
 photos:
+  - name: full team
+    img: /assets/img/tesafc-full-team-3.png
