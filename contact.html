@@ -17,11 +17,11 @@ contact:
     icon: fa-brands fa-whatsapp
   - type: email
     name: terassaungfc@gmail.com
-    url: terassaungfc@gmail.com
-    icon: fa-brands fa-envelope
+    url: mailto:terassaungfc@gmail.com
+    icon: fa-solid fa-envelope
 ---
 
-<div class="row row-cols-3 g-3">
+<div class="row row-cols-4 g-3">
   {% assign group = page.contact | group_by: "type" %}
   {% for type in group %}
   <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
@@ -31,7 +31,7 @@ contact:
       <div class="card-body p-1">
         <a href="{{ contact.url }}" class="d-block text-center stretched-link link-success text-decoration-none lh-1 p-0" style="font-size: 5em;"><i class="{{ contact.icon }}"></i></a>
       </div>
-      <div class="card-footer bg-white p-0">
+      <div class="card-footer bg-white p-1">
         <small class="d-block text-center text-capitalize">{{ contact.name }}</small>
       </div>
     </div>
