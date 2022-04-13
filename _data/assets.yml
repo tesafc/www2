@@ -1,32 +1,28 @@
 logo:
   logo-1:
-    png:
-      - name: logo 1 background black
-        img: /assets/img/logo/logo-1_bg-transparent.png
-        img-type: png
-      - name: logo 1 stroke white background transparent
-        img: /assets/img/logo/logo-1_stroke-white_bg-transparent.png
-        img-type: png
-    svg:
-      - name: logo 1 background black
-        img: /assets/img/logo/logo-1_bg-transparent.svg
-        img-type: svg
-      - name: logo 1 stroke white background transparent
-        img: /assets/img/logo/logo-1_stroke-white_bg-transparent.svg
-        img-type: svg
+    - name: logo 1 background black
+      img: /assets/img/logo/logo-1_bg-transparent.png
+      img-type: png
+    - name: logo 1 stroke white background transparent
+      img: /assets/img/logo/logo-1_stroke-white_bg-transparent.png
+      img-type: png
+    - name: logo 1 background black
+      img: /assets/img/logo/logo-1_bg-transparent.svg
+      img-type: svg
+    - name: logo 1 stroke white background transparent
+      img: /assets/img/logo/logo-1_stroke-white_bg-transparent.svg
+      img-type: svg
   logo 2:
-    png:
-      - name: logo 2 background white
-        img: /assets/img/logo/logo-2_bg-transparent.png
-        img-type: png
-      - name: logo 2 stroke black background transparent
-        img: /assets/img/logo/logo-2_stroke-black_bg-transparent.png
-        img-type: png
-    svg:
-      - name: logo 2 background white
-        img: /assets/img/logo/logo-2_bg-transparent.svg
-        img-type: svg
-      - name: logo 2 stroke black background transparent
-        img: /assets/img/logo/logo-2_stroke-black_bg-transparent.svg
-        img-type: svg
+    - name: logo 2 background white
+      img: /assets/img/logo/logo-2_bg-transparent.png
+      img-type: png
+    - name: logo 2 stroke black background transparent
+      img: /assets/img/logo/logo-2_stroke-black_bg-transparent.png
+      img-type: png
+    - name: logo 2 background white
+      img: /assets/img/logo/logo-2_bg-transparent.svg
+      img-type: svg
+    - name: logo 2 stroke black background transparent
+      img: /assets/img/logo/logo-2_stroke-black_bg-transparent.svg
+      img-type: svg
 photos:
