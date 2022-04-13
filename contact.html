@@ -4,19 +4,19 @@ title: contact
 description:
 contact:
   - type: whatsapp
-    name: admin 1
+    name: ilfa
     url: +6281296827422
     icon: fa-brands fa-whatsapp
   - type: whatsapp
-    name: admin 2
+    name: angga
     url: +6281296827422
     icon: fa-brands fa-whatsapp
   - type: whatsapp
-    name: admin 3
+    name: ropick
     url: +6281296827422
     icon: fa-brands fa-whatsapp
   - type: whatsapp
-    name: admin 4
+    name: habiel
     url: +6281296827422
     icon: fa-brands fa-whatsapp
 ---
@@ -28,11 +28,11 @@ contact:
   {% for contact in type.items %}
   <div class="col">
     <div class="card">
-      <div class="card-body">
-        <i class="{{ contact.icon }} fs-3 text-center"></i>
+      <div class="card-body p-1">
+        <i class="{{ contact.icon }} d-block fs-3 text-center"></i>
       </div>
-      <div class="card-footer">
-        <small class="card-text text-center">{{ contact.name }}</small>
+      <div class="card-footer p-1">
+        <small class="card-text text-center text-capitalize">{{ contact.name }}</small>
       </div>
     </div>
   </div>
