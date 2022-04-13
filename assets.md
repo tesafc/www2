@@ -41,15 +41,15 @@ description:
   {% endfor %}
 </div>
 
-<h2 class="border-bottom pb-1">Photos</h2>
+<h2 class="border-bottom pt-5 pb-1">Photos</h2>
 <div class="row row-cols-1 g-3">
   {% assign photos = site.data.assets.photos | group_by: "name" %}
   {% for type in photos %}
-  <h6 class="d-block w-100 text-uppercase mb-0">{{ type.name }}</h6>
+  <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
   {% for photo in type.items %}
   <div class="col">
     <div class="card bg-light">
-      <div class="card-body">
+      <div class="card-body p-0">
         <img src="{{ photo.img }}" alt="" class="card-img">
       </div>
     </div>
