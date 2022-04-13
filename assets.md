@@ -10,11 +10,12 @@ description:
   <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
   {% for logo in type.items %}
   <div class="col">
-    <div class="card">
+    <div class="card bg-dark">
       <div class="card-body">
         <img src="{{ logo.img }}" alt="" class="card-img">
       </div>
     </div>
+    <span>{{ logo.name }}</span>
   </div>
   {% endfor %}
   {% endfor %}
