@@ -4,11 +4,11 @@ title: assets
 description:
 ---
 <h2>Logo</h2>
-<h3>Logo 1</h3>
+<h3 class="pt-3">Logo 1</h3>
 <div class="row row-cols-2 row-cols-md-3 g-3">
   {% assign logo-1 = site.data.assets.logo.logo-1 | group_by: "img-type" %}
   {% for type in logo-1 %}
-  <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
+  <h6 class="d-block w-100 text-uppercase mb-0">{{ type.name }}</h6>
   {% for logo in type.items %}
   <div class="col">
     <div class="card bg-dark">
@@ -22,11 +22,11 @@ description:
   {% endfor %}
 </div>
 
-<h3>Logo 2</h3>
+<h3 class="pt-3">Logo 2</h3>
 <div class="row row-cols-2 row-cols-md-3 g-3">
   {% assign logo-2 = site.data.assets.logo.logo-2 | group_by: "img-type" %}
   {% for type in logo-2 %}
-  <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
+  <h6 class="d-block w-100 text-uppercase mb-0">{{ type.name }}</h6>
   {% for logo in type.items %}
   <div class="col">
     <div class="card">
