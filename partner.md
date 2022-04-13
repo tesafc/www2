@@ -15,7 +15,7 @@ description:
         <img src="{{ partner.img }}" alt="" class="card-img">
       </div>
     </div>
-    {% endfor %}
+    {% endfor %} 
   </div>
   {% endfor %}
 </div>
