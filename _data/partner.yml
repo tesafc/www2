@@ -1,0 +1,9 @@
+- name: pok merdeka cell
+  img: /assets/img/POK.png
+  type: official sponsor
+- name: yeni sembako
+  img: /assets/img/yeni-sembako.png
+  type: official sponsor
+- name: redline
+  img: /assets/img/redline.png
+  type: apparel
