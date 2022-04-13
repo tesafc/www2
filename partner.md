@@ -8,14 +8,14 @@ description:
   {% assign partner-group = site.data.partner | group_by: "type" %}
   {% for type in partner-group %}
   <h6>{{ type.name }}</h6>
-  {% for partner in type.items %}
   <div class="col">
+    {% for partner in type.items %}
     <div class="card h-100 bg-light">
       <div class="card-body">
         <img src="{{ partner.img }}" alt="" class="card-img">
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
   {% endfor %}
 </div>
