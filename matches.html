@@ -6,7 +6,7 @@ dis-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Av
 ---
 
 <div class="bg-light pt-5">
-  <div class="container-sm px-0">
+  <div class="container-sm">
     {% assign matches = site.matches | group_by: "status" %}
     <div class="row row-cols-1 g-3">
       {% for match in matches reversed %}
