@@ -22,7 +22,7 @@ dis-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Av
                 <small class="lh-1 float-end fw-bolder">{{ item.home.name }}</small>
               </div>
               <div class="col-2">
-                <img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 rounded-circle bg-light" width="30" height="30">
+                <img src="{% if item.home.logo %}{{ item.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 bg-light" width="30" height="30">
               </div>
               {% if item.status == "last match" %}
               <div class="col-2 fw-bolder">{{ item.result.score }}</div>
@@ -30,7 +30,7 @@ dis-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3CfEcpam9s-Av
               <div class="col-2 fw-bolder">vs</div>
               {% endif %}
               <div class="col-2">
-                <img src="{% if item.away.logo %}{{ item.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 rounded-circle bg-light" width="30" height="30">
+                <img src="{% if item.away.logo %}{{ item.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="border-0 bg-light" width="30" height="30">
               </div>
               <div class="col-3">
                 <small class="lh-1 float-start fw-bolder">{{ item.away.name }}</small>
