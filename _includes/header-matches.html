@@ -28,8 +28,8 @@
               <p class="card-text fw-bolder"><small class="text-uppercase">{{ match.kickoff }}</small></p>
               <div class="row row-cols-3 text-center py-2">
                 <div class="col">
-                  <img src="{% if match.home.logo %}{{ match.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg | relative_url' }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
-                  <span class="fw-bold text-uppercase lh-1">
+                  <img src="{% if match.home.logo %}{{ match.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg | relative_url' }}{% endif %}" alt="" class="d-block mx-auto border-0" width="75" height="75">
+                  <span class="fw-bold text-uppercase lh-1 pt-2">
                     {{ match.home.name }}
                   </span>
                 </div>
@@ -39,8 +39,8 @@
                 <div class="col"><span class="fw-bold text-uppercase fs-1">{{ match.result.score }}</span></div>
                 {% endif %}
                 <div class="col">
-                  <img src="{% if match.away.logo %}{{ match.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
-                  <span class="fw-bold text-uppercase lh-1">
+                  <img src="{% if match.away.logo %}{{ match.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" alt="" class="d-block mx-auto border-0" width="75" height="75">
+                  <span class="fw-bold text-uppercase lh-1 pt-2">
                     {{ match.away.name }}
                   </span>
                 </div>
