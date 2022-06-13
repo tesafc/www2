@@ -25,8 +25,8 @@
               <p class="text-uppercase fw-bolder"><small>{{ page.kickoff }}</small></p>
               <div class="row row-cols-3 text-center py-3">
                 <div class="col">
-                  <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
-                  <span class="fw-bold text-uppercase lh-1">
+                  <img src="{% if page.home.logo %}{{ page.home.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0" width="75" height="75">
+                  <span class="fw-bold text-uppercase lh-1 pt-2">
                     {{ page.home.name }}
                   </span>
                 </div>
@@ -36,8 +36,8 @@
                 <div class="col"><span class="text-uppercase fw-bolder fs-1">{{ page.result.score }}</span></div>
                 {% endif %}
                 <div class="col">
-                  <img src="{% if page.away.logo %}{{ page.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0 pb-2" width="75" height="75">
-                  <span class="fw-bold text-uppercase lh-1">
+                  <img src="{% if page.away.logo %}{{ page.away.logo | relative_url }}{% else %}{{ '/assets/img/logo/logo-blank.svg' }}{% endif %}" alt="" class="d-block mx-auto border-0" width="75" height="75">
+                  <span class="fw-bold text-uppercase lh-1 pt-2">
                     {{ page.away.name }}
                   </span>
                 </div>
