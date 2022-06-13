@@ -47,14 +47,14 @@
                 {% if page.result.goal.home %} 
                 <ul class="col list-group">
                   {% for goal in page.result.goal.home %}
-                  <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 pb-0 ps-1 pe-2 lh-1"><small class="d-inline-block text-secondary">{{ goal.time }}</small><small class="d-inline-block fw-bolder px-2">{{ goal.name }}</small><i class="fa-solid fa-futbol text-secondary"></i></li>
+                  <li class="list-group-item text-end text-capitalize text-white bg-transparent border-0 pb-0 ps-1 pe-2 lh-1"><small class="d-inline-block text-secondary fw-bolder">{{ goal.time }}</small><small class="d-inline-block fw-bolder px-2">{{ goal.name }}</small><i class="fa-solid fa-futbol text-secondary"></i></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
                 {% if page.result.goal.away %}
                 <ul class="col list-group">
                   {% for goal in page.result.goal.away %}
-                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 ps-2 pe-1 lh-1"><i class="fa-solid fa-futbol text-secondary"></i><small class="d-inline-block fw-bolder px-2">{{ goal.name }}</small><small class="d-inline-block text-secondary">{{ goal.time }}</small></li>
+                  <li class="list-group-item text-start text-capitalize text-white bg-transparent border-0 pb-0 ps-2 pe-1 lh-1"><i class="fa-solid fa-futbol text-secondary"></i><small class="d-inline-block fw-bolder px-2">{{ goal.name }}</small><small class="d-inline-block text-secondary fw-bolder">{{ goal.time }}</small></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
