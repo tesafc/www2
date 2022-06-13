@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: /assets/img/logo/logo-1_v4.png
+image: /assets/img/logo-poster_1.png
 ---
 
 About this website
