@@ -2,6 +2,6 @@
 layout: player
 title: ki
 no-punggung: 2
-position: defender
+position: midfielder
 image:
 ---
