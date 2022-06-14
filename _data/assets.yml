@@ -9,7 +9,7 @@ logo:
       img-type: png
 photos:
   - name: full team
-    img: /assets/img/tesafc-full-team-3.png
+    img: https://live.staticflickr.com/65535/52147263543_f1e0cc15ac_b.jpg
   - name: jersey
     img: /assets/img/home-jersey.jpg
   - name: jersey
