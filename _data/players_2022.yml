@@ -238,10 +238,201 @@
   pp:
   profile-link: /players/röbbani
   
+- name: angga feb
+  no-punggung: 18
+  position: forward
+  role: rwf
+  pp:
+  profile-link: /players/angga.feb
   
+- name: gibran
+  no-punggung: 18
+  position: defended
+  role: lb
+  pp:
+  profile-link: /players/gibran
   
+- name: haidar albar
+  no-punggung: 18
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/haidar.albar
   
+- name: yasya
+  no-punggung: 19
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/yasya
   
+- name: abang
+  no-punggung: 20
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/abang
+  
+- name: r. septiannanda
+  no-punggung: 21
+  position: defender
+  role: lb
+  pp:
+  profile-link: /players/r.septiannanda
+  
+- name: sugih
+  no-punggung: 21
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/sugih
+
+- name: g. pratama
+  no-punggung: 22
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/g.pratama
+  
+- name: farhan husaini
+  no-punggung: 23
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/farhan.husaini
+  
+- name: m. azril
+  no-punggung: 25
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/m.azril
+  
+- name: jafra
+  no-punggung: 27
+  position: midfielder
+  role: dmf
+  pp:
+  profile-link: /players/jafra
+  
+- name: prabu
+  no-punggung: 27
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/prabu
+  
+- name: k. mal
+  no-punggung: 30
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/k.mal
+  
+- name: aang
+  no-punggung: 32
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/aang
+  
+- name: no name
+  no-punggung: 33
+  position: 
+  role: 
+  pp:
+  profile-link: /players/noname
+  
+- name: azriel. i
+  no-punggung: 42
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/azriel.i
+  
+- name: angga nugraha
+  no-punggung: 44
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/angga.nugraha
+  
+- name: adzim
+  no-punggung: 45
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/adzim
+  
+- name: bustin jieber
+  no-punggung: 49
+  position: defender
+  role: rb
+  pp:
+  profile-link: /players/bustin.jieber
+  
+- name: habiel
+  no-punggung: 69
+  position: forward
+  role: rwf
+  pp:
+  profile-link: /players/habiel
+  
+- name: ad_prmn
+  no-punggung: 70
+  position: midfielder
+  role: dmf
+  pp:
+  profile-link: /players/ad_prmn
+  
+- name: made
+  no-punggung: 79
+  position:
+  role:
+  pp:
+  profile-link: /players/made
+  
+- name: gusmul
+  no-punggung: 88
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/gusmul
+  
+- name: sukma
+  no-punggung: 89
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/cmf
+  
+- name: septian moy
+  no-punggung: 94
+  position: defender
+  role: lb
+  pp:
+  profile-link: /players/septian.moy
+  
+- name: aldo
+  no-punggung: 96
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/aldo
+  
+- name: m. fajar syamsii
+  no-punggung: 96
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/m.fajar.syamsii
+  
+- name: romi al-gofar
+  no-punggung: 99
+  position: forward
+  role: cf
+  pp:
+  profile-link: /players/romi.al-gofar
   
   
   
