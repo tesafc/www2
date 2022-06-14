@@ -1,7 +1,7 @@
 ---
 layout: player
 header: header-player
-title: jafar
+title: jafra
 no-punggung: 27
 position: midfielder
 image: /assets/img/pp/jafar-new.png
