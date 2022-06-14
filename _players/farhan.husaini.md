@@ -1,7 +1,7 @@
 ---
 layout: player
 title: farhan husaini
-no-punggung: 1
-position: goalkeeper
+no-punggung: 23
+position: defender
 image: /assets/img/pp/farhan-husaini-new.png
 ---
