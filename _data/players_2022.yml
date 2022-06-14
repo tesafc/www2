@@ -334,7 +334,7 @@
   position: management
   role: management
   pp:
-  profile-link: /players/noname
+  profile-link: /players/no.name
   
 - name: azriel. i
   no-punggung: 42
