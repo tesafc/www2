@@ -1,7 +1,7 @@
 ---
 layout: player
 title: maulana
-no-punggung: 15
+no-punggung: 11
 position: midfielder
 image:
 ---
