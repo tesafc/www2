@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Form Data Pemain TESA FC
-image: /assets/img/logo/logo-poster_1.png
+image: /assets/img/logo-poster_1.png
 ---
 
 
