@@ -1,7 +1,7 @@
 ---
 layout: player
 title: made
-no-punggung: 21
+no-punggung: 79
 position: management
 image:
 ---
