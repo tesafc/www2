@@ -392,6 +392,13 @@
   pp:
   profile-link: /players/septian.moy
   
+- name: jocker
+  no-punggung: 95
+  position: midfielder
+  role: dmf
+  pp:
+  profile-link: /players/jocker
+  
 - name: m. fajar syamsii
   no-punggung: 96
   position: goalkeeper
