@@ -25,10 +25,10 @@ contact:
 <div class="row row-cols-3 row-cols-md-4 g-2">
   {% assign group = page.contact | group_by: "type" %}
   {% for type in group %}
-  <h6 class="d-block w-100 text-uppercase mb-0 pt-3">{{ type.name }}</h6>
+  <h6 class="d-block w-100 text-uppercase mb-0 pt-3 fw-bolder">{{ type.name }}</h6>
   {% for contact in type.items %}
   <div class="col">
-    <div class="card">
+    <div class="card rounded-0">
       <div class="card-body p-1">
         <a href="{{ contact.url }}" class="d-block text-center stretched-link link-dark text-decoration-none lh-1 p-0" style="font-size: 5em;"><i class="{{ contact.icon }}"></i></a>
       </div>
