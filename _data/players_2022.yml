@@ -203,9 +203,40 @@
   pp:
   profile-link: /players/junestory
  
-
+- name: ki
+  no-punggung: 2
+  position: midfielder
+  role: amf
+  pp:
+  profile-link: /players/ki
   
+- name: irfan oktavian
+  no-punggung: 15
+  position: midfielder
+  role: dmf
+  pp:
+  profile-link: /players/irfan.oktavian
   
+- name: ardiansyah
+  no-punggung: 16
+  position: forward
+  role: cf
+  pp:
+  profile-link: /players/ardiansyah
+  
+- name: aril a
+  no-punggung: 16
+  position: midfielder
+  role: cmf
+  pp:
+  profile-link: /players/aril.a
+  
+- name: röbbani
+  no-punggung: 17
+  position: forward
+  role: rwf
+  pp:
+  profile-link: /players/röbbani
   
   
   
