@@ -31,9 +31,11 @@ logos:
   <h6 class="d-block w-100 text-uppercase mb-0">{{ type.name }}</h6>
   {% for logo in type.items %}
   <div class="col">
-    <div class="card bg-dark">
-      <div class="card-body">
-        <img src="{{ logo.img }}" alt="" class="card-img">
+    <div class="card rounded-0">
+      <div class="card bg-dark">
+        <div class="card-body">
+          <img src="{{ logo.img }}" alt="" class="card-img">
+        </div>
       </div>
     </div>
   </div>
