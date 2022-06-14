@@ -1,7 +1,7 @@
 ---
 layout: player
-title: raka
-no-punggung: 13
+title: r. septiannanda
+no-punggung: 21
 position: defender
 image: /assets/img/pp/raka-new.png
 ---
