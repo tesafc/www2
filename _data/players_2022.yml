@@ -180,7 +180,7 @@
   position: goalkeeper
   role: gk
   pp:
-  profile-link: /players/bangjak
+  profile-link: /players/bang.jak
   
 - name: bilal
   no-punggung: 12
@@ -201,7 +201,7 @@
   position: forward
   role: cf
   pp:
-  profile-link: /players/junestory
+  profile-link: /players/june.story
   
 - name: irfan oktavian
   no-punggung: 15
@@ -383,7 +383,7 @@
   position: midfielder
   role: cmf
   pp:
-  profile-link: /players/cmf
+  profile-link: /players/sukma
   
 - name: septian moy
   no-punggung: 94
