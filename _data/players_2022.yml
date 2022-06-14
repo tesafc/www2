@@ -49,13 +49,6 @@
   pp:
   profile-link: /players/mekuy
   
-- name: ki
-  no-punggung: 2
-  position: midfielder
-  role: amf
-  pp:
-  profile-link: /players/ki
-  
 - name: asep m
   no-punggung: 3
   position: midfielder
@@ -210,26 +203,12 @@
   pp:
   profile-link: /players/pandu.malik.i
   
-- name: ki
-  no-punggung: 2
-  position: midfielder
-  role: amf
-  pp:
-  profile-link: /players/ki
-  
 - name: june story
   no-punggung: 14
   position: forward
   role: cf
   pp:
   profile-link: /players/junestory
- 
-- name: ki
-  no-punggung: 2
-  position: midfielder
-  role: amf
-  pp:
-  profile-link: /players/ki
   
 - name: irfan oktavian
   no-punggung: 15
@@ -268,7 +247,7 @@
   
 - name: gibran
   no-punggung: 18
-  position: defended
+  position: defender
   role: lb
   pp:
   profile-link: /players/gibran
