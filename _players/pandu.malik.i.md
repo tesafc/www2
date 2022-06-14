@@ -1,7 +1,7 @@
 ---
 layout: player
-title: pandu
-no-punggung: 25
+title: pandu malik i
+no-punggung: 13
 position: forward
 image:
 ---
