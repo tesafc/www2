@@ -1,7 +1,7 @@
 ---
 layout: player
-title: nyoy
-no-punggung: 78
-position: midfielder
+title: abang
+no-punggung: 20
+position: goalkeeper
 image: /assets/img/pp/nyoy-new.png
 ---
