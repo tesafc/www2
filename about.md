@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Sekilas tentang kami
 image: /assets/img/logo-poster_1.png
 ---
 
