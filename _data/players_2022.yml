@@ -1,4 +1,32 @@
 # comment
+  
+- name: aldo
+  no-punggung: 96
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/aldo
+  
+- name: angga nugraha
+  no-punggung: 44
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/angga.nugraha
+  
+- name: m.ropick
+  no-punggung: 7
+  position: midfielder
+  role: amf
+  pp:
+  profile-link: /players/m.ropick
+  
+- name: habiel
+  no-punggung: 69
+  position: forward
+  role: rwf
+  pp:
+  profile-link: /players/habiel
 
 - name: ifan
   no-punggung: 2
@@ -97,13 +125,6 @@
   role: cf
   pp:
   profile-link: /players/a.mansur
-  
-- name: m.ropick
-  no-punggung: 7
-  position: midfielder
-  role: amf
-  pp:
-  profile-link: /players/m.ropick
   
 - name: alby h.r
   no-punggung: 7
@@ -338,8 +359,8 @@
   
 - name: no name
   no-punggung: 33
-  position: 
-  role: 
+  position: management
+  role: management
   pp:
   profile-link: /players/noname
   
@@ -349,13 +370,6 @@
   role: cmf
   pp:
   profile-link: /players/azriel.i
-  
-- name: angga nugraha
-  no-punggung: 44
-  position: defender
-  role: cb
-  pp:
-  profile-link: /players/angga.nugraha
   
 - name: adzim
   no-punggung: 45
@@ -371,13 +385,6 @@
   pp:
   profile-link: /players/bustin.jieber
   
-- name: habiel
-  no-punggung: 69
-  position: forward
-  role: rwf
-  pp:
-  profile-link: /players/habiel
-  
 - name: ad_prmn
   no-punggung: 70
   position: midfielder
@@ -387,8 +394,8 @@
   
 - name: made
   no-punggung: 79
-  position:
-  role:
+  position: management
+  role: management
   pp:
   profile-link: /players/made
   
@@ -412,13 +419,6 @@
   role: lb
   pp:
   profile-link: /players/septian.moy
-  
-- name: aldo
-  no-punggung: 96
-  position: goalkeeper
-  role: gk
-  pp:
-  profile-link: /players/aldo
   
 - name: m. fajar syamsii
   no-punggung: 96
