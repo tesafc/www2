@@ -1,7 +1,7 @@
 ---
 layout: player
 title: ifan
-no-punggung: 12
+no-punggung: 2
 position: midfielder
 image:
 ---
