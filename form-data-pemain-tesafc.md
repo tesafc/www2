@@ -4,5 +4,5 @@ title: Form Data Pemain TESA FC
 image: /assets/img/logo-poster_1.png
 ---
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3zK47vvxKFLCYB2V1EoUUWvb7L4BFKnqsAJJtaR6XmC99xQ/viewform?embedded=true" width="640" height="1850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-<div data-tf-widget="cHX7h2NK" data-tf-iframe-props="title=My typeform" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
