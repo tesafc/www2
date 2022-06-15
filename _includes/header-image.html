@@ -14,6 +14,13 @@
           <a {% if currentPage == '/matches/' %} class="nav-link link-secondary fw-bolder px-2" {% else %} class="nav-link link-light fw-bolder px-2" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
         </nav>
       </div>
+      <div class="d-flex flex-column align-items-end">
+        <h1 class="text-uppercase mb-0">
+          {% if page.title-header %}
+            {{ page.title-header }}
+          {% endif %}
+        </h1>
+      </div>
     </div>
   </div>
 </header>
