@@ -22,7 +22,7 @@ details:
     value: right
 social:
   - name: email
-    url: hagi10alfahri@gmail.com
+    url: mailto:hagi10alfahri@gmail.com
     icon: fa-regular fa-envelope
   - name: whatsapp
     url: https://wa.me/+6289687796542
