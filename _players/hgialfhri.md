@@ -18,4 +18,6 @@ details:
     value: indonesia
   - name: shoe size
     value: 41
+  - name: preferred foot
+    value: right
 ---
