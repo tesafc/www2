@@ -23,11 +23,11 @@ details:
 social:
   - name: email
     url: hagi10alfahri@gmail.com
-    icon:
+    icon: fa-regular fa-envelope
   - name: whatsapp
     url: https://wa.me/+6289687796542
-    icon:
+    icon: fa-brands fa-whatsapp
   - name: instagram
     url: https://instagram.com/hglfhr____
-    icon:
+    icon: fa-brands fa-instagram
 ---
