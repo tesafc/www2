@@ -8,9 +8,9 @@ header: header-player
     <h6 class="text-uppercase">personal details</h6>
     <table class="table table-dark">
       <tbody>
-        {% assign items = site.data.players_2022 %}
+        {% assign items = site.data.players_2022 | sort: 'id' %}
         {% assign id = page.id %}
-        {% if id == items.id %}
+        {% if items == id %}
         {% for item in items %}
         <tr>
           <td>{{ item.details.name }}</td>
