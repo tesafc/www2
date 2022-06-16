@@ -10,10 +10,10 @@ header: header-player
       <tbody>
         {% assign items = site.data.players_2022 %}
         {% if items.id == page.id %}
-        {% for item in items.details %}
+        {% for item in items %}
         <tr>
-          <td>{{ item.name }}</td>
-          <td>{{ item.value }}</td>
+          <td>{{ item.details.name }}</td>
+          <td>{{ item.details.value }}</td>
         </tr>
         {% endfor %}
         {% endif %}
