@@ -1,5 +1,6 @@
 ---
 layout: player
+id: tsa22
 title: hgialfhri
 no-punggung: 10
 position: midfielder
