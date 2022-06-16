@@ -27,6 +27,13 @@
           <p><span class="d-inline badge bg-light text-dark text-uppercase fs-6 p-1">{{ page.position }}</span></p>
           {% endif %}
           <p class="fw-bolder text-uppercase lh-1" style="font-size: 2em;">{{ page.title }}</p>
+          {% if page.social %}
+          <div class="d-flex">
+            {% for item in page.social }}
+            <a href="{{ item.url }}" alt="{{ item.name }}" class="fs-4 link-primary px-1"><i class="{{ item.icon }}"></i></a>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </div>
     </div>
