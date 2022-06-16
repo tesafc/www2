@@ -3,25 +3,23 @@ layout: default
 header: header-player
 ---
 
+{% if page.details %}
 <div class="text-white bg-dark">
   <div class="container-sm">
-    <h6 class="text-uppercase">personal</h6>
+    <h6 class="text-uppercase mb-0">details</h6>
     <table class="table table-dark">
       <tbody>
-        {% assign items = site.data.players_2022 | sort: 'id' %}
-        {% assign id = page.id %}
-        {% if items == id %}
-        {% for item in items %}
+        {% for item in page.details %}
         <tr>
           <td>{{ item.details.name }}</td>
           <td>{{ item.details.value }}</td>
         </tr>
         {% endfor %}
-        {% endif %}
       </tbody>
     </table>
   </div>
 </div>
+{% endif %}
 
 <div>
   {{ content }}
