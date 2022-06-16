@@ -20,4 +20,14 @@ details:
     value: 41
   - name: preferred foot
     value: right
+social:
+  - name: email
+    url: hagi10alfahri@gmail.com
+    icon:
+  - name: whatsapp
+    url: https://wa.me/+6289687796542
+    icon:
+  - name: instagram
+    url: https://instagram.com/hglfhr____
+    icon:
 ---
