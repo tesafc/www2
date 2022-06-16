@@ -4,4 +4,29 @@ title: röbbani
 no-punggung: 17
 position: forward
 image:
+details:
+  - name: position
+    value: forward
+  - name: height
+    value: 178 cm
+  - name: weight
+    value: -
+  - name: date of birth
+    value: 17 agustus 1996
+  - name: nationality
+    value: indonesia
+  - name: shoe size
+    value: 41
+  - name: preferred foot
+    value: right
+social:
+  - name: email
+    url: mailto:agusrobbani08@gmail.com
+    icon: fa-regular fa-envelope
+  - name: whatsapp
+    url: https://wa.me/+62895384160464
+    icon: fa-brands fa-whatsapp
+  - name: instagram
+    url: https://instagram.com/agusrobbani
+    icon: fa-brands fa-instagram
 ---
