@@ -147,12 +147,26 @@
   pp:
   profile-link: /players/fauzan
   
-- name: hgi al fhri
+- id: tsa22
+  name: hgi al fhri
   no-punggung: 10
   position: midfielder
   role: cmf
   pp:
   profile-link: /players/hgialfhri
+  details:
+    - name: position
+      value: midfielder
+    - name: height
+      value: 167 cm
+    - name: weight
+      value: 57 kg
+    - name: date of birth
+      value: 12 oktober 2001
+    - name: nationality
+      value: indonesia
+    - name: shoe size
+      value: 41
   
 - name: saca
   no-punggung: 10
