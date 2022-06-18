@@ -30,4 +30,5 @@ social:
   - name: instagram
     url: https://instagram.com/fajarsabana27
     icon: fa-brands fa-instagram
+    
 ---
