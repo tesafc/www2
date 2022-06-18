@@ -4,9 +4,9 @@ layout: default
 
 <div class="py-5">
   <header class="container-sm pb-5">
-    {% if page.title %}
+    {% unless page.display-title-on-header %}
     <h1 class="text-capitalize">{{ page.title }}</h1>
-    {% endif %}
+    {% endunless %}
     {% if page.description %}
     <h4 class="text-capitalize text-secondary">{{ page.description }}</h4>
     {% endif %}
