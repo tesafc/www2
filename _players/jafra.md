@@ -27,6 +27,6 @@ social:
     url: https://wa.me/+62895383152618
     icon: fa-brands fa-whatsapp
   - name: instagram
-    url: https://instagram.com/fajarsabana27
+    url: https://instagram.com/fajar_sabana27
     icon: fa-brands fa-instagram
 ---
