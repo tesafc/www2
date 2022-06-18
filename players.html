@@ -7,7 +7,7 @@ image: /assets/img/logo-poster_1.png
 
 <div class="text-white bg-dark pb-5" style="background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));">
   <div class="container">
-    <div class="row row-cols-2 row-cols-md-4 g-2">
+    <div class="row row-cols-2 row-cols-md-4">
       {% assign roles = site.data.players_2022 | group_by: "position" %}
       {% for role in roles %}
       <h1 class="d-block w-100 text-uppercase fs-3 fw-bolder pt-5 mb-0">{{ role.name }}</h1>
