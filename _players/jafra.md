@@ -8,9 +8,9 @@ details:
   - name: position
     value: midfielder
   - name: height
-    value: 161 cm
+    value: "-"
   - name: weight
-    value: 56 kg
+    value: "-"
   - name: date of birth
     value: 21 oktober 2001
   - name: nationality
