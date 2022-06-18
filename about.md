@@ -1,5 +1,6 @@
 ---
 layout: page
+display-title-on-header: true
 title: About
 description: Sekilas tentang TESA FC
 image: /assets/img/logo-poster_1.png
