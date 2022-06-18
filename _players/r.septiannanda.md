@@ -26,7 +26,4 @@ social:
   - name: whatsapp
     url: https://wa.me/+6285861809089
     icon: fa-brands fa-whatsapp
-  - name: instagram
-    url: https://instagram.com/raka
-    icon: fa-brands fa-instagram
 ---
