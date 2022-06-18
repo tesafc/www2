@@ -27,6 +27,6 @@ social:
     url: https://wa.me/+6285895798183
     icon: fa-brands fa-whatsapp
   - name: instagram
-    url: https://instagram.com/gitaaaaam_
+    url: https://instagram.com/gitaaaaam__
     icon: fa-brands fa-instagram
 ---
