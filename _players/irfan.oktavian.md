@@ -21,7 +21,7 @@ details:
     value: right
 social:
   - name: email
-    url: mailto:Irfanhilmie42@gmail.com
+    url: mailto:irfanhilmie42@gmail.com
     icon: fa-regular fa-envelope
   - name: whatsapp
     url: https://wa.me/+6281313402361
