@@ -27,6 +27,6 @@ social:
     url: https://wa.me/+6289673824651
     icon: fa-brands fa-whatsapp
   - name: instagram
-    url: https://instagram.com/mhmmd.aji_18
+    url: https://instagram.com/mhmmd.aji18
     icon: fa-brands fa-instagram
 ---
