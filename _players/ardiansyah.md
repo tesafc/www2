@@ -28,6 +28,6 @@ social:
     url: https://wa.me/+6285723601816
     icon: fa-brands fa-whatsapp
   - name: instagram
-    url: https://instagram.com/danil_ardiansyah354
+    url: https://instagram.com/danilardiansyah_354
     icon: fa-brands fa-instagram
 ---
