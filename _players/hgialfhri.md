@@ -1,10 +1,10 @@
 ---
 layout: player
 id: tsa22
-title: hgialfhri
+title: hgi al fhri
 no-punggung: 10
 position: midfielder
-image: /assets/img/pp/hgialfhri-new.png
+image: /assets/img/pp/hgialfhri-new.p
 details:
   - name: position
     value: midfielder
