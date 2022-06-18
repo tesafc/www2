@@ -1,17 +1,16 @@
 ---
 layout: player
-header: header-player
 title: jafra
 no-punggung: 27
 position: midfielder
-image: /assets/img/pp/jafar-new.png
+image:
 details:
   - name: position
     value: midfielder
   - name: height
-    value: -
+    value: 161 cm
   - name: weight
-    value: -
+    value: 56 kg
   - name: date of birth
     value: 21 oktober 2001
   - name: nationality
@@ -30,5 +29,4 @@ social:
   - name: instagram
     url: https://instagram.com/fajarsabana27
     icon: fa-brands fa-instagram
-    
 ---
