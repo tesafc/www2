@@ -10,7 +10,7 @@ details:
   - name: height
     value: 178 cm
   - name: weight
-    value: -
+    value: "-"
   - name: date of birth
     value: 17 agustus 1996
   - name: nationality
