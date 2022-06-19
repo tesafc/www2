@@ -3,8 +3,8 @@ layout: player
 title: habiel
 no-punggung: 69
 position: forward
-image: /assets/img/pp/habiel-new.
-details:
+image: 
+details: 
   - name: position
     value: forward
   - name: role
