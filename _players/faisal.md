@@ -3,8 +3,8 @@ layout: player
 title: faisal
 no-punggung: 4
 position: defender
-image: /assets/img/pp/faisal-new.
-details:
+image:
+details: 
   - name: position
     value: defender
   - name: role
