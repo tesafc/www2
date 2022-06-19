@@ -7,12 +7,16 @@ image: /assets
 details:
   - name: position
     value: forward
+  - name: role
+    value: amf
   - name: height
     value: 173 cm
   - name: weight
     value: 53 kg
   - name: date of birth
     value: 23 mei 2001
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
