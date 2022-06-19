@@ -3,8 +3,8 @@ layout: player
 title: r. septiannanda
 no-punggung: 21
 position: defender
-image: /a
-details:
+image: 
+details: 
   - name: position
     value: defender
   - name: role
