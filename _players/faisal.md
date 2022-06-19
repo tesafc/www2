@@ -7,12 +7,16 @@ image: /assets/img/pp/faisal-new.
 details:
   - name: position
     value: defender
+  - name: role
+    value: rb
   - name: height
     value: 170 cm
   - name: weight
     value: 48 kg
   - name: date of birth
     value: 06 september 2003
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
