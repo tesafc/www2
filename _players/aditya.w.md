@@ -23,5 +23,8 @@ details:
     value: "-"
   - name: preferred foot
     value: right
-    
+social:
+  - name: instagram
+    url: https://instagram.com/adityawgn01
+    icon: fa-brands fa-instagram
 ---
