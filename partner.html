@@ -9,7 +9,7 @@ image: /assets/img/logo-poster_6.png
 <div class="row row-cols-2 g-2">
   {% assign partner-group = site.data.partner | group_by: "type" %}
   {% for type in partner-group %}
-  <h6 class="d-block w-100 fw-bolder text-uppercase mb-0 pt-3">{{ type.name }}</h6>
+  <h1 class="d-block w-100 fs-6 fw-bolder text-uppercase mb-0">{{ type.name }}</h1>
   {% for partner in type.items %}
   <div class="col">
     <div class="card h-100 rounded-0 bg-light">
