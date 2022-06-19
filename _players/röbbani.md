@@ -7,12 +7,16 @@ image:
 details:
   - name: position
     value: forward
+  - name: role
+    value: rwf
   - name: height
     value: 178 cm
   - name: weight
     value: "-"
   - name: date of birth
     value: 17 agustus 1996
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
