@@ -7,12 +7,16 @@ image:
 details:
   - name: position
     value: midfielder
+  - name: role
+    value: dmf
   - name: height
     value: 169 cm
   - name: weight
     value: 59 kg
   - name: date of birth
     value: 31 juli 1999
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
