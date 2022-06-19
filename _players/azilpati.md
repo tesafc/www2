@@ -7,12 +7,16 @@ image:
 details:
   - name: position
     value: midfielder
+  - name: role
+    value: amf
   - name: height
     value: 165 cm
   - name: weight
     value: 60 kg
   - name: date of birth
     value: 01 oktober 2002
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
