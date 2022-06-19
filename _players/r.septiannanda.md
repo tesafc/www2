@@ -7,12 +7,16 @@ image: /a
 details:
   - name: position
     value: defender
+  - name: role
+    value: lb
   - name: height
     value: 165 cm
   - name: weight
     value: 50 kg
   - name: date of birth
     value: 21 september 2005
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
