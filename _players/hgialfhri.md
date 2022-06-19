@@ -4,8 +4,8 @@ id: tsa22
 title: hgi al fhri
 no-punggung: 10
 position: midfielder
-image: /assets/img/pp/hgialfhri-new.p
-details:
+image: 
+details: 
   - name: position
     value: midfielder
   - name: role
