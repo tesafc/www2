@@ -7,12 +7,16 @@ image:
 details:
   - name: position
     value: goalkeeper
+  - name: role
+    value: gk
   - name: height
     value: 164 cm
   - name: weight
     value: 63 kg
   - name: date of birth
     value: 10 oktober 2002
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
