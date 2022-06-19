@@ -7,12 +7,16 @@ image:
 details:
   - name: position
     value: midfielder
+  - name: role
+    value: dmf
   - name: height
     value: "-"
   - name: weight
     value: "-"
   - name: date of birth
     value: 21 oktober 2001
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
