@@ -7,12 +7,16 @@ image: /assets
 details:
   - name: position
     value: forward
+  - name: role
+    value: lwf
   - name: height
     value: 165 cm
   - name: weight
     value: 50 kg
   - name: date of birth
     value: 18 oktober 2003
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
