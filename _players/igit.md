@@ -7,12 +7,16 @@ image:
 details:
   - name: position
     value: forward
+  - name: role
+    value: cf
   - name: height
     value: 161 cm
   - name: weight
     value: 56 kg
   - name: date of birth
     value: 02 april 2000
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
