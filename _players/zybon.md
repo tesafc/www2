@@ -3,7 +3,7 @@ layout: player
 title: zybon
 no-punggung: 8
 position: forward
-image: /assets
+image: 
 details:
   - name: position
     value: forward
@@ -30,7 +30,7 @@ social:
   - name: whatsapp
     url: https://wa.me/+6289673824651
     icon: fa-brands fa-whatsapp
-  - name: instagram
+  - name: instagram 
     url: https://instagram.com/mhmmd.aji18
     icon: fa-brands fa-instagram
 ---
