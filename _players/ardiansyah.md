@@ -4,7 +4,7 @@ header: header-player
 title: ardiansyah
 no-punggung: 16
 position: forward
-image: /assets/i
+image: 
 details:
   - name: position
     value: forward
@@ -31,7 +31,7 @@ social:
   - name: whatsapp
     url: https://wa.me/+6285723601816
     icon: fa-brands fa-whatsapp
-  - name: instagram
+  - name: instagram 
     url: https://instagram.com/danilardiansyah_354
     icon: fa-brands fa-instagram
 ---
