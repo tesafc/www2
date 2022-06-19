@@ -3,7 +3,7 @@ layout: player
 title: m. ropick
 no-punggung: 7
 position: midfielder
-image: /assets
+image: 
 details:
   - name: position
     value: forward
@@ -23,7 +23,7 @@ details:
     value: 39
   - name: preferred foot
     value: right
-social:
+social: 
   - name: email
     url: mailto:muhammadropiquddin@gmail.com
     icon: fa-regular fa-envelope
