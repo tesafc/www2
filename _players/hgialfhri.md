@@ -8,12 +8,16 @@ image: /assets/img/pp/hgialfhri-new.p
 details:
   - name: position
     value: midfielder
+  - name: role
+    value: cmf
   - name: height
     value: 167 cm
   - name: weight
     value: 57 kg
   - name: date of birth
     value: 12 oktober 2001
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
