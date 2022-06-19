@@ -7,12 +7,16 @@ image: /assets/img/pp/habiel-new.
 details:
   - name: position
     value: forward
+  - name: role
+    value: cf
   - name: height
     value: 165 cm
   - name: weight
     value: 57 kg
   - name: date of birth
     value: 11 agustus 2002
+  - name: place of birth
+    value: "-"
   - name: nationality
     value: indonesia
   - name: shoe size
