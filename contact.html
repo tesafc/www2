@@ -19,7 +19,7 @@ contact:
     icon: fa-brands fa-whatsapp
 ---
 
-<div class="row row-cols-3 row-cols-md-4 g-2">
+<div class="row row-cols-3 row-cols-md-4 g-3">
   {% assign group = page.contact | group_by: "type" %}
   {% for type in group %}
   <h1 class="d-block w-100 text-uppercase fs-6 fw-bolder mb-0">{{ type.name }}</h1>
