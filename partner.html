@@ -6,7 +6,7 @@ description: official partner & apparel.
 image: /assets/img/logo-poster_6.png
 ---
 
-<div class="row row-cols-2 g-2">
+<div class="row row-cols-2 g-3">
   {% assign partner-group = site.data.partner | group_by: "type" %}
   {% for type in partner-group %}
   <h1 class="d-block w-100 fs-6 fw-bolder text-uppercase mb-0">{{ type.name }}</h1>
