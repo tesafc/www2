@@ -23,11 +23,11 @@ header: header-player
     </div>
     <div>
       <div class="row row-cols-2 row-cols-md-3 g-3">
-        {% for stat in site.data.players_2022.stats-tsa001 %}
+        {% for item in site.data.players_2022.stats-tsa001 %}
         <div class="col card rounded-0">
           <div class="card-body">
-            <p class="fs-4 text-uppercase text-center mb-0">{{ stat.name }}</p>
-            <p class="fs-1 text-uppercase text-center fw-bolder mb-0">{{ stat.value }}</p>
+            <p class="fs-4 text-uppercase text-center mb-0">{{ item.name }}</p>
+            <p class="fs-1 text-uppercase text-center fw-bolder mb-0">{{ item.value }}</p>
           </div>
         </div>
         {% endfor %}
