@@ -23,7 +23,7 @@ header: header-player
     </div>
     <div>
       <div class="row row-cols-2 row-cols-md-3 g-3">
-        {% for item in site.data.players_2022.items.stats %}
+        {% for item in site.data.players_2022[page.id] %}
         <div class="col card rounded-0">
           <div class="card-body">
             <p class="fs-4 text-uppercase text-center mb-0">{{ item.name }}</p>
