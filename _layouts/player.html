@@ -3,7 +3,6 @@ layout: default
 header: header-player
 ---
 
-{% if page.details %}
 <div class="text-white bg-dark py-5">
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 g-3">
@@ -23,7 +22,7 @@ header: header-player
     </div>
     <div>
       <div class="row row-cols-2 row-cols-md-3 g-3">
-        {% for item in site.data.players_2022[page.id] %}
+        {% for item in site.data.players_2022.stats-tsa001 %}
         <div class="col card rounded-0">
           <div class="card-body">
             <p class="fs-4 text-uppercase text-center mb-0">{{ item.name }}</p>
@@ -35,7 +34,6 @@ header: header-player
     </div>
   </div>
 </div>
-{% endif %}
 
 <div>
   {{ content }}
