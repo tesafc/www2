@@ -6,6 +6,13 @@
   role: gk
   pp:
   profile-link: /players/aldo
+  stats:
+    - name: match played
+      value: "15"
+    - name: cleansheet
+      value: "5"
+    - name: goal
+      value: "0"
   
 - name: angga nugraha
   no-punggung: 44
