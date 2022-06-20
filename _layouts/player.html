@@ -22,12 +22,14 @@ header: header-player
       {% if page.stats %}
       <div class="col text-white bg-dark">
         <h1 class="text-uppercase mb-0 fs-3">statistics</h1>
-        <div class="row row-cols-2 row-cols-md-3 g-3">
+        <div class="row row-cols-3 g-3">
           {% for stat in page.stats %}
-          <div class="col card text-white bg-dark border-white rounded-0 m-0 p-0">
-            <div class="card-body">
-              <p class="fs-6 text-uppercase text-center fw-bolder mb-0">{{ stat.name }}</p>
-              <p class="fs-1 text-uppercase text-center fw-bolder mb-0">{{ stat.value }}</p>
+          <div class="col">
+            <div class="card text-white bg-dark border-white rounded-0">
+              <div class="card-body">
+                <p class="fs-6 text-uppercase text-center fw-bolder mb-0">{{ stat.name }}</p>
+                <p class="fs-1 text-uppercase text-center fw-bolder mb-0">{{ stat.value }}</p>
+              </div>
             </div>
           </div>
           {% endfor %}
