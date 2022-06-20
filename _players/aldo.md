@@ -29,4 +29,12 @@ social:
   - name: whatsapp
     url: https://wa.me/+628996354231
     icon: fa-brands fa-whatsapp
+
+stats:
+  - name: match played
+    value: "15"
+  - name: cleansheet
+    value: "5"
+  - name: goal
+    value: "0"
 ---
