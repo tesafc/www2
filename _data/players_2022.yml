@@ -7,7 +7,7 @@
   role: gk
   pp:
   profile-link: /players/aldo
-  stats:
+  stats-tsa001:
     - name: match played
       value: "15"
     - name: cleansheet
