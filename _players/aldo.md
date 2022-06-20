@@ -33,10 +33,14 @@ social:
 stats:
   - name: matches played
     value: "15"
-  - name: cleansheet
+  - name: clean sheets
     value: "5"
   - name: goal
     value: "0"
+  - name: starting 11
+    value: "13"
+  - name: substitute
+    value: "2"
   - name: yellow cards
     value: "0"
   - name: red cards
