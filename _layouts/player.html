@@ -20,18 +20,20 @@ header: header-player
         </table>
       </div>
     </div>
+    {% if page.stats %}
     <div>
       <div class="row row-cols-2 row-cols-md-3 g-3">
-        {% for item in site.data.players_2022.items.stats-tsa001 %}
+        {% for stat in page.stats %}
         <div class="col card rounded-0">
           <div class="card-body">
-            <p class="fs-4 text-uppercase text-center mb-0">{{ item.name }}</p>
-            <p class="fs-1 text-uppercase text-center fw-bolder mb-0">{{ item.value }}</p>
+            <p class="fs-4 text-uppercase text-center mb-0">{{ stat.name }}</p>
+            <p class="fs-1 text-uppercase text-center fw-bolder mb-0">{{ stat.value }}</p>
           </div>
         </div>
         {% endfor %}
       </div>
     </div>
+    {% endif %}
   </div>
 </div>
 
