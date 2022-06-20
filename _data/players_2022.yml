@@ -1,12 +1,13 @@
 # comment
   
-- name: aldo
+- id: tsa001
+  name: aldo
   no-punggung: 96
   position: goalkeeper
   role: gk
   pp:
   profile-link: /players/aldo
-  stats:
+  stats-tsa001:
     - name: match played
       value: "15"
     - name: cleansheet
