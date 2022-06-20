@@ -31,10 +31,14 @@ social:
     icon: fa-brands fa-whatsapp
 
 stats:
-  - name: match played
+  - name: matches played
     value: "15"
   - name: cleansheet
     value: "5"
   - name: goal
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
     value: "0"
 ---
