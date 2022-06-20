@@ -21,10 +21,10 @@ header: header-player
         </table>
       </div>
     </div>
-    {% assign player = site.data.players_2022.stats %}
+    {% assign player = site.data.players_2022.stats-{{ page.id }} %}
     {% assign stats-id = site.data.players_2022.id %}
     {% assign player-id = page.id %}
-    {% if player and stats-id == player-id %}
+    {% if player %}
     <div>
       <div class="row row-cols-2 row-cols-md-3 g-3">
         {% for stat in player %}
