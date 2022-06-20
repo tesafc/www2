@@ -1,7 +1,7 @@
 ---
 layout: player
 header: header-player
-id: tsa001
+id: "tsa001"
 title: aldo
 no-punggung: 23
 position: goalkeeper
