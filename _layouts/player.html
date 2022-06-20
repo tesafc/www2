@@ -22,12 +22,9 @@ header: header-player
       </div>
     </div>
     {% assign player = site.data.players_2022 %}
-    {% assign stats-id = site.data.players_2022.id %}
-    {% assign player-id = page.id %}
-    {% if player %}
     <div>
       <div class="row row-cols-2 row-cols-md-3 g-3">
-        {% for stat in player.stats-tsa001 %}
+        {% for stat in site.data.players_2022.stats-tsa001 %}
         <div class="col card rounded-0">
           <div class="card-body">
             <p class="fs-4 text-uppercase text-center mb-0">{{ stat.name }}</p>
@@ -37,7 +34,6 @@ header: header-player
         {% endfor %}
       </div>
     </div>
-    {% endif %}
   </div>
 </div>
 {% endif %}
