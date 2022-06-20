@@ -20,11 +20,11 @@ header: header-player
         </table>
       </div>
       {% if page.stats %}
-      <div class="col text-white bg-dark">
+      <div class="col text-white bg-dark px-3">
         <h1 class="text-uppercase mb-0 fs-3 pb-3">statistics</h1>
         <div class="row row-cols-2 row-cols-md-3 g-3">
           {% for stat in page.stats %}
-          <div class="col p-0">
+          <div class="col p-0 m-0">
             <div class="card h-100 text-white bg-dark border-white rounded-0">
               <div class="card-body">
                 <p class="fs-6 text-uppercase text-center fw-bolder mb-0">{{ stat.name }}</p>
