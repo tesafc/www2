@@ -3,7 +3,7 @@ layout: player
 title: bang jak
 no-punggung: 12
 position: goalkeeper
-image:
+image: https://source.unsplash.com/apJKb2Js_Vg
 details:
   - name: position
     value: goalkeeper
