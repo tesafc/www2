@@ -30,4 +30,20 @@ social:
   - name: instagram
     url: https://instagram.com/septianmoy95gmail.com5
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "1"
+  - name: starts
+    value: "0"
+  - name: substitutes
+    value: "1"
+  - name: clean sheets
+    value: "1"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
