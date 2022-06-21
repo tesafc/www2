@@ -30,5 +30,20 @@ social:
   - name: instagram
     url: https://instagram.com/muhamad_gibran12
     icon: fa-brands fa-instagram
----
+
+stats:
+  - name: matches played
+    value: "14"
+  - name: starts
+    value: "3"
+  - name: substitutes
+    value: "11"
+  - name: clean sheets
+    value: "2"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
