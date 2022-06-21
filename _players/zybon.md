@@ -33,4 +33,20 @@ social:
   - name: instagram 
     url: https://instagram.com/mhmmd.aji18
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "16"
+  - name: starts
+    value: "7"
+  - name: substitutes
+    value: "9"
+  - name: goals
+    value: "6"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
