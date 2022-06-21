@@ -33,4 +33,20 @@ social:
   - name: instagram
     url: https://instagram.com/habiel77
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "14"
+  - name: starts
+    value: "13"
+  - name: substitutes
+    value: "1"
+  - name: goals
+    value: "11"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
