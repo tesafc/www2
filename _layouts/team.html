@@ -13,7 +13,7 @@ layout: default
       <h6 class="d-block w-100 text-uppercase fw-bolder pt-3 mb-0">{{ role.name }}</h6>
       {% for player in role.items %}
       <div class="col">
-        <div class="card h-100 bg-dark border-0 rounded-0 shadow-sm" style="min-height:15rem;">
+        <div class="card h-100 bg-dark border-0 rounded-0 shadow-sm" style="min-height:14rem;">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/blank-pp.png' | relative_url }}{% endif %}" class="card-img h-auto border-0 rounded-0" alt="">
           <div class="card-img-overlay d-flex flex-column justify-content-between rounded-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));">
             <h2 class="card-text fw-bolder mb-0">{{ player.no-punggung }}</h2>
