@@ -96,6 +96,14 @@
   pp:
   profile-link: /players/ditya
   
+- name: adzim
+  no-punggung: 45
+  position: goalkeeper
+  role: gk
+  teams: tesafc-junior
+  pp:
+  profile-link: /players/adzim
+  
 - name: masdeka
   no-punggung: 6
   position: midfielder
@@ -375,14 +383,6 @@
   teams: tesafc-senior
   pp:
   profile-link: /players/angga.nugraha
-  
-- name: adzim
-  no-punggung: 45
-  position: goalkeeper
-  role: gk
-  teams: tesafc-junior
-  pp:
-  profile-link: /players/adzim
   
 - name: bustin jieber
   no-punggung: 49
