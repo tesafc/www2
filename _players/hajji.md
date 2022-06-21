@@ -23,4 +23,20 @@ details:
     value: "-"
   - name: preferred foot
     value: right
+    
+stats:
+  - name: matches played
+    value: "2"
+  - name: starts
+    value: "2"
+  - name: substitutes
+    value: "0"
+  - name: goals
+    value: "1"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
