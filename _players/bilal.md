@@ -30,7 +30,7 @@ stats:
   - name: starts
     value: "0"
   - name: substitutes
-    value: "0"
+    value: "1"
   - name: clean sheets
     value: "0"
   - name: goals
