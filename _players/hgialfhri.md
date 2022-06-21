@@ -39,7 +39,7 @@ stats:
   - name: matches played
     value: "9"
   - name: starts
-    value: "0"
+    value: "9"
   - name: substitutes
     value: "0"
   - name: goals
