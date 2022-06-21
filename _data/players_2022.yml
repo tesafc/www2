@@ -24,6 +24,14 @@
   pp:
   profile-link: /players/ifan
   
+- name: yani
+  no-punggung: 4
+  position: midfielder
+  role: cmf
+  teams: putri-tesafc
+  pp:
+  profile-link: /players/yani
+  
 - name: igit
   no-punggung: 5
   position: forward
@@ -72,14 +80,6 @@
   pp:
   profile-link: /players/faisal
   
-- name: yani
-  no-punggung: 4
-  position: midfielder
-  role: cmf
-  teams: putri-tesafc
-  pp:
-  profile-link: /players/yani
-  
 - name: aditya w
   no-punggung: 5
   position: defender
@@ -103,6 +103,14 @@
   teams: tesafc-junior
   pp:
   profile-link: /players/adzim
+  
+- name: bilal
+  no-punggung: 12
+  position: defender
+  role: lb
+  teams: tesafc-junior
+  pp:
+  profile-link: /players/bilal
   
 - name: masdeka
   no-punggung: 6
@@ -192,14 +200,6 @@
   teams: tesafc-senior
   pp:
   profile-link: /players/azilpati
-  
-- name: bilal
-  no-punggung: 12
-  position: defender
-  role: lb
-  teams: tesafc-junior
-  pp:
-  profile-link: /players/bilal
   
 - name: pandu malik i
   no-punggung: 13
