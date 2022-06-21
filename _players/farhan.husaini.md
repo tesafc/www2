@@ -30,4 +30,20 @@ social:
   - name: instagram
     url: https://instagram.com/faarhanhusaini
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "10"
+  - name: starts
+    value: "2"
+  - name: substitutes
+    value: "8"
+  - name: clean sheets
+    value: "0"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
