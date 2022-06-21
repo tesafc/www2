@@ -259,28 +259,6 @@
   role: cmf
   pp:
   profile-link: /players/sugih
-  
-- id:
-  name: aldo
-  no-punggung: 96
-  position: goalkeeper
-  role: gk
-  pp:
-  profile-link: /players/aldo
-  
-- name: angga nugraha
-  no-punggung: 44
-  position: defender
-  role: cb
-  pp:
-  profile-link: /players/angga.nugraha
-  
-- name: habiel
-  no-punggung: 69
-  position: forward
-  role: rwf
-  pp:
-  profile-link: /players/habiel
 
 - name: g. pratama
   no-punggung: 22
@@ -345,6 +323,13 @@
   pp:
   profile-link: /players/azriel.i
   
+- name: angga nugraha
+  no-punggung: 44
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/angga.nugraha
+  
 - name: adzim
   no-punggung: 45
   position: goalkeeper
@@ -358,6 +343,13 @@
   role: rb
   pp:
   profile-link: /players/bustin.jieber
+  
+- name: habiel
+  no-punggung: 69
+  position: forward
+  role: rwf
+  pp:
+  profile-link: /players/habiel
   
 - name: ad_prmn
   no-punggung: 70
@@ -400,6 +392,14 @@
   role: dmf
   pp:
   profile-link: /players/jocker
+  
+- id:
+  name: aldo
+  no-punggung: 96
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/aldo
   
 - name: m. fajar syamsii
   no-punggung: 96
