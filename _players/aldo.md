@@ -35,7 +35,7 @@ stats:
     value: "15"
   - name: clean sheets
     value: "2"
-  - name: goal
+  - name: goals
     value: "0"
   - name: starts
     value: "9"
