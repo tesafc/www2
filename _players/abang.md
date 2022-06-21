@@ -3,7 +3,7 @@ layout: player
 title: abang
 no-punggung: 20
 position: goalkeeper
-image: 
+image: https://source.unsplash.com/uyaTT9u6AvI
 details:
   - name: position
     value: goalkeeper
