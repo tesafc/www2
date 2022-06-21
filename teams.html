@@ -18,7 +18,7 @@ teams:
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for team in page.teams %}
       <div class="col">
-        <div class="card text-white bg-dark rounded-0" style="min-height: 16rem; background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));">
+        <div class="card text-white bg-dark rounded-0" style="min-height: 16rem; background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));">
           <div class="card-body d-flex flex-column justify-content-end">
             <a href="{{ team.url | relative_url }}" alt="" class="card-text fs-5 lh-1 card-link link-light text-decoration-none stretched-link text-uppercase fw-bolder">{{ team.name }}</a>
           </div>
