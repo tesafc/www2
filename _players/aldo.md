@@ -34,13 +34,13 @@ stats:
   - name: matches played
     value: "15"
   - name: clean sheets
-    value: "5"
+    value: "2"
   - name: goal
     value: "0"
   - name: starts
-    value: "13"
+    value: "9"
   - name: substitutes
-    value: "2"
+    value: "6"
   - name: yellow cards
     value: "0"
   - name: red cards
