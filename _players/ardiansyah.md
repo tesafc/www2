@@ -34,4 +34,20 @@ social:
   - name: instagram 
     url: https://instagram.com/danilardiansyah_354
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "16"
+  - name: starts
+    value: "15"
+  - name: substitutes
+    value: "1"
+  - name: goals
+    value: "4"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
