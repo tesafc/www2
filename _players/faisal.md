@@ -33,4 +33,20 @@ social:
   - name: instagram
     url: https://instagram.com/faisalyusup69
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "16"
+  - name: starts
+    value: "3"
+  - name: substitutes
+    value: "13"
+  - name: clean sheets
+    value: "2"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
