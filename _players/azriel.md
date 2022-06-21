@@ -23,4 +23,20 @@ details:
     value: 42
   - name: preferred foot
     value: right
+    
+stats:
+  - name: matches played
+    value: "8"
+  - name: starts
+    value: "1"
+  - name: substitutes
+    value: "7"
+  - name: clean sheets
+    value: "2"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
