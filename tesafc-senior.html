@@ -11,7 +11,7 @@ teams: "tesafc-senior"
   <div class="container">
     <h1 class="fs-3 text-uppercase fw-bolder mb-0">players</h1>
     {% assign selected-teams = page.teams %}
-    {% assign team = site.data.players_2022 | where: "teams", "{{ page.teams }}" %}
+    {% assign team = site.data.players_2022 | where: "teams", "selected-teams" %}
     {% assign positions = team | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-4 g-3">
       {% for role in positions %}
