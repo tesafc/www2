@@ -33,4 +33,20 @@ social:
   - name: instagram
     url: https://instagram.com/fadazril_
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "3"
+  - name: starts
+    value: "1"
+  - name: substitutes
+    value: "2"
+  - name: goals
+    value: "0"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
