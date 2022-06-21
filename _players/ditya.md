@@ -28,4 +28,20 @@ social:
   - name: whatsapp
     url: https://wa.me/+6281564747095
     icon: fa-brands fa-whatsapp
+    
+stats:
+  - name: matches played
+    value: "3"
+  - name: starts
+    value: "3"
+  - name: substitutes
+    value: "0"
+  - name: clean sheets
+    value: "0"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
