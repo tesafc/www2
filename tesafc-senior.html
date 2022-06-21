@@ -6,3 +6,20 @@ description:
 image:
 ---
 
+<div class="py-5 text-white bg-dark">
+  <div class="container">
+    <h1 class="fs-3 text-uppercase fw-bolder mb-0">players</h1>
+    {% assign team = site.data.players_2022 | group_by: "teams" %}
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card border rounded-0 shadow-sm" style="min-height:16rem;">
+          <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/blank-pp.png | relative_url' }}{% endif %}" class="card-img border-0" alt="">
+          <div class="card-img-overlay d-flex flex-column justify-content-between">
+            <h2 class="card-text fw-bolder mb-0">{{ player.no-punggung }}</h2>
+            <a href="{{ player.profile-link | relative_url }}" class="card-text link-white stretched-link text-decoration-none fw-bolder text-uppercase lh-1 mb-0" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
