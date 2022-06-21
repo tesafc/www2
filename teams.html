@@ -17,8 +17,8 @@ teams:
   <div class="container">
     <div class="row row-cols-2 row-cols-md-3 g-3">
       {% for team in page.teams %}
-      <div class="col" style="min-height: 16rem;">
-        <div class="card border shadow-sm rounded-0">
+      <div class="col">
+        <div class="card border shadow-sm rounded-0" style="min-height: 16rem;">
           <div class="card-body">
             <a href="{{ team.url | relative_url }}" alt="" class="card-text card-link link-dark text-decoration-none stretched-link text-uppercase">{{ team.name }}</a>
           </div>
