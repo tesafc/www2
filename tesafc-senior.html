@@ -4,13 +4,19 @@ display-title-on-header: true
 title: tesa fc senior
 description:
 image:
+teams: tesafc-senior
 ---
 
 <div class="py-5 text-white bg-dark">
   <div class="container">
     <h1 class="fs-3 text-uppercase fw-bolder mb-0">players</h1>
-    {% assign team = site.data.players_2022 | group_by: "teams" %}
+    {% assign team = site.data.players_2022 | where: "teams", "{{ page.teams }}" %}
+    {% assign positions = team | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-4 g-3">
+      {% for position in positions %}
+      <h6 class="d-block w-100 text-uppercase fw-bolder mb-0">{{ position.name }}</h6>
+      {% endfor %}
+      {% for player in position.items %}
       <div class="col">
         <div class="card border rounded-0 shadow-sm" style="min-height:16rem;">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/blank-pp.png | relative_url' }}{% endif %}" class="card-img border-0" alt="">
@@ -20,6 +26,7 @@ image:
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </div>
