@@ -30,4 +30,20 @@ social:
   - name: instagram
     url: https://instagram.com/_aakmal12
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "0"
+  - name: starts
+    value: "0"
+  - name: substitutes
+    value: "0"
+  - name: goals
+    value: "0"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
