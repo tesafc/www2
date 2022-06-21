@@ -37,9 +37,9 @@ stats:
     value: "5"
   - name: goal
     value: "0"
-  - name: starting 11
+  - name: starts
     value: "13"
-  - name: substitute
+  - name: substitutes
     value: "2"
   - name: yellow cards
     value: "0"
