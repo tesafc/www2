@@ -10,7 +10,7 @@ layout: default
     <div class="row row-cols-2 row-cols-md-4 g-3">
       <h1 class="d-block w-100 fs-3 text-uppercase fw-bolder mb-0">players</h1>
       {% for role in positions %}
-      <h6 class="d-block w-100 text-uppercase fw-bolder pt-5 mb-0">{{ role.name }}</h6>
+      <h6 class="d-block w-100 text-uppercase fw-bolder pt-3 mb-0">{{ role.name }}</h6>
       {% for player in role.items %}
       <div class="col">
         <div class="card border-0 rounded-0 shadow-sm" style="min-height:16rem;">
