@@ -14,8 +14,7 @@ teams: tesafc-senior
     {% assign positions = team | group_by: "position" %}
     <div class="row row-cols-2 row-cols-md-4 g-3">
       {% for role in positions %}
-      <h6 class="d-block w-100 text-uppercase fw-bolder mb-0">{{ role.name }}test</h6>
-      {% endfor %}
+      <h6 class="d-block w-100 text-uppercase fw-bolder mb-0">{{ role.name }}</h6>
       {% for player in role.items %}
       <div class="col">
         <div class="card border rounded-0 shadow-sm" style="min-height:16rem;">
@@ -26,6 +25,7 @@ teams: tesafc-senior
           </div>
         </div>
       </div>
+      {% endfor %}
       {% endfor %}
     </div>
   </div>
