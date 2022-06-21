@@ -31,9 +31,9 @@ stats:
     value: "0"
   - name: substitutes
     value: "0"
-  - name: clean sheets
-    value: "0"
   - name: goals
+    value: "0"
+  - name: assists
     value: "0"
   - name: yellow cards
     value: "0"
