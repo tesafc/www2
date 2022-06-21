@@ -1,4 +1,18 @@
 # comment
+  
+- name: bang jak
+  no-punggung: 12
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/bang.jak
+  
+- name: fahri husaini
+  no-punggung: 3
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/fahri.husaini
 
 - name: ifan
   no-punggung: 2
@@ -6,6 +20,13 @@
   role: cmf
   pp:
   profile-link: /players/ifan
+  
+- name: igit
+  no-punggung: 5
+  position: forward
+  role: cf
+  pp:
+  profile-link: /players/igit
   
 - name: ki
   no-punggung: 2
@@ -27,13 +48,6 @@
   role: cmf
   pp:
   profile-link: /players/asep.m
-  
-- name: fahri husaini
-  no-punggung: 3
-  position: defender
-  role: cb
-  pp:
-  profile-link: /players/fahri.husaini
   
 - name: azriel
   no-punggung: 4
@@ -62,13 +76,6 @@
   role: cb
   pp:
   profile-link: /players/aditya.w
-  
-- name: igit
-  no-punggung: 5
-  position: forward
-  role: cf
-  pp:
-  profile-link: /players/igit
   
 - name: ditya
   no-punggung: 6
@@ -154,13 +161,6 @@
   role: cmf
   pp:
   profile-link: /players/azilpati
-  
-- name: bang jak
-  no-punggung: 12
-  position: goalkeeper
-  role: gk
-  pp:
-  profile-link: /players/bang.jak
   
 - name: bilal
   no-punggung: 12
