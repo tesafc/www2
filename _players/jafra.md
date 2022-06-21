@@ -33,4 +33,20 @@ social:
   - name: instagram
     url: https://instagram.com/fajar_sabana27
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "4"
+  - name: starts
+    value: "0"
+  - name: substitutes
+    value: "4"
+  - name: goals
+    value: "0"
+  - name: assists
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
