@@ -11,7 +11,7 @@
           {% assign currentPage = page.url %}
           <a {% if currentPage == '/news/' %} class="nav-link link-secondary fw-bolder px-2" {% else %} class="nav-link link-light fw-bolder px-2" {% endif %} href="{{ 'news' | relative_url }}">News</a>
           <a {% if currentPage == '/teams/' %} class="nav-link link-secondary fw-bolder px-2" {% else %} class="nav-link link-light fw-bolder px-2" {% endif %} href="{{ 'teams' | relative_url }}">Teams</a>
-          <a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary fw-bolder" {% else %} class="nav-link px-2 text-white fw-bolder" {% endif %} href="{{ 'players' | relative_url }}">Players</a>
+          <!--<a {% if currentPage == '/players/' %} class="nav-link px-2 link-secondary fw-bolder" {% else %} class="nav-link px-2 text-white fw-bolder" {% endif %} href="{{ 'players' | relative_url }}">Players</a>-->
           <a {% if currentPage == '/matches/' %} class="nav-link px-2 link-secondary fw-bolder" {% else %} class="nav-link px-2 text-white fw-bolder" {% endif %} href="{{ 'matches' | relative_url }}">Matches</a>
         </nav>
       </div>
