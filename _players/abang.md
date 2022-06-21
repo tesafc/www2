@@ -33,4 +33,20 @@ social:
   - name: instagram
     url: https://instagram.com/dreeeandree
     icon: fa-brands fa-instagram
+    
+stats:
+  - name: matches played
+    value: "6"
+  - name: starts
+    value: "0"
+  - name: substitutes
+    value: "6"
+  - name: clean sheets
+    value: "0"
+  - name: goals
+    value: "0"
+  - name: yellow cards
+    value: "0"
+  - name: red cards
+    value: "0"
 ---
