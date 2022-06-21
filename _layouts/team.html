@@ -28,7 +28,7 @@ layout: default
   <div class="container">
     {% assign selected-teams = page.teams %}
     {% assign match = site.matches | where: "teams", selected-teams %}
-    {% assign match-win = match.result | where: "conclusion", "win" %}
+    {% assign match-win = match.result.conclusion | where: "conclusion", "win" %}
     <div class="row">
       <div class="col">
         <div class="p-3">
