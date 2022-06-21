@@ -15,7 +15,7 @@ layout: default
       <div class="col">
         <div class="card bg-dark border-0 rounded-0 shadow-sm" style="min-height:16rem;">
           <img src="{% if player.pp %}{{ player.pp }}{% else %}{{ '/assets/img/blank-pp.png' | relative_url }}{% endif %}" class="card-img border-0 rounded-0" alt="">
-          <div class="card-img-overlay d-flex flex-column justify-content-between rounded-0 p-2" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));">
+          <div class="card-img-overlay d-flex flex-column justify-content-between rounded-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));">
             <h2 class="card-text fw-bolder mb-0">{{ player.no-punggung }}</h2>
             <a href="{{ player.profile-link | relative_url }}" class="card-text fs-5 link-light stretched-link text-decoration-none fw-bolder text-uppercase lh-1 mb-0" alt="">{{ player.name }}</a>
           </div>
