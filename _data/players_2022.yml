@@ -1,33 +1,4 @@
 # comment
-  
-- id: "tsa001"
-  name: aldo
-  no-punggung: 96
-  position: goalkeeper
-  role: gk
-  pp:
-  profile-link: /players/aldo
-  
-- name: angga nugraha
-  no-punggung: 44
-  position: defender
-  role: cb
-  pp:
-  profile-link: /players/angga.nugraha
-  
-- name: m.ropick
-  no-punggung: 7
-  position: midfielder
-  role: amf
-  pp:
-  profile-link: /players/m.ropick
-  
-- name: habiel
-  no-punggung: 69
-  position: forward
-  role: rwf
-  pp:
-  profile-link: /players/habiel
 
 - name: ifan
   no-punggung: 2
@@ -127,6 +98,13 @@
   pp:
   profile-link: /players/alby.h.r
   
+- name: m.ropick
+  no-punggung: 7
+  position: midfielder
+  role: amf
+  pp:
+  profile-link: /players/m.ropick
+  
 - name: hajji
   no-punggung: 8
   position: forward
@@ -148,7 +126,7 @@
   pp:
   profile-link: /players/fauzan
   
-- id: tsa22
+- id:
   name: hgi al fhri
   no-punggung: 10
   position: midfielder
@@ -281,6 +259,28 @@
   role: cmf
   pp:
   profile-link: /players/sugih
+  
+- id:
+  name: aldo
+  no-punggung: 96
+  position: goalkeeper
+  role: gk
+  pp:
+  profile-link: /players/aldo
+  
+- name: angga nugraha
+  no-punggung: 44
+  position: defender
+  role: cb
+  pp:
+  profile-link: /players/angga.nugraha
+  
+- name: habiel
+  no-punggung: 69
+  position: forward
+  role: rwf
+  pp:
+  profile-link: /players/habiel
 
 - name: g. pratama
   no-punggung: 22
