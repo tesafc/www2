@@ -12,7 +12,7 @@ header: header-player
           <tbody>
             {% for item in page.details %}
             <tr class="row g-2 px-1">
-              <td class="col-5 text-capitalize text-secondary ps-0">{{ item.name }}</td>
+              <td class="col-5 text-capitalize ps-0">{{ item.name }}</td>
               <td class="col-7 text-uppercase">{{ item.value }}</td>
             </tr>
             {% endfor %}
@@ -26,7 +26,7 @@ header: header-player
           {% for stat in page.stats %}
           <div class="col border border-secondary">
             <div class="text-center py-3 px-1">
-              <p class="fs-6 text-uppercase fw-bolder mb-0">{{ stat.name }}</p>
+              <p class="fs-6 text-uppercase lh-1 mb-0">{{ stat.name }}</p>
               <p class="fs-1 text-uppercase fw-bolder mb-0">{{ stat.value }}</p>
             </div>
           </div>
