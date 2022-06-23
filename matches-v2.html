@@ -40,9 +40,10 @@ image:
               </div>
               <a href="{{ match.url }}" class="card-text text-center text-capitalize stretched-link link-dark text-decoration-none mb-0">{{ match.place }}</a>
             </div>
-            {% unless match == nil %}
+            {% assign next-match = match | where: "status", "next match" %}
+            {% if next-match == nil %}
             <p class="card-text text-center mb-0">no match available</p>
-            {% endunless %}
+            {% endif %}
           </div>
         </div>
         {% endfor %}
