@@ -26,7 +26,7 @@ image:
                 <div class="col-2">
                   <img src="{% if match.home.logo %}{{ match.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" class="border-0" alt="" width="30" height="30">
                 </div>
-                {% if item.status == "last match" %}
+                {% if match.status == "last match" %}
                 <div class="col-2 fw-bolder">{{ item.result.score }}</div>
                 {% else %}
                 <div class="col-2 fw-bolder">vs</div>
