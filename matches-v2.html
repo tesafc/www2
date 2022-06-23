@@ -10,9 +10,9 @@ image:
   <div class="container">
     <h1 class="fs-3 text-uppercase mb-0">matchplan</h1>
     {% assign all-matches = site.matches | group_by: "status" %}
+      <div class="row row-cols-1 g-3">
       {% for matches in all-matches %}
       <h6 class="text-uppercase mb-0">{{ matches.name }}</h6>
-      <div class="row row-cols-1 g-3">
         {% for match in matches.items reversed %}
         <div class="col">
           <div class="card border-0 rounded-0 shadow-sm">
