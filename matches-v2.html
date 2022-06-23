@@ -12,14 +12,14 @@ image:
       {% assign all-matches = site.matches | group_by: "status" %}
       <div class="row row-cols-1 g-3">
       {% for matches in all-matches reversed %}
-      <h6 class="text-uppercase pt-3 mb-0">{{ matches.name }}</h6>
+      <h6 class="text-uppercase fw-bolder pt-3 mb-0">{{ matches.name }}</h6>
         {% for match in matches.items reversed %}
         <div class="col">
           <div class="card text-dark border-0 rounded-0 shadow-sm">
             <div class="card-body py-3">
-              <p class="card-text text-center text-uppercase fw-bolder mb-0"><small>{{ match.type }}{{ match.competition | prepend: " • " }}{{ match.matchday | prepend: " • " }}</small></p>
-              <p class="card-text text-center text-uppercase mb-0">{{ match.kickoff }}</p>
-              <div class="row row-cols-5 g-0 d-flex justify-content-around align-items-center text-center text-uppercase">
+              <p class="card-text text-center text-uppercase lh-1 fw-bolder mb-0"><small>{% if match.type %}{{ match.type }}{% endif %}{% if match.competition %}{{ match.competition | prepend: " • " }}{% endif %}{% if match.matchday %}{{ match.matchday | prepend: " • " }}{% endif %}</small></p>
+              <p class="card-text text-center text-uppercase lh-1 fw-bolder mb-0">{{ match.kickoff }}</p>
+              <div class="row row-cols-5 g-0 d-flex justify-content-around align-items-center text-center text-uppercase py-3">
                 <div class="col-3">
                   <small class="float-end lh-1 fw-bolder">{{ match.home.name }}</small>
                 </div>
@@ -27,7 +27,7 @@ image:
                   <img src="{% if match.home.logo %}{{ match.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" class="border-0" alt="" width="30" height="30">
                 </div>
                 {% if match.status == "last match" %}
-                <div class="col-2 fw-bolder">{{ item.result.score }}</div>
+                <div class="col-2 fw-bolder">{{ match.result.score }}</div>
                 {% else %}
                 <div class="col-2 fw-bolder">vs</div>
                 {% endif %}
