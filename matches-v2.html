@@ -17,7 +17,7 @@ image:
         <div class="col">
           <div class="card text-dark border-0 rounded-0 shadow-sm">
             <div class="card-body">
-              <p class="card-text text-center text-uppercase mb-0">{{ match.type }}{{ match.competition | prepend: "•" }}{{ match.matchday | prepend: "•" }}</p>
+              <p class="card-text text-center text-uppercase fw-bolder mb-0"><small>{{ match.type }}{{ match.competition | prepend: " • " }}{{ match.matchday | prepend: " • " }}</small></p>
               <p class="card-text text-center text-uppercase mb-0">{{ match.kickoff }}</p>
               <div class="row row-cols-5 g-0 d-flex justify-content-around align-items-center text-center text-uppercase">
                 <div class="col-3">
