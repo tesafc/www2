@@ -1,0 +1,54 @@
+---
+layout: default
+header: header-image
+title: matches
+description: 
+image:
+---
+
+<div class="pt-3 pb-5 text-white bg-dark">
+  <div class="container">
+    <h1 class="fs-3 text-uppercase mb-0">matchplan</h1>
+    {% assign all-matches = site.matches | group_by: "status" %}
+      {% for matches in all-matches %}
+      <h6 class="text-uppercase mb-0">{{ matches.name }}</h6>
+      <div class="row row-cols-1 g-3">
+        {% for match in matches.items reversed %}
+        <div class="col">
+          <div class="card border-0 rounded-0 shadow-sm">
+            <div class="card-body">
+              <p class="card-text text-center text-uppercase mb-0">{{ match.type }} • {{ match.competition }}</p>
+              <p class="card-text text-center text-uppercase mb-0">{{ match.kickoff }}</p>
+              <div class="row row-cols-5 g-0 d-flex justify-content-around align-items-center text-uppercase">
+                <div class="col-3">
+                  <small class="float-end lh-1">{{ match.home.name }}</small>
+                </div>
+                <div class="col-2">
+                  <img src="{% if match.home.logo %}{{ match.home.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" class="border-0" alt="" width="30" height="30">
+                </div>
+                {% if item.status == "last match" %}
+                <div class="col-2 fw-bolder">{{ item.result.score }}</div>
+                {% else %}
+                <div class="col-2 fw-bolder">vs</div>
+                {% endif %}
+                <div class="col-2">
+                  <img src="{% if match.away.logo %}{{ match.away.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" class="border-0" alt="" width="30" height="30">
+                </div>
+                <div class="col-2">
+                  <img src="{% if match.away.logo %}{{ match.away.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" class="border-0" alt="" width="30" height="30">
+                </div>
+              </div>
+              <p class="card-text text-center text-capitalize mb-0">{{ match.place }}</p>
+            </div>
+          </div>
+        </div>
+        {% unless match.status == nil %}
+        <div class="col">
+          <p class="text-center mb-0">no matches</p>
+        </div>
+        {% endunless %}
+      </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
