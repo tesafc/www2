@@ -17,8 +17,8 @@ image:
         <div class="col">
           <div class="card text-dark border-0 rounded-0 shadow-sm">
             <div class="card-body px-1 py-3">
-              <p class="card-text text-center text-uppercase fw-bolder mb-0"><small>{% if match.type %}{{ match.type }}{% endif %}{% if match.competition %}{{ match.competition | prepend: " • " }}{% endif %}{% if match.matchday %}{{ match.matchday | prepend: " • " }}{% endif %}</small></p>
-              <p class="card-text text-center text-uppercase fw-bolder mb-0"><small>{{ match.kickoff }}</small></p>
+              <p class="card-text text-center text-uppercase lh-1 fw-bolder mb-0"><small>{% if match.type %}{{ match.type }}{% endif %}{% if match.competition %}{{ match.competition | prepend: " • " }}{% endif %}{% if match.matchday %}{{ match.matchday | prepend: " • " }}{% endif %}</small></p>
+              <p class="card-text text-center text-uppercase lh-1 fw-bolder mb-0"><small>{{ match.kickoff }}</small></p>
               <div class="row row-cols-5 g-0 d-flex justify-content-around align-items-center text-center text-uppercase py-3">
                 <div class="col-3">
                   <small class="float-end lh-1 fw-bolder">{{ match.home.name }}</small>
