@@ -35,11 +35,14 @@ image:
                   <img src="{% if match.away.logo %}{{ match.away.logo }}{% else %}{{ '/assets/img/logo/logo-blank.svg' | relative_url }}{% endif %}" class="border-0" alt="" width="30" height="30">
                 </div>
                 <div class="col-3">
-                  <small class="float-start lh-1">{{ match.away.name }}</small>
+                  <small class="float-start lh-1">{{ match.away.name }}</small> 
                 </div>
               </div>
-              <p class="card-text text-center text-capitalize mb-0">{{ match.place }}</p>
+              <a href="{{ match.url }}" class="card-text text-center text-capitalize stretched-link link-dark text-decoration-none mb-0">{{ match.place }}</a>
             </div>
+            {% unless match == nil %}
+            <p class="card-text text-center mb-0">no match available</p>
+            {% endunless %}
           </div>
         </div>
         {% endfor %}
