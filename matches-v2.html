@@ -9,9 +9,9 @@ image:
 <div class="pt-3 pb-5 text-white bg-dark">
   <div class="container">
     <h1 class="fs-3 text-uppercase mb-0">matchplan</h1>
-    {% assign all-matches = site.matches | group_by: "status" %}
+      {% assign all-matches = site.matches | group_by: "status" %}
       <div class="row row-cols-1 g-3">
-      {% for matches in all-matches %}
+      {% for matches in all-matches reversed %}
       <h6 class="text-uppercase mb-0">{{ matches.name }}</h6>
         {% for match in matches.items reversed %}
         <div class="col">
@@ -41,14 +41,14 @@ image:
               <p class="card-text text-center text-capitalize mb-0">{{ match.place }}</p>
             </div>
           </div>
+          {% unless match.status == nil %}
+          <div class="col">
+            <p class="text-center mb-0">no matches</p>
+          </div>
+          {% endunless %}
         </div>
-        {% unless match.status == nil %}
-        <div class="col">
-          <p class="text-center mb-0">no matches</p>
-        </div>
-        {% endunless %}
-      </div>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+      </div>
   </div>
 </div>
