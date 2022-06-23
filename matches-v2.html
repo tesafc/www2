@@ -17,7 +17,7 @@ image:
         <div class="col">
           <div class="card text-dark border-0 rounded-0 shadow-sm">
             <div class="card-body">
-              <p class="card-text text-center text-uppercase mb-0">{{ match.type }} • {{ match.competition }}</p>
+              <p class="card-text text-center text-uppercase mb-0">{{ match.type }} • {{ match.competition }} • {{ match.matchday }}</p>
               <p class="card-text text-center text-uppercase mb-0">{{ match.kickoff }}</p>
               <div class="row row-cols-5 g-0 d-flex justify-content-around align-items-center text-center text-uppercase">
                 <div class="col-3">
@@ -40,10 +40,6 @@ image:
               </div>
               <a href="{{ match.url }}" class="d-block card-text text-center text-capitalize stretched-link link-dark text-decoration-none mb-0">{{ match.place }}</a>
             </div>
-            {% assign next-match = site.matches | where: "status", "next match" %}
-            {% if next-match == nil %}
-            <p class="card-text text-center mb-0">no match available</p>
-            {% endif %}
           </div>
         </div>
         {% endfor %}
